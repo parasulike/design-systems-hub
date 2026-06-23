@@ -1,0 +1,28 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.Active {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.Slowing {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.Stale {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.Unknown {
+  background: #e5e7eb;
+  color: #374151;
+}
