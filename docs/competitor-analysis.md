@@ -51,7 +51,39 @@ Researched 2026-06-23.
 - **Strength:** direct download/duplicate into Figma
 - **Gap:** Figma-only, no code/GitHub angle, no filtering
 
-## The pattern across all four
+## designsystems.surf
+
+- **Structure:** gallery + database, split into Products (paid), Libraries
+  (design systems/directories/components), Articles, Blueprints
+- **Filtering:** category browsing (Libraries vs Articles), search box
+- **Per-entry data:** company name, "D: n" (foundations count) / "C: n"
+  (components count), resource links (Figma/repo/Storybook)
+- **Sort:** none visible
+- **Notably:** part marketplace — featured foundation kits sold for
+  $149-$199; recent article dates (Feb-Jun 2026) suggest active curation,
+  but that's editorial freshness, not a per-system health signal
+- **Gap:** same as the others — no quantitative dev-health signal per system
+
+## designsystems.one
+
+- **Structure:** "curated gallery of 74 real-world design systems" plus
+  Playbook/Foundations/Frameworks/Tools sections — closer to a learning site
+  with a directory inside it than a pure directory
+- **Filtering:** nav-level sections (Design Systems, Learn, AI-Ready, Tools);
+  no visible tag/framework filtering on the catalog itself
+- **Per-entry data:** specimen demos (type scale, color in OKLCH), component
+  counts/types, visual token previews — richer per-entry visual detail than
+  any of the link-out directories
+- **Notably:** ships an **"AI-Ready Index"** — tracks 37 systems across five
+  AI-readiness signals (framing unclear from the page alone: likely things
+  like structured/machine-readable tokens, MCP/LLM tooling, documented
+  component APIs). This is a genuinely different axis from dev-health
+  (maintenance) — worth a line in `brainstorm.md` as a possible future
+  signal, distinct from our health label, not a replacement for it
+- **Gap:** positions itself as free/open/no-vendor-funnel, but the directory
+  is secondary to its educational content; no live GitHub/npm health data
+
+## The pattern across all six
 
 Every one of them is fundamentally a **linkout directory**: a card, a logo, a
 click-through. None of them answer the question a developer actually has —

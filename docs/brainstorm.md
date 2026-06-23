@@ -14,6 +14,11 @@ conversation plus new ideas. Nothing here is scoped or prioritized yet.
   system, for credibility/inspiration.
 - **Migration notes** — breaking changes between major versions, useful for
   teams evaluating whether to adopt or how painful an upgrade will be.
+- **AI-readiness signal** (seen on designsystems.one's "AI-Ready Index") —
+  a different axis from our dev-health label: e.g. machine-readable tokens,
+  documented component APIs, MCP/LLM tooling support. Worth a v2 look as a
+  separate signal alongside health, not a replacement for it — health is
+  about "is it maintained," this would be about "can an LLM use it well."
 
 ## Borrowed vocabulary worth reusing
 
