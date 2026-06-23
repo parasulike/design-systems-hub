@@ -53,7 +53,7 @@
     "company": "Atlassian",
     "description": "Atlassian's design system for Jira, Confluence, and related products.",
     "site_url": "https://atlassian.design/",
-    "github_repo": "atlassian/design-system",
+    "github_repo": null,
     "figma_url": null,
     "storybook_url": null,
     "npm_package": "@atlaskit/css-reset",
