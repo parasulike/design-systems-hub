@@ -1,14 +1,14 @@
 {
   "carbon": {
-    "stars": 9272,
-    "open_issues": 1071,
-    "last_commit_at": "2026-07-13T05:20:11Z",
+    "stars": 9275,
+    "open_issues": 1065,
+    "last_commit_at": "2026-07-13T23:57:07Z",
     "contributors_count": 667,
     "latest_release_tag": "v11.111.1",
     "latest_release_at": "2026-07-07T17:04:14Z",
     "npm_weekly_downloads": 123649,
-    "npm_package_size_kb": 189,
-    "fetched_at": "2026-07-13T08:51:45.450Z"
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-14T07:48:39.234Z"
   },
   "polaris": {
     "stars": 6174,
@@ -19,18 +19,18 @@
     "latest_release_at": "2025-03-26T17:16:31Z",
     "npm_weekly_downloads": 191880,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-13T08:51:47.658Z"
+    "fetched_at": "2026-07-14T07:48:40.918Z"
   },
   "primer": {
     "stars": 3874,
-    "open_issues": 67,
-    "last_commit_at": "2026-07-13T00:18:00Z",
+    "open_issues": 69,
+    "last_commit_at": "2026-07-14T02:45:42Z",
     "contributors_count": 244,
-    "latest_release_tag": "@primer/react@38.31.0",
-    "latest_release_at": "2026-07-06T16:32:40Z",
+    "latest_release_tag": "@primer/react@38.32.0",
+    "latest_release_at": "2026-07-13T14:07:44Z",
     "npm_weekly_downloads": 52326,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-13T08:51:49.851Z"
+    "fetched_at": "2026-07-14T07:48:43.303Z"
   },
   "atlassian": {
     "stars": null,
@@ -41,29 +41,29 @@
     "latest_release_at": null,
     "npm_weekly_downloads": 33870,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-13T08:52:51.287Z"
+    "fetched_at": "2026-07-14T07:49:24.949Z"
   },
   "material": {
-    "stars": 98575,
-    "open_issues": 1539,
-    "last_commit_at": "2026-07-13T07:26:48Z",
-    "contributors_count": 3454,
+    "stars": 98582,
+    "open_issues": 1523,
+    "last_commit_at": "2026-07-14T06:59:48Z",
+    "contributors_count": 3455,
     "latest_release_tag": "v9.2.0",
     "latest_release_at": "2026-07-03T08:02:08Z",
     "npm_weekly_downloads": 7827979,
     "npm_package_size_kb": 147,
-    "fetched_at": "2026-07-13T08:53:52.008Z"
+    "fetched_at": "2026-07-14T07:49:25.889Z"
   },
   "spectrum": {
-    "stars": 15660,
-    "open_issues": 578,
-    "last_commit_at": "2026-07-13T08:32:46Z",
-    "contributors_count": 505,
+    "stars": 15662,
+    "open_issues": 576,
+    "last_commit_at": "2026-07-14T07:26:19Z",
+    "contributors_count": 506,
     "latest_release_tag": "react-aria-components@1.19.0",
     "latest_release_at": "2026-06-18T17:30:37Z",
     "npm_weekly_downloads": 903990,
-    "npm_package_size_kb": null,
-    "fetched_at": "2026-07-13T08:53:53.644Z"
+    "npm_package_size_kb": 105,
+    "fetched_at": "2026-07-14T07:49:27.556Z"
   },
   "lightning": {
     "stars": 3692,
@@ -74,94 +74,94 @@
     "latest_release_at": "2025-07-10T04:15:33Z",
     "npm_weekly_downloads": 45140,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-13T08:53:55.206Z"
+    "fetched_at": "2026-07-14T07:49:29.039Z"
   },
   "fluent": {
-    "stars": 20144,
-    "open_issues": 749,
-    "last_commit_at": "2026-07-10T17:58:05Z",
+    "stars": 20147,
+    "open_issues": 755,
+    "last_commit_at": "2026-07-13T11:49:41Z",
     "contributors_count": 962,
     "latest_release_tag": "@fluentui/react-virtualizer_v9.0.0-alpha.113",
     "latest_release_at": "2026-05-26T12:09:24Z",
     "npm_weekly_downloads": 338401,
-    "npm_package_size_kb": null,
-    "fetched_at": "2026-07-13T08:54:57.239Z"
+    "npm_package_size_kb": 316,
+    "fetched_at": "2026-07-14T07:49:30.421Z"
   },
   "ant-design": {
-    "stars": 98695,
-    "open_issues": 1274,
-    "last_commit_at": "2026-07-13T07:58:49Z",
+    "stars": 98705,
+    "open_issues": 1272,
+    "last_commit_at": "2026-07-14T07:05:58Z",
     "contributors_count": 2737,
-    "latest_release_tag": "6.5.0",
-    "latest_release_at": "2026-06-27T15:54:13Z",
+    "latest_release_tag": "6.5.1",
+    "latest_release_at": "2026-07-13T12:51:00Z",
     "npm_weekly_downloads": 3645322,
-    "npm_package_size_kb": 427,
-    "fetched_at": "2026-07-13T08:54:58.977Z"
+    "npm_package_size_kb": 428,
+    "fetched_at": "2026-07-14T07:49:32.378Z"
   },
   "chakra": {
-    "stars": 40508,
-    "open_issues": 22,
-    "last_commit_at": "2026-07-11T17:17:10Z",
+    "stars": 40506,
+    "open_issues": 16,
+    "last_commit_at": "2026-07-14T05:02:24Z",
     "contributors_count": 808,
     "latest_release_tag": "@chakra-ui/codemod@3.36.0",
     "latest_release_at": "2026-06-10T14:16:54Z",
     "npm_weekly_downloads": 1681549,
-    "npm_package_size_kb": null,
-    "fetched_at": "2026-07-13T08:55:00.462Z"
+    "npm_package_size_kb": 293,
+    "fetched_at": "2026-07-14T07:49:33.851Z"
   },
   "radix": {
-    "stars": 19061,
-    "open_issues": 347,
-    "last_commit_at": "2026-07-10T16:58:05Z",
+    "stars": 19064,
+    "open_issues": 339,
+    "last_commit_at": "2026-07-13T10:36:53Z",
     "contributors_count": 107,
     "latest_release_tag": null,
     "latest_release_at": null,
     "npm_weekly_downloads": 66850472,
-    "npm_package_size_kb": null,
-    "fetched_at": "2026-07-13T08:55:01.719Z"
+    "npm_package_size_kb": 11,
+    "fetched_at": "2026-07-14T07:49:35.492Z"
   },
   "shadcn-ui": {
-    "stars": 118968,
-    "open_issues": 2106,
-    "last_commit_at": "2026-07-13T07:18:49Z",
-    "contributors_count": 582,
+    "stars": 119059,
+    "open_issues": 2107,
+    "last_commit_at": "2026-07-13T11:11:54Z",
+    "contributors_count": 583,
     "latest_release_tag": "@shadcn/react@0.2.1",
     "latest_release_at": "2026-07-08T08:11:58Z",
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-13T08:55:03.269Z"
+    "fetched_at": "2026-07-14T07:49:36.726Z"
   },
   "gov-uk": {
     "stars": 1427,
-    "open_issues": 436,
-    "last_commit_at": "2026-07-13T08:03:50Z",
+    "open_issues": 437,
+    "last_commit_at": "2026-07-13T10:55:04Z",
     "contributors_count": 108,
     "latest_release_tag": "v6.3.0",
     "latest_release_at": "2026-06-23T10:49:17Z",
     "npm_weekly_downloads": 194737,
-    "npm_package_size_kb": 11,
-    "fetched_at": "2026-07-13T08:55:04.449Z"
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-14T07:49:37.835Z"
   },
   "uswds": {
     "stars": 7126,
-    "open_issues": 351,
-    "last_commit_at": "2026-07-13T00:41:59Z",
+    "open_issues": 353,
+    "last_commit_at": "2026-07-14T01:57:01Z",
     "contributors_count": 257,
     "latest_release_tag": "v3.13.0",
     "latest_release_at": "2025-05-23T15:11:33Z",
     "npm_weekly_downloads": 42128,
     "npm_package_size_kb": 24,
-    "fetched_at": "2026-07-13T08:55:06.155Z"
+    "fetched_at": "2026-07-14T07:49:39.469Z"
   },
   "patternfly": {
     "stars": 860,
     "open_issues": 265,
-    "last_commit_at": "2026-07-12T18:59:54Z",
+    "last_commit_at": "2026-07-13T16:06:12Z",
     "contributors_count": 192,
     "latest_release_tag": "v6.5.0",
     "latest_release_at": "2026-05-20T19:14:57Z",
     "npm_weekly_downloads": 134118,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-13T08:55:08.043Z"
+    "fetched_at": "2026-07-14T07:49:41.147Z"
   }
 }
