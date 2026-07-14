@@ -5,24 +5,48 @@
   border-radius: 999px;
   font-size: 0.75rem;
   font-weight: 600;
+  border: 1px solid transparent;
 }
 
 .Active {
-  background: #d1fae5;
-  color: #065f46;
+  background: rgba(16, 124, 79, 0.12);
+  color: #0f7a52;
+  border-color: rgba(16, 124, 79, 0.2);
 }
 
 .Slowing {
-  background: #fef3c7;
-  color: #92400e;
+  background: rgba(180, 120, 8, 0.12);
+  color: #92660a;
+  border-color: rgba(180, 120, 8, 0.2);
 }
 
 .Stale {
-  background: #fee2e2;
-  color: #991b1b;
+  background: rgba(180, 40, 40, 0.12);
+  color: #9c2b2b;
+  border-color: rgba(180, 40, 40, 0.2);
 }
 
 .Unknown {
-  background: #e5e7eb;
-  color: #374151;
+  background: var(--border);
+  color: var(--gray-muted);
+}
+
+@media (prefers-color-scheme: dark) {
+  .Active {
+    background: rgba(52, 199, 123, 0.15);
+    color: #4fd896;
+    border-color: rgba(52, 199, 123, 0.25);
+  }
+
+  .Slowing {
+    background: rgba(214, 158, 46, 0.15);
+    color: #e0b446;
+    border-color: rgba(214, 158, 46, 0.25);
+  }
+
+  .Stale {
+    background: rgba(224, 96, 96, 0.15);
+    color: #e87f7f;
+    border-color: rgba(224, 96, 96, 0.25);
+  }
 }

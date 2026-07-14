@@ -1,0 +1,27 @@
+{
+  "slug": "primer",
+  "name": "Primer",
+  "company": "GitHub",
+  "description": "GitHub's open-source design system powering github.com and related products.",
+  "site_url": "https://primer.style/",
+  "github_repo": "primer/react",
+  "figma_url": "https://www.figma.com/community/file/1142753127729044257",
+  "storybook_url": "https://primer.style/react/storybook",
+  "npm_package": "@primer/react",
+  "license": "MIT",
+  "token_format": "Style Dictionary",
+  "theming": "single-brand",
+  "frameworks": ["React"],
+  "tags": ["accessibility", "open-source"],
+  "metrics": {
+    "stars": 3862,
+    "open_issues": 78,
+    "last_commit_at": "2026-06-23T16:38:18Z",
+    "contributors_count": 243,
+    "latest_release_tag": "@primer/react@38.29.0",
+    "latest_release_at": "2026-06-18T20:04:29Z",
+    "npm_weekly_downloads": 42801,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-06-23T17:46:34.129Z"
+  }
+}

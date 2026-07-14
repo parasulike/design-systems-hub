@@ -1,0 +1,27 @@
+{
+  "slug": "uswds",
+  "name": "U.S. Web Design System",
+  "company": "U.S. General Services Administration",
+  "description": "Design system for U.S. federal government websites, focused on accessibility and trust.",
+  "site_url": "https://designsystem.digital.gov/",
+  "github_repo": "uswds/uswds",
+  "figma_url": null,
+  "storybook_url": null,
+  "npm_package": "@uswds/uswds",
+  "license": "Public Domain",
+  "token_format": null,
+  "theming": "none",
+  "frameworks": ["Web Components"],
+  "tags": ["accessibility", "open-source", "government"],
+  "metrics": {
+    "stars": 7116,
+    "open_issues": 372,
+    "last_commit_at": "2026-06-23T17:08:06Z",
+    "contributors_count": 253,
+    "latest_release_tag": "v3.13.0",
+    "latest_release_at": "2025-05-23T15:11:33Z",
+    "npm_weekly_downloads": 50700,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-06-23T17:47:01.279Z"
+  }
+}

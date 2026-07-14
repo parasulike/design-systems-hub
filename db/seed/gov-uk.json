@@ -1,0 +1,27 @@
+{
+  "slug": "gov-uk",
+  "name": "GOV.UK Design System",
+  "company": "UK Government Digital Service",
+  "description": "Design patterns and components for building UK government services.",
+  "site_url": "https://design-system.service.gov.uk/",
+  "github_repo": "alphagov/govuk-frontend",
+  "figma_url": null,
+  "storybook_url": null,
+  "npm_package": "govuk-frontend",
+  "license": "MIT",
+  "token_format": null,
+  "theming": "none",
+  "frameworks": ["Web Components"],
+  "tags": ["accessibility", "open-source", "government"],
+  "metrics": {
+    "stars": 1415,
+    "open_issues": 426,
+    "last_commit_at": "2026-06-23T15:13:15Z",
+    "contributors_count": 108,
+    "latest_release_tag": "v6.3.0",
+    "latest_release_at": "2026-06-23T10:49:17Z",
+    "npm_weekly_downloads": 307102,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-06-23T17:46:58.063Z"
+  }
+}

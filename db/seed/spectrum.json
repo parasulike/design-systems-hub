@@ -1,0 +1,27 @@
+{
+  "slug": "spectrum",
+  "name": "Spectrum",
+  "company": "Adobe",
+  "description": "Adobe's design system, with React Spectrum as the headless behavior layer.",
+  "site_url": "https://spectrum.adobe.com/",
+  "github_repo": "adobe/react-spectrum",
+  "figma_url": null,
+  "storybook_url": "https://react-spectrum.adobe.com/react-spectrum/index.html",
+  "npm_package": "@adobe/react-spectrum",
+  "license": "Apache-2.0",
+  "token_format": "Style Dictionary",
+  "theming": "single-brand",
+  "frameworks": ["React"],
+  "tags": ["accessibility", "open-source", "headless", "i18n", "RTL support"],
+  "metrics": {
+    "stars": 15569,
+    "open_issues": 596,
+    "last_commit_at": "2026-06-23T06:40:54Z",
+    "contributors_count": 501,
+    "latest_release_tag": "react-aria-components@1.19.0",
+    "latest_release_at": "2026-06-18T17:30:37Z",
+    "npm_weekly_downloads": 826997,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-06-23T17:46:41.312Z"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "radix",
+  "name": "Radix Primitives",
+  "company": "WorkOS",
+  "description": "Unstyled, accessible component primitives for building design systems on React.",
+  "site_url": "https://www.radix-ui.com/primitives",
+  "github_repo": "radix-ui/primitives",
+  "figma_url": null,
+  "storybook_url": null,
+  "npm_package": "@radix-ui/react-dialog",
+  "license": "MIT",
+  "token_format": null,
+  "theming": "none",
+  "frameworks": ["React"],
+  "tags": ["accessibility", "open-source", "headless"],
+  "metrics": {
+    "stars": 19008,
+    "open_issues": 407,
+    "last_commit_at": "2026-06-16T21:41:17Z",
+    "contributors_count": 105,
+    "latest_release_tag": null,
+    "latest_release_at": null,
+    "npm_weekly_downloads": 61495162,
+    "npm_package_size_kb": 11,
+    "fetched_at": "2026-06-23T17:46:53.259Z"
+  }
+}

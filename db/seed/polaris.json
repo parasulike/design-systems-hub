@@ -1,0 +1,27 @@
+{
+  "slug": "polaris",
+  "name": "Polaris",
+  "company": "Shopify",
+  "description": "Shopify's design system for building consistent admin experiences and apps.",
+  "site_url": "https://polaris.shopify.com/",
+  "github_repo": "Shopify/polaris",
+  "figma_url": "https://www.figma.com/community/file/1156332066977895081",
+  "storybook_url": null,
+  "npm_package": "@shopify/polaris",
+  "license": "MIT",
+  "token_format": null,
+  "theming": "single-brand",
+  "frameworks": ["React"],
+  "tags": ["accessibility", "open-source"],
+  "metrics": {
+    "stars": 6174,
+    "open_issues": 157,
+    "last_commit_at": "2026-01-06T07:11:05Z",
+    "contributors_count": 543,
+    "latest_release_tag": "@shopify/polaris@13.9.5",
+    "latest_release_at": "2025-03-26T17:16:31Z",
+    "npm_weekly_downloads": 231497,
+    "npm_package_size_kb": 113,
+    "fetched_at": "2026-06-23T17:48:33.986Z"
+  }
+}

@@ -1,19 +1,21 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --border: #eaeaea;
+  --border: rgba(0, 0, 0, 0.08);
+  --border-hover: rgba(0, 0, 0, 0.16);
   --gray-subtle: #fafafa;
-  --gray-muted: #666666;
-  --radius: 8px;
+  --gray-muted: #6b6b70;
+  --radius: 6px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #0a0a0b;
     --foreground: #ededed;
-    --border: #333333;
-    --gray-subtle: #111111;
-    --gray-muted: #888888;
+    --border: rgba(255, 255, 255, 0.08);
+    --border-hover: rgba(255, 255, 255, 0.16);
+    --gray-subtle: #111113;
+    --gray-muted: #8b8b8f;
   }
 }
 
@@ -52,5 +54,16 @@ a {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

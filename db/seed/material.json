@@ -1,0 +1,27 @@
+{
+  "slug": "material",
+  "name": "Material Design (MUI)",
+  "company": "Google / MUI",
+  "description": "Google's Material Design system; MUI is the most widely used React implementation.",
+  "site_url": "https://m3.material.io/",
+  "github_repo": "mui/material-ui",
+  "figma_url": "https://www.figma.com/community/file/912837788133938882",
+  "storybook_url": null,
+  "npm_package": "@mui/material",
+  "license": "MIT",
+  "token_format": null,
+  "theming": "multi-brand",
+  "frameworks": ["React", "Android", "Flutter"],
+  "tags": ["accessibility", "open-source"],
+  "metrics": {
+    "stars": 98468,
+    "open_issues": 1539,
+    "last_commit_at": "2026-06-23T13:20:15Z",
+    "contributors_count": 3444,
+    "latest_release_tag": "v9.1.2",
+    "latest_release_at": "2026-06-23T17:03:08Z",
+    "npm_weekly_downloads": 9938757,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-06-23T17:46:39.404Z"
+  }
+}

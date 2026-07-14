@@ -1,0 +1,27 @@
+{
+  "slug": "atlassian",
+  "name": "Atlassian Design System",
+  "company": "Atlassian",
+  "description": "Atlassian's design system for Jira, Confluence, and related products.",
+  "site_url": "https://atlassian.design/",
+  "github_repo": null,
+  "figma_url": null,
+  "storybook_url": null,
+  "npm_package": "@atlaskit/css-reset",
+  "license": "Apache-2.0",
+  "token_format": null,
+  "theming": "single-brand",
+  "frameworks": ["React"],
+  "tags": ["accessibility", "open-source", "design-ops"],
+  "metrics": {
+    "stars": null,
+    "open_issues": null,
+    "last_commit_at": null,
+    "contributors_count": null,
+    "latest_release_tag": null,
+    "latest_release_at": null,
+    "npm_weekly_downloads": 40571,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-06-23T17:48:41.165Z"
+  }
+}

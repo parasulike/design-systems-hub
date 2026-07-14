@@ -1,0 +1,27 @@
+{
+  "slug": "fluent",
+  "name": "Fluent UI",
+  "company": "Microsoft",
+  "description": "Microsoft's design system spanning Office, Windows, and Microsoft 365 products.",
+  "site_url": "https://fluent2.microsoft.design/",
+  "github_repo": "microsoft/fluentui",
+  "figma_url": "https://www.figma.com/community/file/836828295772957889",
+  "storybook_url": null,
+  "npm_package": "@fluentui/react-components",
+  "license": "MIT",
+  "token_format": null,
+  "theming": "multi-brand",
+  "frameworks": ["React", "Web Components"],
+  "tags": ["accessibility", "open-source"],
+  "metrics": {
+    "stars": 20064,
+    "open_issues": 747,
+    "last_commit_at": "2026-06-23T04:08:25Z",
+    "contributors_count": 962,
+    "latest_release_tag": "@fluentui/react-virtualizer_v9.0.0-alpha.113",
+    "latest_release_at": "2026-05-26T12:09:24Z",
+    "npm_weekly_downloads": 372535,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-06-23T17:48:45.059Z"
+  }
+}

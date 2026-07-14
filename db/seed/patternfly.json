@@ -1,0 +1,27 @@
+{
+  "slug": "patternfly",
+  "name": "PatternFly",
+  "company": "Red Hat",
+  "description": "Red Hat's open-source design system for enterprise web applications.",
+  "site_url": "https://www.patternfly.org/",
+  "github_repo": "patternfly/patternfly-react",
+  "figma_url": "https://www.figma.com/community/file/1036398456607637382",
+  "storybook_url": null,
+  "npm_package": "@patternfly/react-core",
+  "license": "MIT",
+  "token_format": "Style Dictionary",
+  "theming": "single-brand",
+  "frameworks": ["React"],
+  "tags": ["accessibility", "open-source"],
+  "metrics": {
+    "stars": 855,
+    "open_issues": 269,
+    "last_commit_at": "2026-06-23T16:07:47Z",
+    "contributors_count": 190,
+    "latest_release_tag": "v6.5.0",
+    "latest_release_at": "2026-05-20T19:14:57Z",
+    "npm_weekly_downloads": 133244,
+    "npm_package_size_kb": 140,
+    "fetched_at": "2026-06-23T17:47:04.045Z"
+  }
+}

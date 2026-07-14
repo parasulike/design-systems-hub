@@ -1,0 +1,44 @@
+{
+  "slug": "shadcn-ui",
+  "name": "shadcn/ui",
+  "company": "shadcn",
+  "description": "Copy-paste component source built on Radix UI primitives and Tailwind CSS.",
+  "site_url": "https://ui.shadcn.com/",
+  "github_repo": "shadcn-ui/ui",
+  "figma_url": null,
+  "storybook_url": null,
+  "npm_package": null,
+  "license": "MIT",
+  "token_format": null,
+  "theming": "single-brand",
+  "frameworks": ["React"],
+  "tags": ["open-source", "themeable"],
+  "metrics": {
+    "stars": 117252,
+    "open_issues": 2051,
+    "last_commit_at": "2026-06-23T06:41:21Z",
+    "contributors_count": 565,
+    "latest_release_tag": "shadcn@4.11.0",
+    "latest_release_at": "2026-06-08T13:49:39Z",
+    "npm_weekly_downloads": null,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-06-23T17:46:56.405Z"
+  },
+  "detail": {
+    "industry": "Developer Tooling",
+    "launch_year": 2023,
+    "open_source": true,
+    "design_philosophy": "## Copy, don't install\n\nshadcn/ui inverts the traditional component library model. Instead of distributing a versioned npm package you import, it distributes source code you own. Components are copied directly into your project via a CLI, so you control every line.\n\nThe philosophy is that good defaults should be the **starting point**, not the ceiling. Once copied, components are fully yours to modify without forking or overriding library internals.",
+    "accessibility": "## Delegated to Radix UI primitives\n\nAll WAI-ARIA patterns — focus trapping, keyboard navigation, `aria-*` attribute management — are handled by the underlying Radix UI primitives. shadcn/ui adds only Tailwind styling on top.\n\n- **Dialog**: implements WAI-ARIA Dialog (Modal) pattern via `@radix-ui/react-dialog`\n- **Focus management**: Radix handles focus trap and `Escape` key dismissal\n- **Screen reader support**: roles and live regions come from Radix, not shadcn\n\nVisual styling is your responsibility. Removing Tailwind classes can accidentally hide focus rings — teams should audit for visible focus indicators after customising.",
+    "developer_experience": "## CLI-first workflow\n\n```bash\nnpx shadcn@latest add dialog\n```\n\nThis copies the component source into `components/ui/dialog.tsx`. No runtime package to manage, no peer dependency conflicts.\n\n- **TypeScript-native**: all components are typed\n- **Tailwind required**: the only hard dependency\n- **Radix UI**: installed as a peer dependency per-component\n- **Zero bundle overhead**: only the components you add ship to users",
+    "governance": "## Single-author project\n\nMaintained by shadcn (Shadid Haque). No formal RFC or proposal process. Breaking changes are communicated through the changelog and GitHub releases.\n\nCommunity contributions via GitHub PRs are welcome but final decisions rest with the author. The project has a strong, opinionated direction that is unlikely to accept changes that deviate from the copy-paste distribution model.",
+    "contribution_process": "## GitHub pull requests\n\nContributions are made via GitHub PRs against the main repository. The project doesn't have a formal contribution guide beyond standard GitHub etiquette.\n\n- Bug fixes and documentation improvements are most likely to be accepted\n- New components are evaluated on a case-by-case basis\n- The CLI and registry infrastructure are the most actively maintained parts"
+  },
+  "paras_notes": {
+    "strengths": "## What works exceptionally well\n\n- **Lowest friction path to accessible components**: Radix UI handles the hard parts (focus trapping, keyboard nav, ARIA) so teams don't have to\n- **You own the code**: no version lock-in, no fighting the library's opinions when your design diverges\n- **Composable**: the compound-component pattern lets you rearrange parts without prop drilling\n- **Momentum**: the GitHub star count reflects genuine adoption, not hype — real products ship with it",
+    "weaknesses": "## Watch out for\n\n- **Not a design system**: no design tokens, no multi-brand theming, no Figma kit aligned to components. It's a component collection, not a design system.\n- **Copy-paste tax**: consumers never receive upstream bug fixes automatically. Teams need a strategy for tracking changes — this is consistently underestimated at adoption time.\n- **Tailwind coupling**: the styling approach is deeply tied to Tailwind. Migrating away later is expensive.\n- **Single-author risk**: the entire project depends on one maintainer's continued interest",
+    "best_suited_for": "Teams building **product UIs** who want pre-built, accessible React components without the opinionated constraints of a full enterprise design system.\n\nWorks especially well for:\n- SaaS products already using Tailwind CSS\n- Small-to-mid teams who want to move fast without building primitives from scratch\n- Projects where customisation is expected and starting from a library's override system would be painful",
+    "ideas_worth_borrowing": "## The CLI distribution model\n\nThe idea of distributing **source code rather than compiled packages** is genuinely novel and worth considering for any design system team:\n\n- Gives adopters ownership and reduces update pressure\n- Makes the 'getting started' experience feel like editing your own code, not configuring a library\n- Forces the design system to be well-structured enough that its source is readable\n\n## Compound component pattern\n\nThe way `Dialog`, `DialogTrigger`, `DialogContent` are composed separately (not configured via props) makes each part independently replaceable — a pattern worth applying to your own complex components.",
+    "lessons_learned": "## The copy-paste distribution model has hidden costs\n\nThe biggest lesson from watching teams adopt shadcn/ui at scale: **version drift is slow and invisible**. A team copies components in month 1. By month 12 they're running components that are meaningfully different from upstream, but no tool tells them this.\n\nDesign system teams considering a similar model need to build a diff/sync workflow from day one — not as an afterthought.\n\n## Accessible by default isn't the same as accessible\n\nRadix handles the ARIA patterns, but teams regularly strip out focus ring styles while customising Tailwind classes. The result looks fine visually but fails keyboard and screen reader audits. Build visual focus indicator reviews into your design QA process."
+  }
+}

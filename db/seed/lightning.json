@@ -1,0 +1,27 @@
+{
+  "slug": "lightning",
+  "name": "Lightning Design System",
+  "company": "Salesforce",
+  "description": "Salesforce's design system for building consistent enterprise UI on the Lightning platform.",
+  "site_url": "https://www.lightningdesignsystem.com/",
+  "github_repo": "salesforce-ux/design-system",
+  "figma_url": null,
+  "storybook_url": null,
+  "npm_package": "@salesforce-ux/design-system",
+  "license": "BSD-3-Clause",
+  "token_format": null,
+  "theming": "single-brand",
+  "frameworks": ["Web Components"],
+  "tags": ["accessibility", "open-source"],
+  "metrics": {
+    "stars": 3689,
+    "open_issues": 39,
+    "last_commit_at": "2026-06-02T19:25:48Z",
+    "contributors_count": 122,
+    "latest_release_tag": "v2.27.2",
+    "latest_release_at": "2025-07-10T04:15:33Z",
+    "npm_weekly_downloads": 61560,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-06-23T17:46:43.324Z"
+  }
+}

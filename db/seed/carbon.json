@@ -1,0 +1,44 @@
+{
+  "slug": "carbon",
+  "name": "Carbon Design System",
+  "company": "IBM",
+  "description": "IBM's open-source design system for products and digital experiences.",
+  "site_url": "https://carbondesignsystem.com/",
+  "github_repo": "carbon-design-system/carbon",
+  "figma_url": "https://www.figma.com/community/file/1116209646616507468",
+  "storybook_url": "https://react.carbondesignsystem.com/",
+  "npm_package": "@carbon/react",
+  "license": "Apache-2.0",
+  "token_format": "Style Dictionary",
+  "theming": "multi-brand",
+  "frameworks": ["React", "Angular", "Vue", "Svelte", "Web Components"],
+  "tags": ["accessibility", "open-source"],
+  "metrics": {
+    "stars": 9226,
+    "open_issues": 1037,
+    "last_commit_at": "2026-06-23T17:46:10Z",
+    "contributors_count": 664,
+    "latest_release_tag": "v11.110.0",
+    "latest_release_at": "2026-06-17T16:41:08Z",
+    "npm_weekly_downloads": 137358,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-06-23T17:48:31.672Z"
+  },
+  "detail": {
+    "industry": "Enterprise Software",
+    "launch_year": 2015,
+    "open_source": true,
+    "design_philosophy": "## Built for IBM's product scale\n\nCarbon is designed to serve a sprawling portfolio — IBM ships hundreds of enterprise products across cloud, AI, and infrastructure. The design philosophy reflects that scale: **consistency over flexibility**.\n\nCarbon makes opinionated decisions so product teams don't have to re-litigate them. The grid system, spacing scale, and type ramp are prescribed, not configurable. The result is visual coherence across a large, distributed organisation at the cost of some design freedom.\n\nThe system also embraces a strong **data-density bias** — Carbon components are built for information-heavy UIs, not marketing or consumer-facing products.",
+    "accessibility": "## WCAG 2.1 AA target across all components\n\nCarbon has one of the most mature accessibility programmes of any public design system:\n\n- All components tested against WCAG 2.1 AA\n- Keyboard navigation documented explicitly per component\n- Screen reader testing with NVDA, JAWS, and VoiceOver\n- An accessibility team within IBM reviews component changes\n\n**Carbon for IBM.com** ships a stricter AA+ posture for public-facing government and enterprise contracts.\n\nThe accessibility documentation is thorough — each component page includes a dedicated 'Accessibility' tab covering keyboard interactions, ARIA usage, and known limitations.",
+    "developer_experience": "## Multi-package, multi-framework\n\nCarbon ships separate packages per framework:\n\n```bash\nnpm install @carbon/react      # React\nnpm install @carbon/web-components  # Web Components\n```\n\n- **Token system**: Style Dictionary-based, tokens available as CSS custom properties, Sass variables, and JSON\n- **Theming**: four built-in IBM themes (White, Gray 10, Gray 90, Gray 100) via token swapping\n- **Tree-shaking**: imports are per-component, so unused components don't bloat bundles\n- **Storybook**: comprehensive, covers all variants and states\n\nThe multi-package structure can feel complex for teams adopting Carbon for the first time.",
+    "governance": "## IBM Design Language team\n\nCarbon is maintained by the IBM Design Language team, a dedicated internal team that owns both the design system and the broader IBM Design Language.\n\n- **RFC process**: major changes go through a public GitHub RFC process\n- **Office Hours**: monthly community office hours for external adopters\n- **Versioning**: follows semver; breaking changes are batched into major versions with migration guides\n- **v11**: current major version, introduced full CSS token architecture",
+    "contribution_process": "## Open contributions welcome with a high bar\n\nCarbon accepts external contributions but maintains a high quality bar:\n\n1. **Issue first**: open a GitHub issue before submitting a PR for non-trivial changes\n2. **Accessibility review**: all component contributions require accessibility testing documentation\n3. **Design review**: new components require a Figma spec reviewed by the Carbon design team\n4. **CLA**: IBM Contributor License Agreement required\n\nThe contribution process is thorough and intentionally slower than smaller open-source projects — this reflects the system's stability requirements."
+  },
+  "paras_notes": {
+    "strengths": "## What Carbon gets right\n\n- **Accessibility programme**: the most mature of any public design system. Dedicated a11y team, per-component keyboard docs, multi-screenreader testing.\n- **Token architecture in v11**: the full CSS custom property token system (v11) finally makes theming predictable — override tokens, not component internals.\n- **Data-dense component library**: Carbon's data table, structured list, and tree view are among the most complete implementations available in any open design system.\n- **Longevity**: Carbon has been shipping for 10+ years. It doesn't get abandoned when an IBM team changes priorities.",
+    "weaknesses": "## Where Carbon struggles\n\n- **Bundle size**: the full `@carbon/react` package is substantial. Tree-shaking helps but teams routinely underestimate the initial performance cost.\n- **Consumer-facing products**: Carbon is optimised for information density, not marketing UX or consumer delight. Using it outside enterprise data products often means fighting the design language.\n- **Migration tax**: v10 → v11 was a significant breaking change. IBM's scale means careful versioning, but adopters still face real migration effort every major version.\n- **IBM aesthetic lock-in**: Carbon components read as distinctly IBM. Multi-brand theming helps at the token level, but component shapes and interaction patterns are recognisably IBM products.",
+    "best_suited_for": "Teams building **enterprise data products** — dashboards, admin consoles, cloud infrastructure UIs, analytics tools.\n\nCarbon's density, accessibility programme, and theming system are genuinely differentiated for:\n- Products that must meet enterprise accessibility compliance (WCAG AA+)\n- IBM Cloud and IBM product ecosystem integrations\n- Large teams that benefit from the opinionated grid and spacing constraints\n\nNot a good fit for consumer-facing products, marketing sites, or teams that need high design flexibility.",
+    "ideas_worth_borrowing": "## Per-component accessibility documentation\n\nCarbon's pattern of shipping explicit **keyboard interaction tables** and **screen reader behaviour docs** alongside every component is worth stealing. Most design systems document the visual states; Carbon documents the interaction contract.\n\n## The token naming convention\n\nCarbon's v11 token naming (`$layer-01`, `$text-primary`, `$interactive`) separates semantic role from visual value. This is the right abstraction for any multi-brand system — names describe *intent*, not colour.\n\n## Structured component variants\n\nCarbon's approach to variants — a small, named set (`default`, `compact`, `tall`) rather than unconstrained prop combinations — reduces the number of UI states teams have to test and document.",
+    "lessons_learned": "## Density is a design decision, not a default\n\nCarbon's data-density optimisation is correct for IBM's product portfolio, but teams outside that context sometimes adopt Carbon and then spend months trying to make it feel less dense. **Choose a design system that matches your product's information architecture** — don't fight the system's fundamental assumptions.\n\n## Token governance is hard to retrofit\n\nCarbon introduced its full token architecture in v11, years after the system launched. The lesson: establish a token naming convention and governance model before you ship your first component, not after. Retrofitting tokens into existing components requires a major version and breaks adopters.\n\n## Stability and innovation are in tension\n\nCarbon's enterprise adoption demands stability. The system makes conservative technology choices and batches breaking changes carefully — which is correct for IBM's needs. But it means Carbon moves slowly relative to the ecosystem. Teams expecting fast iteration should factor in this trade-off."
+  }
+}

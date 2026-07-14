@@ -1,0 +1,27 @@
+{
+  "slug": "chakra",
+  "name": "Chakra UI",
+  "company": "Chakra UI",
+  "description": "Simple, modular, and accessible component library for React applications.",
+  "site_url": "https://www.chakra-ui.com/",
+  "github_repo": "chakra-ui/chakra-ui",
+  "figma_url": "https://www.figma.com/community/file/971408767069651759",
+  "storybook_url": null,
+  "npm_package": "@chakra-ui/react",
+  "license": "MIT",
+  "token_format": null,
+  "theming": "multi-brand",
+  "frameworks": ["React"],
+  "tags": ["accessibility", "open-source", "themeable"],
+  "metrics": {
+    "stars": 40476,
+    "open_issues": 20,
+    "last_commit_at": "2026-06-23T07:04:32Z",
+    "contributors_count": 803,
+    "latest_release_tag": "@chakra-ui/codemod@3.36.0",
+    "latest_release_at": "2026-06-10T14:16:54Z",
+    "npm_weekly_downloads": 1773974,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-06-23T17:46:51.183Z"
+  }
+}

@@ -1,62 +1,50 @@
-import type { DesignSystem } from "@/lib/types";
+"use client";
+
 import styles from "./Hero.module.css";
 
-function countByHealth(systems: DesignSystem[]) {
-  return systems.reduce(
-    (acc, s) => {
-      acc[s.health] = (acc[s.health] ?? 0) + 1;
-      return acc;
-    },
-    { Active: 0, Slowing: 0, Stale: 0, Unknown: 0 } as Record<string, number>,
-  );
-}
-
-export function Hero({ systems }: { systems: DesignSystem[] }) {
-  const counts = countByHealth(systems);
-
+export function Hero({
+  query,
+  onQueryChange,
+}: {
+  query: string;
+  onQueryChange: (query: string) => void;
+}) {
   return (
     <header className={styles.wrapper}>
       <nav className={styles.nav}>
         <span className={styles.logo}>Design Systems Hub</span>
-        <a
-          href="https://github.com/parasulike/design-systems-hub"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GitHub
-        </a>
+        <div className={styles.navLinks}>
+          <a href="#catalog">Catalog</a>
+          <a href="#catalog" onClick={() => onQueryChange("component")}>Components</a>
+          <a href="#catalog" onClick={() => onQueryChange("pattern")}>Patterns</a>
+          <a
+            href="https://github.com/parasulike/design-systems-hub"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            About
+          </a>
+        </div>
+        <input
+          type="search"
+          aria-label="Search design systems"
+          placeholder="Search design systems"
+          value={query}
+          onChange={(event) => onQueryChange(event.target.value)}
+        />
       </nav>
 
       <div className={styles.hero}>
         <div className={styles.copy}>
-          <h1>Design Systems Hub</h1>
+          <h1>Explore how the world’s best design systems are built</h1>
           <p>
-            Live maintenance health for every public design system. Not just
-            a logo and a link.
+            Explore foundations, components, patterns, documentation, and
+            governance across leading design systems.
           </p>
           <a className={styles.cta} href="#catalog">
-            Browse the catalog
+            Explore design systems
           </a>
         </div>
-
-        <dl className={styles.stats}>
-          <div>
-            <dt>Systems tracked</dt>
-            <dd>{systems.length}</dd>
-          </div>
-          <div>
-            <dt>Active</dt>
-            <dd>{counts.Active}</dd>
-          </div>
-          <div>
-            <dt>Slowing</dt>
-            <dd>{counts.Slowing}</dd>
-          </div>
-          <div>
-            <dt>Stale</dt>
-            <dd>{counts.Stale}</dd>
-          </div>
-        </dl>
       </div>
     </header>
   );

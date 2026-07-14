@@ -1,6 +1,7 @@
 import styles from "./FilterBar.module.css";
 
 export interface Filters {
+  query: string;
   framework: string;
   license: string;
   theming: string;

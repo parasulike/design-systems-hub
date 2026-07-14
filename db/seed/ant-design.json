@@ -1,0 +1,27 @@
+{
+  "slug": "ant-design",
+  "name": "Ant Design",
+  "company": "Ant Group",
+  "description": "Enterprise-grade React UI design language and component library from Ant Group.",
+  "site_url": "https://ant.design/",
+  "github_repo": "ant-design/ant-design",
+  "figma_url": "https://www.figma.com/community/file/831698976089873405",
+  "storybook_url": null,
+  "npm_package": "antd",
+  "license": "MIT",
+  "token_format": null,
+  "theming": "multi-brand",
+  "frameworks": ["React"],
+  "tags": ["open-source", "i18n"],
+  "metrics": {
+    "stars": 98453,
+    "open_issues": 1330,
+    "last_commit_at": "2026-06-23T15:53:53Z",
+    "contributors_count": 2724,
+    "latest_release_tag": "6.4.5",
+    "latest_release_at": "2026-06-22T06:13:44Z",
+    "npm_weekly_downloads": 3275491,
+    "npm_package_size_kb": 432,
+    "fetched_at": "2026-06-23T17:46:49.336Z"
+  }
+}
