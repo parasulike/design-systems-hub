@@ -1,4 +1,4 @@
-# Design Systems Hub
+# Design Atlas
 
 A catalog of publicly available design systems — built to be actually *useful* for
 designers and developers, not just a list of logos that link out.

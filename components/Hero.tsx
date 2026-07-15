@@ -1,5 +1,6 @@
 "use client";
 
+import { SiteHeader } from "./SiteHeader";
 import styles from "./Hero.module.css";
 
 export function Hero({
@@ -10,42 +11,20 @@ export function Hero({
   onQueryChange: (query: string) => void;
 }) {
   return (
-    <header className={styles.wrapper}>
-      <nav className={styles.nav}>
-        <span className={styles.logo}>Design Systems Hub</span>
-        <div className={styles.navLinks}>
-          <a href="#catalog">Catalog</a>
-          <a href="#catalog" onClick={() => onQueryChange("component")}>Components</a>
-          <a href="#catalog" onClick={() => onQueryChange("pattern")}>Patterns</a>
-          <a
-            href="https://github.com/parasulike/design-systems-hub"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            About
-          </a>
+    <>
+      <SiteHeader query={query} onQueryChange={onQueryChange} />
+      <header className={styles.wrapper}>
+        <div className={styles.hero}>
+          <div className={styles.copy}>
+            <p className={styles.kicker}>A field guide for product makers</p>
+            <h1>Map the ideas behind the world’s design systems</h1>
+            <p>
+              Study visual foundations, standout components, working patterns,
+              and implementation choices—without getting lost in every doc site.
+            </p>
+          </div>
         </div>
-        <input
-          type="search"
-          aria-label="Search design systems"
-          placeholder="Search design systems"
-          value={query}
-          onChange={(event) => onQueryChange(event.target.value)}
-        />
-      </nav>
-
-      <div className={styles.hero}>
-        <div className={styles.copy}>
-          <h1>Explore how the world’s best design systems are built</h1>
-          <p>
-            Explore foundations, components, patterns, documentation, and
-            governance across leading design systems.
-          </p>
-          <a className={styles.cta} href="#catalog">
-            Explore design systems
-          </a>
-        </div>
-      </div>
-    </header>
+      </header>
+    </>
   );
 }

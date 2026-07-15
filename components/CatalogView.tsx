@@ -19,8 +19,17 @@ function uniqueSorted(values: string[]): string[] {
   return Array.from(new Set(values)).sort();
 }
 
-export function CatalogView({ systems }: { systems: DesignSystem[] }) {
-  const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS);
+export function CatalogView({
+  systems,
+  initialQuery = "",
+}: {
+  systems: DesignSystem[];
+  initialQuery?: string;
+}) {
+  const [filters, setFilters] = useState<Filters>({
+    ...EMPTY_FILTERS,
+    query: initialQuery,
+  });
 
   const frameworks = useMemo(
     () => uniqueSorted(systems.flatMap((s) => s.frameworks)),

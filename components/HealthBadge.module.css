@@ -9,44 +9,24 @@
 }
 
 .Active {
-  background: rgba(16, 124, 79, 0.12);
-  color: #0f7a52;
-  border-color: rgba(16, 124, 79, 0.2);
+  background: color-mix(in srgb, var(--ds-success) 12%, white);
+  color: var(--ds-success);
+  border-color: color-mix(in srgb, var(--ds-success) 24%, white);
 }
 
 .Slowing {
-  background: rgba(180, 120, 8, 0.12);
-  color: #92660a;
-  border-color: rgba(180, 120, 8, 0.2);
+  background: color-mix(in srgb, var(--ds-warning) 12%, white);
+  color: var(--ds-warning);
+  border-color: color-mix(in srgb, var(--ds-warning) 24%, white);
 }
 
 .Stale {
-  background: rgba(180, 40, 40, 0.12);
-  color: #9c2b2b;
-  border-color: rgba(180, 40, 40, 0.2);
+  background: color-mix(in srgb, var(--ds-danger) 12%, white);
+  color: var(--ds-danger);
+  border-color: color-mix(in srgb, var(--ds-danger) 24%, white);
 }
 
 .Unknown {
   background: var(--border);
   color: var(--gray-muted);
-}
-
-@media (prefers-color-scheme: dark) {
-  .Active {
-    background: rgba(52, 199, 123, 0.15);
-    color: #4fd896;
-    border-color: rgba(52, 199, 123, 0.25);
-  }
-
-  .Slowing {
-    background: rgba(214, 158, 46, 0.15);
-    color: #e0b446;
-    border-color: rgba(214, 158, 46, 0.25);
-  }
-
-  .Stale {
-    background: rgba(224, 96, 96, 0.15);
-    color: #e87f7f;
-    border-color: rgba(224, 96, 96, 0.25);
-  }
 }
