@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "check:filters": "tsx scripts/check-catalog-filters.ts",
     "import-awesome": "tsx scripts/import-awesome-design-systems.ts",
     "fetch-live-data": "tsx scripts/fetch-live-data.ts"
   },

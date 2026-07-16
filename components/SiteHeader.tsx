@@ -14,7 +14,7 @@ export function SiteHeader({
   return (
     <header className={styles.wrapper}>
       <nav className={styles.nav} aria-label="Primary navigation">
-        <Link href="/" className={styles.logo}><span aria-hidden="true"><i /><i /><i /></span>Design Atlas</Link>
+        <Link href="/" className={styles.logo}><span aria-hidden="true"><em><i /><i /><i /><i /><i /><i /><i /><i /><i /></em></span>Design Atlas</Link>
         <div className={styles.links}>
           <Link href="/#catalog">Catalog</Link>
           <Link href="/?q=component#catalog" onClick={() => onQueryChange?.("component")}>Components</Link>

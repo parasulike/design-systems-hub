@@ -7,7 +7,7 @@ export default async function Home({
 }: {
   searchParams: Promise<{ q?: string | string[] }>;
 }) {
-  const systems = getCatalog().slice(0, 1);
+  const systems = getCatalog();
   const q = (await searchParams).q;
 
   return (

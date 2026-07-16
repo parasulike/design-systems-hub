@@ -9,10 +9,17 @@ export default function SiteFooter() {
       <div className={styles.inner}>
         <div className={styles.identity}>
           <div aria-hidden="true" className={styles.mark}>
-            <span />
-            <span />
-            <span />
-            <span />
+            <div>
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+            </div>
           </div>
           <div>
             <Link className={styles.brand} href="/">

@@ -15,13 +15,63 @@ the product — the "live" half is what no competitor has.
 | `site_url` | url | https://www.carbondesignsystem.com/ |
 | `github_repo` | `owner/repo` | `carbon-design-system/carbon` |
 | `figma_url` | url \| null | |
+| `sketch_url` | url \| null | |
 | `storybook_url` | url \| null | |
+| `tokens_url` | url \| null | |
+| `migration_url` | url \| null | |
 | `npm_package` | string \| null | `@carbon/react` |
 | `frameworks` | string[] | `["React", "Angular", "Vue", "Svelte", "Web Components"]` |
+| `guidance` | enum[] | `["accessibility", "forms", "dark-mode"]` |
+| `best_for` | enum[] | `["enterprise", "data-heavy-products"]` |
+| `recommended_rank` | positive integer | `1` |
 | `license` | string | "Apache-2.0" |
 | `token_format` | string \| null | "Style Dictionary" |
 | `theming` | enum | `none` \| `single-brand` \| `multi-brand` |
-| `tags` | string[] | `["accessibility", "open-source", "government"]` (borrowing designsystem.gallery's vocabulary) |
+| `tags` | string[] | Legacy discovery metadata. Keep during migration, but do not expose as a primary filter. |
+
+### Filter vocabulary
+
+Resources are derived from existing link fields instead of being duplicated:
+
+- Design: `figma_url`, `sketch_url`, `tokens_url`
+- Developer: `github_repo`, `storybook_url`, `npm_package`
+- Guidance: `site_url`, `migration_url`
+
+Allowed `guidance` values:
+
+- `accessibility`
+- `content`
+- `motion`
+- `forms`
+- `data-visualization`
+- `internationalization`
+- `dark-mode`
+- `navigation`
+- `responsive-design`
+
+Allowed `best_for` values:
+
+- `enterprise`
+- `commerce`
+- `public-services`
+- `consumer-products`
+- `content-heavy-products`
+- `developer-tools`
+- `data-heavy-products`
+- `multi-brand-products`
+
+### Sorting
+
+Sorting does not require another stored field except `recommended_rank`:
+
+- Recommended: `recommended_rank`
+- Recently updated: latest of `latest_release_at` and `last_commit_at`
+- Name A–Z: `name`
+- Most GitHub stars: `stars`
+- Most downloaded: `npm_weekly_downloads`
+
+The new curated fields are optional while the existing entries are researched.
+Make them required after the catalog migration is complete.
 
 ## Live (fetched on a schedule, e.g. daily/weekly)
 

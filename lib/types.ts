@@ -1,5 +1,26 @@
 export type Theming = "none" | "single-brand" | "multi-brand";
 
+export type GuidanceTopic =
+  | "accessibility"
+  | "content"
+  | "motion"
+  | "forms"
+  | "data-visualization"
+  | "internationalization"
+  | "dark-mode"
+  | "navigation"
+  | "responsive-design";
+
+export type ProductFit =
+  | "enterprise"
+  | "commerce"
+  | "public-services"
+  | "consumer-products"
+  | "content-heavy-products"
+  | "developer-tools"
+  | "data-heavy-products"
+  | "multi-brand-products";
+
 export type HealthLabel = "Active" | "Slowing" | "Stale" | "Unknown";
 
 // Hand-curated once, edited rarely. See docs/data-schema.md.
@@ -11,13 +32,24 @@ export interface CuratedSystem {
   site_url: string;
   github_repo: string | null; // "owner/repo"
   figma_url: string | null;
+  sketch_url?: string | null;
   storybook_url: string | null;
+  tokens_url?: string | null;
+  migration_url?: string | null;
   npm_package: string | null;
   frameworks: string[];
+  guidance?: GuidanceTopic[];
+  best_for?: ProductFit[];
+  recommended_rank?: number;
   license: string;
   token_format: string | null;
   theming: Theming;
-  tags: string[];
+  tags: string[]; // Legacy discovery metadata; don't expose as a primary filter.
+  listing_only?: boolean;
+  has_components?: boolean;
+  has_voice_and_tone?: boolean;
+  has_designers_kit?: boolean;
+  logo_path?: string;
 }
 
 // Fetched on a schedule from GitHub/npm. Null when the source doesn't apply

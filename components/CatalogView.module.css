@@ -34,6 +34,11 @@
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: var(--space-5);
 }
+.list { display: grid; gap: .75rem; }
+.headingActions { display: flex; align-items: center; gap: 1rem; }
+.viewToggle { padding: 3px; display: flex; border: 1px solid var(--border); border-radius: var(--radius); }
+.viewToggle button { width: 32px; height: 30px; display: grid; place-items: center; border: 0; border-radius: calc(var(--radius) - 4px); background: transparent; color: var(--gray-muted); cursor: pointer; }
+.viewToggle button[aria-pressed="true"] { background: var(--surface); color: var(--atlas); }
 
 @media (prefers-reduced-motion: no-preference) {
   .grid {

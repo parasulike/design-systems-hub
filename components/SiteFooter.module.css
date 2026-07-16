@@ -28,23 +28,34 @@
 
 .mark {
   flex: 0 0 auto;
-  width: 32px;
-  height: 32px;
+  width: 25px;
+  height: 25px;
   padding: 5px;
+  transform: rotate(45deg);
+  border-radius: 7px;
+  background: var(--foreground);
+}
+
+.mark > div {
+  width: 100%;
+  height: 100%;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 3px;
-  border: 1px solid var(--border-hover);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
 }
 
 .mark span {
-  background: var(--atlas);
+  opacity: .14;
+  border-radius: 50%;
+  background: #ffffff;
 }
 
-.mark span:nth-child(2),
-.mark span:nth-child(3) {
-  background: var(--atlas-deep);
+.mark span:nth-child(1),
+.mark span:nth-child(3),
+.mark span:nth-child(7),
+.mark span:nth-child(9) {
   opacity: 1;
+  background: var(--atlas);
 }
 
 .statement {

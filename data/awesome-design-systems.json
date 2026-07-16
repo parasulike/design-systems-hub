@@ -104,14 +104,6 @@
     "source_url": "https://bitbucket.org/atlassian/atlassian-frontend-mirror/"
   },
   {
-    "name": "Audi UI Kit",
-    "site_url": "https://www.audi.com/ci/en/guides/user-interface/introduction.html",
-    "has_components": true,
-    "has_voice_and_tone": false,
-    "has_designers_kit": true,
-    "source_url": "https://github.com/audi/audi-ui"
-  },
-  {
     "name": "Aurora (Government of Canada)",
     "site_url": "https://design.gccollab.ca/",
     "has_components": true,
