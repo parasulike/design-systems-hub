@@ -13,11 +13,12 @@
   flex-direction: column;
 }
 
-.card[data-view="list"] .profile { display: grid; grid-template-columns: 150px minmax(0, 1fr); align-items: center; }
-.card[data-view="list"] .cover { width: 118px; aspect-ratio: 690 / 388; margin: var(--space-4); padding: var(--space-3); }
+.card[data-view="list"] .profile { display: grid; grid-template-columns: clamp(220px, 18vw, 300px) minmax(0, 1fr); align-items: center; }
+.card[data-view="list"] .cover { width: calc(100% - 2 * var(--space-4)); aspect-ratio: 690 / 388; margin: var(--space-4); padding: var(--space-3); }
 .card[data-view="list"] .cover > span { font-size: 2.75rem; }
 .card[data-view="list"] .content { padding-left: 0; }
 .card[data-view="list"] .description { min-height: auto; }
+.card[data-view="list"] .footer { justify-content: flex-end; gap: var(--space-6); }
 
 .cover {
   width: calc(100% - 2 * var(--space-4));
