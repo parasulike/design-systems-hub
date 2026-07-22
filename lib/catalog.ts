@@ -1,9 +1,9 @@
 import systemsJson from "@/data/systems.json";
 import listingsJson from "@/data/awesome-design-systems.json";
 import enrichmentJson from "@/data/catalog-enrichment.json";
-import componentGalleryRanksJson from "@/data/component-gallery-ranks.json";
 import liveJson from "@/data/live.json";
 import { computeHealthLabel } from "./health";
+import { computeRecommendationScore } from "./recommendation";
 import type { CuratedSystem, DesignSystem, LiveData, LiveDataMap } from "./types";
 
 const EMPTY_LIVE: LiveData = {
@@ -30,6 +30,31 @@ type ImportedListing = {
   source_url: string | null;
 };
 
+const SKIPPED_DUPLICATE_LISTINGS = new Set(["Microsoft Fluent"]);
+const DISPLAY_NAME_OVERRIDES: Record<string, string> = {
+  "AWS Cloudscape Design System": "Cloudscape",
+  "Co-op Experience Library": "Coop",
+  "Firefox Photon Design System": "Acorn",
+  Foundation: "Foundation Framework",
+  "HPE Design System": "HPE",
+  "Intuit Harmony": "QuickBooks",
+  Jobber: "Atlantis",
+  "Pluralsight Design System": "Pando",
+  "Persona Design System": "Persona",
+  "Privy Persona Design System": "Persona",
+  "SAP OpenUI": "OpenUI5",
+  Vercel: "Geist",
+  "WMCA Design System": "WMCA",
+};
+const GENERIC_SYSTEM_NAMES = new Set([
+  "Design Guidelines",
+  "Design System",
+  "Pattern Library",
+  "Style Guide",
+  "Styleguide",
+  "UI",
+]);
+
 function slugify(value: string): string {
   return value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
@@ -44,6 +69,23 @@ function githubRepo(url: string | null): string | null {
   } catch {
     return null;
   }
+}
+
+function displayName(name: string, company: string): string {
+  if (DISPLAY_NAME_OVERRIDES[name]) return DISPLAY_NAME_OVERRIDES[name];
+  if (!company) return name;
+
+  const escapedCompany = company.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const candidates = [
+    name.replace(new RegExp(`^${escapedCompany}(?:['’]s)?\\s+`, "i"), ""),
+    name.replace(new RegExp(`\\s+\\(${escapedCompany}\\)$`, "i"), ""),
+    name.replace(new RegExp(`\\s+(?:by|[–—-])\\s*${escapedCompany}$`, "i"), ""),
+  ];
+  const cleaned = candidates
+    .find((candidate) => candidate !== name && candidate.length > 1)
+    ?.replace(/^(?:Design System|Pattern Library|Style ?Guide)\s*[-–—:]\s*/i, "");
+
+  return cleaned && !GENERIC_SYSTEM_NAMES.has(cleaned) ? cleaned : name;
 }
 
 function importedSystem(listing: ImportedListing): CuratedSystem {
@@ -63,17 +105,33 @@ function importedSystem(listing: ImportedListing): CuratedSystem {
 export function getCatalog(): DesignSystem[] {
   const carbon = curatedSystems.find((system) => system.id === "carbon")!;
   const enrichment = enrichmentJson as Record<string, Partial<CuratedSystem>>;
-  const componentGalleryRanks = componentGalleryRanksJson as Record<string, number>;
-  const systems = (listingsJson as ImportedListing[]).map((listing) => ({
-    ...(listing.name === "IBM Carbon" ? carbon : { ...importedSystem(listing), ...enrichment[listing.name] }),
-    recommended_rank: componentGalleryRanks[listing.name],
-  }));
+  const systems = (listingsJson as ImportedListing[])
+    .filter((listing) => !SKIPPED_DUPLICATE_LISTINGS.has(listing.name))
+    .map((listing) => {
+      if (listing.name === "IBM Carbon") return carbon;
+
+      const system = { ...importedSystem(listing), ...enrichment[listing.name] };
+      if (listing.name === "Fluent UI") {
+        const fluentLegacy = enrichment["Microsoft Fluent"];
+        return {
+          ...system,
+          name: "Fluent UI",
+          description: "Microsoft’s current cross-platform design system for accessible, adaptive experiences across web, Windows, iOS, and Android.",
+          site_url: "https://fluent2.microsoft.design/",
+          frameworks: Array.from(new Set([...system.frameworks, ...(fluentLegacy.frameworks ?? [])])),
+        };
+      }
+
+      return { ...system, name: displayName(system.name, system.company) };
+    });
   return systems.map((system) => {
     const live = liveData[system.id] ?? EMPTY_LIVE;
+    const health = computeHealthLabel(live);
     return {
       ...system,
       live,
-      health: computeHealthLabel(live),
+      health,
+      recommendation_score: computeRecommendationScore(system, live, health),
     };
   });
 }

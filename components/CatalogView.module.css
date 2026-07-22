@@ -40,8 +40,39 @@
 .viewToggle button { width: 32px; height: 30px; display: grid; place-items: center; border: 0; border-radius: calc(var(--radius) - 4px); background: transparent; color: var(--gray-muted); cursor: pointer; }
 .viewToggle button[aria-pressed="true"] { background: var(--surface); color: var(--atlas); }
 
+.stickySentinel { height: 1px; }
+.stickyControls { margin: -1px calc(var(--space-3) * -1) 0; padding: var(--space-3); position: sticky; top: var(--space-2); z-index: 20; display: flex; align-items: center; gap: var(--space-3); border: 1px solid transparent; border-radius: var(--radius); background: transparent; transition: background var(--motion-fast) ease, border-color var(--motion-fast) ease, box-shadow var(--motion-fast) ease; }
+.stickyControls[data-stuck="true"] { border-color: var(--border); background: color-mix(in srgb, var(--background) 97%, transparent); box-shadow: 0 8px 24px rgba(9, 30, 66, .08); backdrop-filter: blur(14px); }
+.stickyControls > :last-child { min-width: 0; flex: 1; margin-bottom: 0; }
+.searchWrap { width: 260px; flex: 0 0 260px; position: relative; z-index: 25; }
+.suggestions { width: 100%; margin-top: .4rem; padding: .45rem; position: absolute; top: 100%; left: 0; border: 1px solid var(--border); border-radius: var(--radius); background: var(--background); box-shadow: 0 14px 36px rgba(9, 30, 66, .14); }
+.suggestions > small { padding: .4rem .55rem; display: block; color: var(--gray-muted); font-size: .68rem; font-weight: 650; letter-spacing: .06em; text-transform: uppercase; }
+.suggestions button { width: 100%; min-height: 48px; padding: .55rem .65rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; border: 0; border-radius: calc(var(--radius) - 3px); background: transparent; color: var(--foreground); text-align: left; cursor: pointer; }
+.suggestions button:hover, .suggestions button[aria-selected="true"] { background: color-mix(in srgb, var(--atlas) 8%, var(--background)); }
+.suggestions button span { font-size: .84rem; font-weight: 650; }
+.suggestions button small { color: var(--gray-muted); font-size: .72rem; text-align: right; }
+.results { min-height: 560px; padding-top: var(--space-2); }
+.emptyState { min-height: 420px; padding: var(--space-8); display: grid; place-content: center; justify-items: center; border: 1px dashed var(--border); border-radius: var(--radius); background: var(--surface); text-align: center; }
+.emptyState > svg { margin-bottom: var(--space-3); color: var(--gray-muted); }
+.emptyState h3 { margin: 0; font-size: 1.1rem; }
+.emptyState p { max-width: 390px; margin: .45rem 0 var(--space-4); color: var(--gray-muted); font-size: .84rem; }
+.emptyState button { min-height: 40px; padding: 0 .9rem; border: 1px solid var(--atlas); border-radius: var(--radius); background: var(--atlas); color: white; font: inherit; font-size: .8rem; font-weight: 650; cursor: pointer; }
+.emptyState button:focus-visible, .suggestions button:focus-visible { outline: 2px solid var(--atlas); outline-offset: 2px; }
+
 @media (prefers-reduced-motion: no-preference) {
   .grid {
     animation: fadeInUp 200ms ease;
   }
+}
+
+@media (max-width: 620px) {
+  .heading { align-items: flex-start; gap: var(--space-4); }
+  .headingActions { flex-direction: column; align-items: flex-end; gap: .5rem; }
+  .results { min-height: 440px; }
+  .emptyState { min-height: 340px; }
+}
+
+@media (max-width: 980px) {
+  .stickyControls { align-items: stretch; flex-direction: column; }
+  .searchWrap { width: 100%; flex-basis: auto; }
 }

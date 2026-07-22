@@ -9,9 +9,5 @@ const LABEL_TEXT: Record<HealthLabel, string> = {
 };
 
 export function HealthBadge({ health }: { health: HealthLabel }) {
-  return (
-    <span className={`${styles.badge} ${styles[health]}`}>
-      {LABEL_TEXT[health]}
-    </span>
-  );
+  return <span className={styles.badge}>{LABEL_TEXT[health]}</span>;
 }

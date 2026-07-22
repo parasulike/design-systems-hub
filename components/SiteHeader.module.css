@@ -11,9 +11,7 @@
 .links a:hover { color: var(--foreground); }
 .links a svg { transition: color 150ms ease, transform 150ms ease; }
 .links a:hover svg { color: var(--atlas); transform: translate(2px, -2px); }
-.search { width: min(280px, 30vw); margin-left: auto; padding: 0 .75rem; display: flex; align-items: center; gap: .5rem; border: 1px solid var(--border); border-radius: var(--radius); background: var(--background); color: var(--foreground); transition: border-color var(--motion-fast) ease, box-shadow var(--motion-fast) ease; }
-.search:focus-within { border-color: var(--atlas); box-shadow: 0 0 0 3px color-mix(in srgb, var(--atlas) 12%, transparent); }
-.search input { width: 100%; padding: .55rem 0; border: 0; outline: 0; background: transparent; color: inherit; font: inherit; }
+.search { width: min(280px, 30vw); margin-left: auto; }
 @media (max-width: 700px) {
   .nav { min-height: auto; padding-block: 1rem; flex-wrap: wrap; }
   .links { order: 3; width: 100%; }

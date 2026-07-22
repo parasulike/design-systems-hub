@@ -57,6 +57,22 @@ export function matchesFilters(system: DesignSystem, filters: CatalogFilters): b
   });
 }
 
+export function suggestSystems(systems: DesignSystem[], query: string, limit = 6): DesignSystem[] {
+  const value = query.trim().toLowerCase();
+  if (!value) return sortSystems(systems, "recommended").slice(0, limit);
+
+  return systems
+    .filter((system) => `${system.name} ${system.company}`.toLowerCase().includes(value))
+    .sort((a, b) => {
+      const aName = a.name.toLowerCase();
+      const bName = b.name.toLowerCase();
+      return Number(!aName.startsWith(value)) - Number(!bName.startsWith(value))
+        || b.recommendation_score - a.recommendation_score
+        || a.name.localeCompare(b.name);
+    })
+    .slice(0, limit);
+}
+
 export function sortSystems(systems: DesignSystem[], sort: SortOption): DesignSystem[] {
   const value = (system: DesignSystem, key: "stars" | "npm_weekly_downloads") => system.live[key] ?? -1;
   const updated = (system: DesignSystem) => Math.max(Date.parse(system.live.last_commit_at ?? ""), Date.parse(system.live.latest_release_at ?? "")) || 0;
@@ -65,6 +81,6 @@ export function sortSystems(systems: DesignSystem[], sort: SortOption): DesignSy
     if (sort === "stars") return value(b, "stars") - value(a, "stars");
     if (sort === "downloads") return value(b, "npm_weekly_downloads") - value(a, "npm_weekly_downloads");
     if (sort === "updated") return updated(b) - updated(a);
-    return (a.recommended_rank ?? Number.MAX_SAFE_INTEGER) - (b.recommended_rank ?? Number.MAX_SAFE_INTEGER) || a.name.localeCompare(b.name);
+    return b.recommendation_score - a.recommendation_score || a.name.localeCompare(b.name);
   });
 }

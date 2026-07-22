@@ -23,7 +23,6 @@ the product — the "live" half is what no competitor has.
 | `frameworks` | string[] | `["React", "Angular", "Vue", "Svelte", "Web Components"]` |
 | `guidance` | enum[] | `["accessibility", "forms", "dark-mode"]` |
 | `best_for` | enum[] | `["enterprise", "data-heavy-products"]` |
-| `recommended_rank` | positive integer | `1` |
 | `license` | string | "Apache-2.0" |
 | `token_format` | string \| null | "Style Dictionary" |
 | `theming` | enum | `none` \| `single-brand` \| `multi-brand` |
@@ -62,9 +61,7 @@ Allowed `best_for` values:
 
 ### Sorting
 
-Sorting does not require another stored field except `recommended_rank`:
-
-- Recommended: `recommended_rank`
+- Recommended: derived `recommendation_score`
 - Recently updated: latest of `latest_release_at` and `last_commit_at`
 - Name A–Z: `name`
 - Most GitHub stars: `stars`
@@ -91,6 +88,7 @@ Make them required after the catalog migration is complete.
 | Field | How it's computed |
 |---|---|
 | `health_score` | Composite of recency of last commit, issue close rate, release cadence. Display as a simple label (e.g. Active / Slowing / Stale) rather than a raw score — a number invites false precision. |
+| `recommendation_score` | 35% guidance breadth, 30% resource completeness, 20% maintenance health, and 15% adoption. Used for sorting, not displayed as an absolute quality grade. |
 
 ## Open questions
 

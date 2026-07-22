@@ -130,6 +130,15 @@ async function seedFile(pool, file) {
 
     const designSystemId = await upsertDesignSystem(client, system);
 
+    await client.query(
+      "DELETE FROM design_system_frameworks WHERE design_system_id = $1",
+      [designSystemId]
+    );
+    await client.query(
+      "DELETE FROM design_system_tags WHERE design_system_id = $1",
+      [designSystemId]
+    );
+
     for (const frameworkName of system.frameworks ?? []) {
       const frameworkId = await lookupOrInsert(client, "frameworks", frameworkName);
       await linkJoinRow(

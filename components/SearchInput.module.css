@@ -1,0 +1,14 @@
+.field { width: 100%; height: 40px; padding: 8px 12px; display: flex; align-items: center; gap: 8px; border: 1px solid #e5e7eb; border-radius: 8px; background: #fff; transition: border-color var(--motion-fast) ease, box-shadow var(--motion-fast) ease; }
+.field:focus-within { border-color: var(--atlas); box-shadow: 0 0 0 4px color-mix(in srgb, var(--atlas) 20%, transparent); }
+.field:has(input:disabled) { border-color: #f3f4f6; background: #f3f4f6; }
+.field:has(input[aria-invalid="true"]) { border-color: #da3e33; }
+.field > svg { flex: 0 0 auto; color: var(--gray-muted); }
+.field input { min-width: 0; width: 100%; padding: 0; border: 0; outline: 0; background: transparent; color: #4b5563; font: inherit; font-size: 14px; line-height: 20px; }
+.field input:disabled { color: #d1d5db; cursor: not-allowed; }
+.field input[aria-invalid="true"] { color: #da3e33; }
+.field input::placeholder { color: #4b5563; opacity: 1; }
+.field input:disabled::placeholder { color: #d1d5db; }
+.field input::-webkit-search-cancel-button { appearance: none; }
+.field button { width: 30px; height: 30px; flex: 0 0 auto; display: grid; place-items: center; border: 0; border-radius: 50%; background: transparent; color: var(--gray-muted); cursor: pointer; }
+.field button:hover { background: var(--surface); color: var(--foreground); }
+.field button:focus-visible { outline: 2px solid var(--atlas); outline-offset: 2px; }

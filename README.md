@@ -32,14 +32,47 @@ Format: browser-based web catalog/directory (not a Figma plugin, at least for v1
 
 ```
 design-systems-hub/
-├── README.md              ← you are here
-└── docs/
-    ├── competitor-analysis.md   ← what exists today, structured
-    ├── data-schema.md           ← the data model for each design system entry
-    ├── roadmap.md                ← phased build plan
-    └── brainstorm.md             ← open ideas, not yet committed to
+├── app/                 # Next.js App Router pages and global styles
+├── components/          # Shared React components and CSS Modules
+├── data/                # Canonical catalog and generated live metadata
+├── lib/                 # Catalog assembly, filtering, health, and types
+├── public/              # Logos, icons, and catalog covers
+├── scripts/             # Import, refresh, and validation scripts
+├── docs/                # Product research, decisions, and specifications
+├── api/                 # Experimental Express/PostgreSQL migration path
+└── db/                  # Experimental API migrations and seed data
 ```
 
-## Status
+## Architecture
 
-🟡 Brainstorming / scoping phase. No code yet — see `docs/roadmap.md` for the plan.
+The deployed application is a Next.js 16 App Router site. Catalog pages are
+generated from the versioned JSON files in `data/`; `lib/catalog.ts` is the
+single application entry point for that data.
+
+The service in `api/` is experimental and is not consumed by the Next.js app.
+See `api/README.md` before changing database content.
+
+## Local development
+
+Requires Node.js 20 or newer.
+
+```bash
+npm ci
+npm run dev
+```
+
+Open `http://localhost:3000`.
+
+## Checks
+
+```bash
+npm run lint
+npm run check:filters
+npm run build
+```
+
+## Data refresh
+
+`npm run fetch-live-data` refreshes `data/live.json` using GitHub, npm, and
+Bundlephobia. Set `GITHUB_TOKEN` to avoid GitHub's anonymous rate limit. A
+scheduled GitHub Actions workflow runs the same refresh daily.

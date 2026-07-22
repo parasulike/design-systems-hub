@@ -242,7 +242,7 @@ export default async function DesignSystemPage({
               <h3>Technical health and system facts</h3>
               <dl>
                 <div><dt>Maintenance</dt><dd><HealthBadge health={system.health} /></dd></div>
-                <div><dt>Components</dt><dd>39 documented</dd></div>
+                {hasEditorialProfile && <div><dt>Components</dt><dd>39 documented</dd></div>}
                 <div><dt>Frameworks</dt><dd>{system.frameworks.join(", ")}</dd></div>
                 <div><dt>License</dt><dd>{system.license}</dd></div>
                 <div><dt>Token format</dt><dd>{system.token_format ?? "—"}</dd></div>

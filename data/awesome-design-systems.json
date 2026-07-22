@@ -48,14 +48,6 @@
     "source_url": "https://github.com/aws-amplify/amplify-ui/"
   },
   {
-    "name": "Appear Here Styleguide",
-    "site_url": "https://bloom.appearhere.co.uk/",
-    "has_components": true,
-    "has_voice_and_tone": false,
-    "has_designers_kit": false,
-    "source_url": "https://github.com/appearhere/bloom"
-  },
-  {
     "name": "Apple Developer Design Guidelines",
     "site_url": "https://developer.apple.com/design/",
     "has_components": false,
@@ -65,7 +57,7 @@
   },
   {
     "name": "Aragon UI",
-    "site_url": "https://ui.aragon.org/",
+    "site_url": "https://www.aragon.org/",
     "has_components": true,
     "has_voice_and_tone": false,
     "has_designers_kit": false,
@@ -136,14 +128,6 @@
     "source_url": "https://github.com/skyscanner/backpack"
   },
   {
-    "name": "Basis Design System",
-    "site_url": "https://basis.now.sh",
-    "has_components": true,
-    "has_voice_and_tone": false,
-    "has_designers_kit": false,
-    "source_url": "https://github.com/moroshko/basis"
-  },
-  {
     "name": "BBC GEL (Global Experience Language)",
     "site_url": "https://www.bbc.co.uk/gel",
     "has_components": true,
@@ -158,14 +142,6 @@
     "has_voice_and_tone": false,
     "has_designers_kit": true,
     "source_url": "https://github.com/buildo/bento-design-system"
-  },
-  {
-    "name": "BLiP",
-    "site_url": "https://design.take.net/",
-    "has_components": true,
-    "has_voice_and_tone": false,
-    "has_designers_kit": false,
-    "source_url": "https://github.com/takenet/blip-toolkit"
   },
   {
     "name": "Blueprint",
@@ -208,48 +184,8 @@
     "source_url": null
   },
   {
-    "name": "Buildit Gravity",
-    "site_url": "http://style.buildit.digital/",
-    "has_components": true,
-    "has_voice_and_tone": false,
-    "has_designers_kit": false,
-    "source_url": "https://github.com/buildit/gravity-ui-web"
-  },
-  {
-    "name": "Bumbag UI",
-    "site_url": "https://bumbag.style/",
-    "has_components": true,
-    "has_voice_and_tone": false,
-    "has_designers_kit": false,
-    "source_url": "https://github.com/bumbag/bumbag-ui"
-  },
-  {
-    "name": "BuzzFeed Solid",
-    "site_url": "https://solid.buzzfeed.com/",
-    "has_components": true,
-    "has_voice_and_tone": false,
-    "has_designers_kit": true,
-    "source_url": "https://github.com/buzzfeed/solid"
-  },
-  {
     "name": "Buzzvil Design System",
     "site_url": "https://design.buzzvil.com/",
-    "has_components": true,
-    "has_voice_and_tone": true,
-    "has_designers_kit": false,
-    "source_url": null
-  },
-  {
-    "name": "CA Technologies Mineral UI",
-    "site_url": "https://mineral-ui.netlify.app/",
-    "has_components": true,
-    "has_voice_and_tone": false,
-    "has_designers_kit": false,
-    "source_url": "https://github.com/mineral-ui/mineral-ui"
-  },
-  {
-    "name": "CBRE Blocks",
-    "site_url": "https://blocks.cbrebuild.com/",
     "has_components": true,
     "has_voice_and_tone": true,
     "has_designers_kit": false,
@@ -336,12 +272,12 @@
     "source_url": null
   },
   {
-    "name": "eBay Skin",
-    "site_url": "https://ebay.github.io/skin/",
+    "name": "eBay Evo",
+    "site_url": "https://playbook.ebay.com/design-system",
     "has_components": true,
     "has_voice_and_tone": false,
     "has_designers_kit": false,
-    "source_url": "https://github.com/eBay/skin"
+    "source_url": null
   },
   {
     "name": "Elastic UI Framework",
@@ -376,7 +312,7 @@
     "source_url": "https://github.com/enigma-io/boundless"
   },
   {
-    "name": "Estonia Country Design Guidelines",
+    "name": "Brand Estonia",
     "site_url": "https://brand.estonia.ee",
     "has_components": true,
     "has_voice_and_tone": true,
@@ -390,22 +326,6 @@
     "has_voice_and_tone": false,
     "has_designers_kit": false,
     "source_url": "https://github.com/segmentio/evergreen"
-  },
-  {
-    "name": "Financial Times Origami",
-    "site_url": "https://origami.ft.com/",
-    "has_components": true,
-    "has_voice_and_tone": false,
-    "has_designers_kit": false,
-    "source_url": "https://github.com/Financial-Times/origami"
-  },
-  {
-    "name": "Finland Toolbox",
-    "site_url": "https://toolbox.finland.fi/",
-    "has_components": false,
-    "has_voice_and_tone": true,
-    "has_designers_kit": true,
-    "source_url": null
   },
   {
     "name": "Firefox Photon Design System",
@@ -438,14 +358,6 @@
     "has_voice_and_tone": true,
     "has_designers_kit": true,
     "source_url": "https://github.com/foundation/foundation-sites"
-  },
-  {
-    "name": "Foyer Design System",
-    "site_url": "https://design.foyer.lu/",
-    "has_components": true,
-    "has_voice_and_tone": false,
-    "has_designers_kit": true,
-    "source_url": null
   },
   {
     "name": "French Government Design System",
@@ -520,14 +432,6 @@
     "source_url": "https://github.com/hashicorp/design-system"
   },
   {
-    "name": "Help Scout",
-    "site_url": "https://style.helpscout.com/",
-    "has_components": true,
-    "has_voice_and_tone": true,
-    "has_designers_kit": false,
-    "source_url": "https://github.com/helpscout/seed-framework"
-  },
-  {
     "name": "Heroku Purple3",
     "site_url": "https://design.herokai.com/",
     "has_components": true,
@@ -536,12 +440,12 @@
     "source_url": null
   },
   {
-    "name": "Hewlett Packard grommet",
-    "site_url": "https://grommet.github.io",
+    "name": "HPE Design System",
+    "site_url": "https://design-system.hpe.design/",
     "has_components": true,
     "has_voice_and_tone": false,
     "has_designers_kit": false,
-    "source_url": "https://github.com/grommet/grommet"
+    "source_url": "https://github.com/grommet/hpe-design-system"
   },
   {
     "name": "HubSpot Canvas",
@@ -566,22 +470,6 @@
     "has_voice_and_tone": true,
     "has_designers_kit": true,
     "source_url": "https://github.com/ibm/carbon-components"
-  },
-  {
-    "name": "IBM Design Language",
-    "site_url": "https://www.ibm.com/design/language/",
-    "has_components": true,
-    "has_voice_and_tone": true,
-    "has_designers_kit": false,
-    "source_url": null
-  },
-  {
-    "name": "IBM Northstar",
-    "site_url": "https://www.ibm.com/standards/web/",
-    "has_components": true,
-    "has_voice_and_tone": true,
-    "has_designers_kit": false,
-    "source_url": null
   },
   {
     "name": "Intuit Harmony",
@@ -688,14 +576,6 @@
     "source_url": null
   },
   {
-    "name": "Mailchimp Content Styleguide",
-    "site_url": "https://styleguide.mailchimp.com/",
-    "has_components": false,
-    "has_voice_and_tone": true,
-    "has_designers_kit": false,
-    "source_url": null
-  },
-  {
     "name": "Mantine",
     "site_url": "https://mantine.dev/",
     "has_components": true,
@@ -720,7 +600,7 @@
     "source_url": "https://github.com/mdbootstrap/mdb-ui-kit"
   },
   {
-    "name": "Materialize CSS",
+    "name": "MaterializeCSS",
     "site_url": "https://materializecss.com/",
     "has_components": true,
     "has_voice_and_tone": false,
@@ -784,14 +664,6 @@
     "source_url": "https://github.com/mozilla/protocol"
   },
   {
-    "name": "NASA Web Design System",
-    "site_url": "https://nasa.github.io/nasawds-site/",
-    "has_components": true,
-    "has_voice_and_tone": false,
-    "has_designers_kit": false,
-    "source_url": "https://github.com/nasa/nasawds"
-  },
-  {
     "name": "NationBuilder Radius",
     "site_url": "https://www.nationbuilder.design/",
     "has_components": true,
@@ -824,22 +696,6 @@
     "source_url": "https://github.com/ITS-HCD/nysds"
   },
   {
-    "name": "Nordnet",
-    "site_url": "https://brand.nordnet.se/",
-    "has_components": true,
-    "has_voice_and_tone": true,
-    "has_designers_kit": false,
-    "source_url": null
-  },
-  {
-    "name": "Okta Odyssey Design System",
-    "site_url": "https://odyssey.okta.design",
-    "has_components": true,
-    "has_voice_and_tone": false,
-    "has_designers_kit": true,
-    "source_url": "https://github.com/okta/odyssey"
-  },
-  {
     "name": "Ontario Design System",
     "site_url": "https://designsystem.ontario.ca/",
     "has_components": true,
@@ -856,12 +712,20 @@
     "source_url": null
   },
   {
-    "name": "Persona Design System",
+    "name": "Privy Persona Design System",
     "site_url": "https://privy-open-source.github.io/design-system/",
     "has_components": true,
     "has_voice_and_tone": true,
     "has_designers_kit": false,
     "source_url": "https://github.com/privy-open-source/design-system"
+  },
+  {
+    "name": "Persona Design System",
+    "site_url": "https://design.withpersona.com/",
+    "has_components": true,
+    "has_voice_and_tone": false,
+    "has_designers_kit": true,
+    "source_url": null
   },
   {
     "name": "Pharos: JSTOR's Design System",
@@ -878,14 +742,6 @@
     "has_voice_and_tone": false,
     "has_designers_kit": false,
     "source_url": "https://github.com/pinterest/gestalt"
-  },
-  {
-    "name": "Pivotal",
-    "site_url": "https://styleguide.pivotal.io/",
-    "has_components": true,
-    "has_voice_and_tone": false,
-    "has_designers_kit": false,
-    "source_url": "https://github.com/pivotal-cf/pivotal-ui"
   },
   {
     "name": "Pluralsight Design System",
@@ -912,14 +768,6 @@
     "source_url": "https://github.com/priceline/design-system"
   },
   {
-    "name": "Pusher Chameleon",
-    "site_url": "https://pusher.github.io/chameleon/",
-    "has_components": true,
-    "has_voice_and_tone": false,
-    "has_designers_kit": false,
-    "source_url": "https://github.com/pusher/chameleon"
-  },
-  {
     "name": "Radix",
     "site_url": "https://www.radix-ui.com/",
     "has_components": true,
@@ -928,20 +776,12 @@
     "source_url": "https://github.com/radix-ui"
   },
   {
-    "name": "Rambler",
-    "site_url": "https://rambler-digital-solutions.github.io/rambler-ui/",
+    "name": "Ratio",
+    "site_url": "https://ui-kit.rambler.ru/",
     "has_components": true,
     "has_voice_and_tone": false,
     "has_designers_kit": false,
     "source_url": "https://github.com/rambler-digital-solutions/rambler-ui"
-  },
-  {
-    "name": "Rendition",
-    "site_url": "https://balena-io-modules.github.io/rendition/",
-    "has_components": true,
-    "has_voice_and_tone": false,
-    "has_designers_kit": false,
-    "source_url": "https://github.com/balena-io-modules/rendition/"
   },
   {
     "name": "Reshaped",
@@ -968,20 +808,20 @@
     "source_url": "https://github.com/Kajabi/sage-lib"
   },
   {
+    "name": "Samsung Design System",
+    "site_url": "https://developer.samsung.com/design-system",
+    "has_components": false,
+    "has_voice_and_tone": true,
+    "has_designers_kit": false,
+    "source_url": null
+  },
+  {
     "name": "SAP Fiori",
     "site_url": "https://experience.sap.com/fiori-design/",
     "has_components": true,
     "has_voice_and_tone": false,
     "has_designers_kit": false,
     "source_url": null
-  },
-  {
-    "name": "SAP Fundamental",
-    "site_url": "https://github.com/SAP/fundamental",
-    "has_components": true,
-    "has_voice_and_tone": false,
-    "has_designers_kit": false,
-    "source_url": "https://github.com/SAP/fundamental"
   },
   {
     "name": "SAP OpenUI",
@@ -1006,14 +846,6 @@
     "has_voice_and_tone": true,
     "has_designers_kit": true,
     "source_url": null
-  },
-  {
-    "name": "SEEK Style Guide",
-    "site_url": "https://seek-oss.github.io/seek-style-guide/",
-    "has_components": true,
-    "has_voice_and_tone": false,
-    "has_designers_kit": false,
-    "source_url": "https://github.com/seek-oss/seek-style-guide"
   },
   {
     "name": "Semi Design",
@@ -1080,14 +912,6 @@
     "source_url": "https://github.com/StackExchange/Stacks"
   },
   {
-    "name": "Starbucks Style Guide",
-    "site_url": "https://creative.starbucks.com",
-    "has_components": true,
-    "has_voice_and_tone": true,
-    "has_designers_kit": false,
-    "source_url": null
-  },
-  {
     "name": "Strapi Design System",
     "site_url": "https://design-system.strapi.io/",
     "has_components": true,
@@ -1118,14 +942,6 @@
     "has_voice_and_tone": false,
     "has_designers_kit": false,
     "source_url": "https://github.com/thumbtack/thumbprint"
-  },
-  {
-    "name": "Tizen CircularUI",
-    "site_url": "https://developer.samsung.com/one-ui-watch-tizen",
-    "has_components": true,
-    "has_voice_and_tone": false,
-    "has_designers_kit": true,
-    "source_url": "https://github.com/Samsung/Tizen.CircularUI"
   },
   {
     "name": "Twilio Paste",
@@ -1168,14 +984,6 @@
     "source_url": "https://github.com/untitleduico/react/"
   },
   {
-    "name": "uSwitch style guide",
-    "site_url": "https://ustyle.guide/",
-    "has_components": true,
-    "has_voice_and_tone": true,
-    "has_designers_kit": false,
-    "source_url": "https://github.com/uswitch/ustyle"
-  },
-  {
     "name": "U.S. Web Design Standards",
     "site_url": "https://designsystem.digital.gov/",
     "has_components": true,
@@ -1198,14 +1006,6 @@
     "has_voice_and_tone": false,
     "has_designers_kit": true,
     "source_url": "https://github.com/mondaycom/vibe"
-  },
-  {
-    "name": "Vimeo Design System",
-    "site_url": "https://vimeo.github.io/iris/",
-    "has_components": true,
-    "has_voice_and_tone": false,
-    "has_designers_kit": false,
-    "source_url": "https://github.com/vimeo/iris"
   },
   {
     "name": "VMware Clarity Design System",
@@ -1248,20 +1048,12 @@
     "source_url": "https://github.com/WTTJ/welcome-ui"
   },
   {
-    "name": "West Midlands Network Design System",
-    "site_url": "https://designsystem.wmnetwork.co.uk/",
+    "name": "WMCA Design System",
+    "site_url": "https://designsystem.wmca.org.uk/",
     "has_components": true,
     "has_voice_and_tone": true,
     "has_designers_kit": false,
-    "source_url": "https://github.com/wmcadigital/wmn-design-system"
-  },
-  {
-    "name": "Wix Style React",
-    "site_url": "https://www.wix-style-react.com/storybook/",
-    "has_components": true,
-    "has_voice_and_tone": false,
-    "has_designers_kit": false,
-    "source_url": null
+    "source_url": "https://github.com/wmcadigital/wmca-design-system"
   },
   {
     "name": "Vercel",

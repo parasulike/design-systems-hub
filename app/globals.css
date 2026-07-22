@@ -21,7 +21,7 @@
   --atlas: var(--ds-brand);
   --atlas-deep: var(--ds-brand-bold);
   --radius: 12px;
-  --container: 1200px;
+  --container: 1600px;
   --gutter: clamp(16px, 3vw, 32px);
   --space-2: 8px;
   --space-3: 12px;
@@ -43,7 +43,7 @@ html {
 html,
 body {
   max-width: 100vw;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 body {

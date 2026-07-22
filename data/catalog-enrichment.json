@@ -69,16 +69,6 @@
     "theming": "multi-brand",
     "logo_path": "/system-logos/aws.svg"
   },
-  "Appear Here Styleguide": {
-    "company": "Appear Here",
-    "description": "Bloom is Appear Here’s public component and interface style guide.",
-    "github_repo": "appearhere/bloom",
-    "frameworks": ["React"],
-    "guidance": ["forms", "navigation", "responsive-design"],
-    "best_for": ["commerce"],
-    "license": "Unknown",
-    "theming": "single-brand"
-  },
   "Apple Developer Design Guidelines": {
     "company": "Apple",
     "description": "Human Interface Guidelines and official design resources for experiences across Apple platforms.",
@@ -161,11 +151,11 @@
   },
   "AutoGuru Overdrive": {
     "company": "AutoGuru",
-    "description": "AutoGuru’s open-source React component library for consistent automotive service and marketplace interfaces.",
+    "description": "AutoGuru’s actively maintained React product component library and design system for automotive service and marketplace interfaces.",
     "github_repo": "autoguru-au/overdrive",
     "storybook_url": "http://overdrive.autoguru.io/",
     "npm_package": "@autoguru/overdrive",
-    "frameworks": ["React"],
+    "frameworks": ["React", "TypeScript", "Vanilla Extract"],
     "guidance": ["forms", "responsive-design"],
     "best_for": ["commerce", "consumer-products"],
     "license": "MIT",
@@ -198,17 +188,6 @@
     "token_format": "Backpack tokens",
     "theming": "single-brand"
   },
-  "Basis Design System": {
-    "company": "Latitude Financial Services",
-    "description": "A themeable React component library created for consistent financial product interfaces.",
-    "github_repo": "moroshko/basis",
-    "npm_package": "basis",
-    "frameworks": ["React"],
-    "guidance": ["accessibility", "forms", "responsive-design"],
-    "best_for": ["consumer-products", "enterprise"],
-    "license": "MIT",
-    "theming": "multi-brand"
-  },
   "BBC GEL (Global Experience Language)": {
     "company": "BBC",
     "description": "Framework-agnostic technical guidance for building inclusive, responsive BBC-aligned web patterns.",
@@ -230,18 +209,6 @@
     "license": "MIT",
     "token_format": "CSS custom properties",
     "theming": "multi-brand"
-  },
-  "BLiP": {
-    "company": "Blip",
-    "description": "Blip’s current design system provides design tokens and Stencil-built web components for its conversational platform.",
-    "github_repo": "takenet/blip-ds",
-    "npm_package": "blip-ds",
-    "frameworks": ["Web Components"],
-    "guidance": ["forms", "navigation", "responsive-design"],
-    "best_for": ["enterprise", "developer-tools"],
-    "license": "MIT",
-    "token_format": "Blip design tokens",
-    "theming": "single-brand"
   },
   "Blueprint": {
     "company": "Palantir",
@@ -299,39 +266,6 @@
     "license": "Proprietary",
     "theming": "single-brand"
   },
-  "Buildit Gravity": {
-    "company": "Buildit",
-    "description": "A legacy web UI library of Sass styles, JavaScript components, icons, and shared assets from Buildit.",
-    "github_repo": "buildit/gravity-ui-web",
-    "npm_package": "@buildit/gravity-ui-web",
-    "frameworks": ["HTML", "CSS", "JavaScript"],
-    "guidance": ["forms", "navigation", "responsive-design"],
-    "best_for": ["enterprise"],
-    "license": "MIT",
-    "token_format": "Sass variables",
-    "theming": "single-brand"
-  },
-  "Bumbag UI": {
-    "company": "Bumbag",
-    "description": "A themeable and composable component library for building accessible React and React Native applications.",
-    "github_repo": "bumbag/bumbag-ui",
-    "npm_package": "bumbag",
-    "frameworks": ["React", "React Native"],
-    "guidance": ["accessibility", "forms", "dark-mode", "navigation", "responsive-design"],
-    "best_for": ["consumer-products", "developer-tools", "multi-brand-products"],
-    "license": "MIT",
-    "theming": "multi-brand"
-  },
-  "BuzzFeed Solid": {
-    "company": "BuzzFeed",
-    "description": "BuzzFeed’s lightweight collection of reusable CSS styles and interface foundations for content-rich web products.",
-    "github_repo": "buzzfeed/solid",
-    "frameworks": ["HTML", "CSS"],
-    "guidance": ["content", "forms", "navigation", "responsive-design"],
-    "best_for": ["content-heavy-products", "consumer-products"],
-    "license": "MIT",
-    "theming": "single-brand"
-  },
   "Buzzvil Design System": {
     "company": "Buzzvil",
     "description": "Buzzvil’s multi-market product language separates reusable interaction patterns from flexible brand expression.",
@@ -340,26 +274,6 @@
     "best_for": ["consumer-products", "multi-brand-products"],
     "license": "Proprietary",
     "theming": "multi-brand"
-  },
-  "CA Technologies Mineral UI": {
-    "company": "CA Technologies",
-    "description": "A legacy themeable React component library built with Emotion for product and enterprise interfaces.",
-    "github_repo": "mineral-ui/mineral-ui",
-    "npm_package": "mineral-ui",
-    "frameworks": ["React"],
-    "guidance": ["accessibility", "forms", "navigation", "responsive-design"],
-    "best_for": ["enterprise", "developer-tools"],
-    "license": "Apache-2.0",
-    "theming": "multi-brand"
-  },
-  "CBRE Blocks": {
-    "company": "CBRE",
-    "description": "CBRE’s shared digital foundations, components, and content guidance for consistent commercial real-estate experiences.",
-    "frameworks": [],
-    "guidance": ["accessibility", "content", "forms", "data-visualization", "navigation", "responsive-design"],
-    "best_for": ["enterprise", "data-heavy-products", "content-heavy-products"],
-    "license": "Proprietary",
-    "theming": "single-brand"
   },
   "Cedar": {
     "company": "REI Co-op",
@@ -479,17 +393,17 @@
     "license": "Proprietary",
     "theming": "single-brand"
   },
-  "eBay Skin": {
+  "eBay Evo": {
     "company": "eBay",
-    "description": "eBay’s pure-CSS component framework for accessible, branded marketplace interfaces, powered by shared design tokens.",
-    "github_repo": "eBay/skin",
-    "npm_package": "@ebay/skin",
-    "frameworks": ["HTML", "CSS"],
-    "tokens_url": "https://www.npmjs.com/package/@ebay/design-tokens",
-    "guidance": ["accessibility", "forms", "dark-mode", "navigation", "responsive-design"],
+    "description": "eBay’s unified product and brand design system, with foundations, tokens, accessible components, patterns, content guidance, and responsive experiences across web and native platforms.",
+    "github_repo": null,
+    "npm_package": null,
+    "frameworks": ["CSS", "Marko", "React", "Native"],
+    "tokens_url": "https://playbook.ebay.com/design-system/tokens",
+    "guidance": ["accessibility", "content", "motion", "forms", "internationalization", "dark-mode", "navigation", "responsive-design"],
     "best_for": ["commerce", "consumer-products", "multi-brand-products"],
-    "license": "MIT",
-    "token_format": "CSS custom properties",
+    "license": "Proprietary",
+    "token_format": "Core, semantic, and component tokens",
     "theming": "multi-brand"
   },
   "Elastic UI Framework": {
@@ -537,7 +451,7 @@
     "license": "MIT",
     "theming": "multi-brand"
   },
-  "Estonia Country Design Guidelines": {
+  "Brand Estonia": {
     "company": "Estonia",
     "description": "Estonia’s national identity system with guidance for voice, typography, imagery, digital expression, and reusable brand assets.",
     "frameworks": [],
@@ -558,30 +472,11 @@
     "license": "MIT",
     "theming": "multi-brand"
   },
-  "Financial Times Origami": {
-    "company": "Financial Times",
-    "description": "The Financial Times’ system for building consistent, resilient digital products with shared foundations, components, and product guidance.",
-    "github_repo": "Financial-Times/origami",
-    "frameworks": ["Web Components", "HTML", "CSS", "JavaScript"],
-    "guidance": ["accessibility", "content", "forms", "navigation", "responsive-design"],
-    "best_for": ["content-heavy-products", "commerce", "multi-brand-products"],
-    "license": "MIT",
-    "token_format": "Origami design tokens",
-    "theming": "multi-brand"
-  },
-  "Finland Toolbox": {
-    "company": "Finland Promotion Board",
-    "description": "Finland’s country-brand reference with visual identity guidance, multilingual communication materials, templates, imagery, and downloadable assets.",
-    "frameworks": [],
-    "guidance": ["content", "internationalization", "responsive-design"],
-    "best_for": ["public-services", "content-heavy-products", "multi-brand-products"],
-    "license": "Restricted noncommercial use",
-    "theming": "single-brand"
-  },
   "Firefox Photon Design System": {
     "company": "Mozilla",
-    "description": "Firefox’s product design language covering reusable interface guidance, patterns, templates, and cross-platform product expression.",
-    "github_repo": "FirefoxUX/photon",
+    "description": "Firefox’s current design system for browser interfaces, with shared foundations, tokens, reusable components, interaction guidance, and accessible patterns. It succeeds the legacy Photon system.",
+    "site_url": "https://firefox-source-docs.mozilla.org/toolkit/themes/shared/design-system/docs/README.design-tokens.stories.html",
+    "github_repo": null,
     "frameworks": [],
     "guidance": ["accessibility", "content", "motion", "forms", "internationalization", "dark-mode", "navigation", "responsive-design"],
     "best_for": ["consumer-products", "content-heavy-products"],
@@ -629,15 +524,6 @@
     "license": "MIT",
     "token_format": "Sass settings and variables",
     "theming": "multi-brand"
-  },
-  "Foyer Design System": {
-    "company": "Foyer",
-    "description": "Foyer’s public brand and interface reference for creating consistent insurance products and customer experiences.",
-    "frameworks": [],
-    "guidance": ["accessibility", "forms", "navigation", "responsive-design"],
-    "best_for": ["enterprise", "consumer-products"],
-    "license": "Proprietary",
-    "theming": "single-brand"
   },
   "French Government Design System": {
     "company": "French Government",
@@ -748,16 +634,6 @@
     "token_format": "Helios design tokens",
     "theming": "single-brand"
   },
-  "Help Scout": {
-    "company": "Help Scout",
-    "description": "A legacy public style reference and CSS framework that documented Help Scout’s brand, interface foundations, and reusable UI patterns.",
-    "github_repo": "helpscout/seed-framework",
-    "frameworks": ["HTML", "Sass", "CSS"],
-    "guidance": ["content", "forms", "navigation", "responsive-design"],
-    "best_for": ["enterprise", "content-heavy-products"],
-    "license": "MIT",
-    "theming": "single-brand"
-  },
   "Heroku Purple3": {
     "company": "Heroku",
     "description": "Heroku’s legacy product design reference for interface foundations, components, and patterns across its developer platform.",
@@ -767,16 +643,16 @@
     "license": "Proprietary",
     "theming": "single-brand"
   },
-  "Hewlett Packard grommet": {
+  "HPE Design System": {
     "company": "Hewlett Packard Enterprise",
-    "description": "An accessible React framework with composable components, responsive layout primitives, visualization tools, and deeply customizable themes.",
-    "github_repo": "grommet/grommet",
+    "description": "HPE’s product design system for accessible enterprise experiences. It provides foundations, tokens, components, patterns, and guidance, using Grommet as its React implementation layer.",
+    "github_repo": "grommet/hpe-design-system",
     "npm_package": "grommet",
-    "frameworks": ["React"],
+    "frameworks": ["Grommet", "React"],
     "guidance": ["accessibility", "forms", "data-visualization", "dark-mode", "navigation", "responsive-design"],
     "best_for": ["enterprise", "data-heavy-products", "multi-brand-products"],
     "license": "Apache-2.0",
-    "token_format": "JavaScript theme objects",
+    "token_format": "JSON design tokens and JavaScript theme objects",
     "theming": "multi-brand"
   },
   "HubSpot Canvas": {
@@ -812,25 +688,6 @@
     "license": "Apache-2.0",
     "token_format": "Sass and JavaScript design tokens",
     "theming": "multi-brand"
-  },
-  "IBM Design Language": {
-    "company": "IBM",
-    "description": "IBM’s overarching brand language for typography, color, grids, imagery, motion, data visualization, and the principles behind IBM experiences.",
-    "frameworks": [],
-    "guidance": ["accessibility", "content", "motion", "data-visualization", "internationalization", "dark-mode", "responsive-design"],
-    "best_for": ["enterprise", "content-heavy-products", "multi-brand-products"],
-    "license": "IBM brand guidelines",
-    "theming": "single-brand"
-  },
-  "IBM Northstar": {
-    "company": "IBM",
-    "description": "IBM’s former Northstar web system, now IBM Digital Design, which applies IBM Design Language and Carbon to the ibm.com platform.",
-    "frameworks": ["Web Components", "React"],
-    "guidance": ["accessibility", "content", "motion", "forms", "data-visualization", "internationalization", "dark-mode", "navigation", "responsive-design"],
-    "best_for": ["enterprise", "content-heavy-products", "data-heavy-products"],
-    "license": "IBM brand guidelines",
-    "token_format": "Carbon design tokens",
-    "theming": "single-brand"
   },
   "Intuit Harmony": {
     "company": "Intuit",
@@ -979,15 +836,6 @@
     "license": "Proprietary",
     "theming": "multi-brand"
   },
-  "Mailchimp Content Styleguide": {
-    "company": "Mailchimp",
-    "description": "Mailchimp’s influential public writing guide for voice, tone, grammar, accessibility, technical content, and consistent product communication.",
-    "frameworks": [],
-    "guidance": ["accessibility", "content", "internationalization"],
-    "best_for": ["content-heavy-products", "commerce", "consumer-products"],
-    "license": "Proprietary",
-    "theming": "none"
-  },
   "Mantine": {
     "company": "Mantine",
     "description": "A comprehensive React ecosystem with accessible components, hooks, forms, charts, dark mode, and a flexible theme API for application interfaces.",
@@ -1022,7 +870,7 @@
     "token_format": "Bootstrap Sass variables and utilities",
     "theming": "multi-brand"
   },
-  "Materialize CSS": {
+  "MaterializeCSS": {
     "company": "Materialize",
     "description": "A responsive front-end framework translating Material Design into ready-to-use CSS components and JavaScript interactions.",
     "github_repo": "materializecss/materialize",
@@ -1111,17 +959,6 @@
     "token_format": "Sass variables",
     "theming": "single-brand"
   },
-  "NASA Web Design System": {
-    "company": "NASA",
-    "description": "NASA’s government web system of accessible components, visual foundations, and responsive templates, derived from the U.S. Web Design System.",
-    "github_repo": "nasa/nasawds",
-    "frameworks": ["HTML", "Sass", "CSS", "JavaScript"],
-    "guidance": ["accessibility", "content", "forms", "navigation", "responsive-design"],
-    "best_for": ["public-services", "content-heavy-products"],
-    "license": "Public domain",
-    "token_format": "Sass variables",
-    "theming": "single-brand"
-  },
   "NationBuilder Radius": {
     "company": "NationBuilder",
     "description": "NationBuilder’s product design reference for interface foundations, reusable components, and consistent workflows across organizing and campaign tools.",
@@ -1168,26 +1005,6 @@
     "token_format": "Primitive, semantic, and theme CSS tokens",
     "theming": "multi-brand"
   },
-  "Nordnet": {
-    "company": "Nordnet",
-    "description": "Nordnet’s brand and product reference for consistent financial experiences, covering visual identity, communication, interface patterns, and data-rich journeys.",
-    "frameworks": [],
-    "guidance": ["content", "forms", "data-visualization", "internationalization", "navigation", "responsive-design"],
-    "best_for": ["consumer-products", "data-heavy-products", "content-heavy-products"],
-    "license": "Proprietary",
-    "theming": "single-brand"
-  },
-  "Okta Odyssey Design System": {
-    "company": "Okta",
-    "description": "Okta’s product system for accessible identity experiences, with shared foundations, components, interaction patterns, and design resources.",
-    "github_repo": "okta/odyssey",
-    "frameworks": ["React", "TypeScript"],
-    "guidance": ["accessibility", "content", "forms", "internationalization", "dark-mode", "navigation", "responsive-design"],
-    "best_for": ["enterprise", "developer-tools", "data-heavy-products"],
-    "license": "Apache-2.0",
-    "token_format": "Odyssey theme tokens",
-    "theming": "single-brand"
-  },
   "Ontario Design System": {
     "company": "Government of Ontario",
     "description": "Ontario’s required standard for accessible government websites and applications, with Stencil web components, framework wrappers, tokens, and prototyping resources.",
@@ -1211,7 +1028,7 @@
     "token_format": "Redwood theme tokens",
     "theming": "multi-brand"
   },
-  "Persona Design System": {
+  "Privy Persona Design System": {
     "company": "Privy",
     "description": "Privy’s open product system with shared foundations, reusable interface components, content guidance, and patterns for privacy-focused commerce experiences.",
     "github_repo": "privy-open-source/design-system",
@@ -1219,6 +1036,15 @@
     "guidance": ["accessibility", "content", "forms", "navigation", "responsive-design"],
     "best_for": ["commerce", "consumer-products"],
     "license": "Open source",
+    "theming": "single-brand"
+  },
+  "Persona Design System": {
+    "company": "Persona Identities",
+    "description": "Persona’s product design system for consistent identity-verification experiences, with foundations, reusable components, and implementation guidance.",
+    "frameworks": [],
+    "guidance": ["accessibility", "content", "forms", "navigation", "responsive-design"],
+    "best_for": ["enterprise", "developer-tools", "consumer-products"],
+    "license": "Proprietary",
     "theming": "single-brand"
   },
   "Pharos: JSTOR's Design System": {
@@ -1243,17 +1069,6 @@
     "best_for": ["consumer-products", "commerce", "multi-brand-products"],
     "license": "Apache-2.0",
     "token_format": "Gestalt design tokens",
-    "theming": "multi-brand"
-  },
-  "Pivotal": {
-    "company": "Pivotal",
-    "description": "A legacy React and CSS component library created for Pivotal’s cloud products, with reusable interface patterns and configurable themes.",
-    "github_repo": "pivotal-cf/pivotal-ui",
-    "npm_package": "pivotal-ui",
-    "frameworks": ["React", "CSS"],
-    "guidance": ["forms", "navigation", "responsive-design"],
-    "best_for": ["developer-tools", "enterprise"],
-    "license": "MIT",
     "theming": "multi-brand"
   },
   "Pluralsight Design System": {
@@ -1293,16 +1108,6 @@
     "token_format": "Theme primitives",
     "theming": "multi-brand"
   },
-  "Pusher Chameleon": {
-    "company": "Pusher",
-    "description": "Pusher’s open React component library for consistent dashboards and developer-product workflows, with shared foundations and theming.",
-    "github_repo": "pusher/chameleon",
-    "frameworks": ["React"],
-    "guidance": ["forms", "data-visualization", "navigation", "responsive-design"],
-    "best_for": ["developer-tools", "enterprise", "data-heavy-products"],
-    "license": "MIT",
-    "theming": "multi-brand"
-  },
   "Radix": {
     "company": "WorkOS",
     "description": "An open ecosystem of accessible, unstyled React primitives and styled themes for building robust application design systems.",
@@ -1316,26 +1121,16 @@
     "theming": "multi-brand",
     "logo_path": "/system-logos/radixui.svg"
   },
-  "Rambler": {
+  "Ratio": {
     "company": "Rambler",
-    "description": "A legacy React component library built for Rambler’s media products, with reusable interface elements and shared visual foundations.",
+    "description": "Rambler’s design system for its digital products, with shared interface foundations and reusable React components.",
     "github_repo": "rambler-digital-solutions/rambler-ui",
+    "npm_package": "rambler-ui",
     "frameworks": ["React"],
     "guidance": ["forms", "navigation", "responsive-design"],
     "best_for": ["content-heavy-products", "consumer-products"],
     "license": "MIT",
     "theming": "single-brand"
-  },
-  "Rendition": {
-    "company": "Balena",
-    "description": "Balena’s open React component system for device-management products, with themeable controls, forms, layout primitives, and data-rich patterns.",
-    "github_repo": "balena-io-modules/rendition",
-    "npm_package": "rendition",
-    "frameworks": ["React"],
-    "guidance": ["forms", "data-visualization", "dark-mode", "navigation", "responsive-design"],
-    "best_for": ["developer-tools", "enterprise", "data-heavy-products"],
-    "license": "Apache-2.0",
-    "theming": "multi-brand"
   },
   "Reshaped": {
     "company": "Reshaped",
@@ -1373,6 +1168,15 @@
     "license": "MIT",
     "theming": "single-brand"
   },
+  "Samsung Design System": {
+    "company": "Samsung Electronics",
+    "description": "Samsung’s cross-device design system for consistent experiences across devices and services, with guidance for icons, typography, charts, sound, UX writing, and core design principles.",
+    "frameworks": [],
+    "guidance": ["accessibility", "content", "motion", "data-visualization", "internationalization", "responsive-design"],
+    "best_for": ["consumer-products", "multi-brand-products"],
+    "license": "Proprietary",
+    "theming": "single-brand"
+  },
   "SAP Fiori": {
     "company": "SAP",
     "description": "SAP’s role-based enterprise design language, with accessible foundations, controls, floorplans, data patterns, themes, and cross-platform implementation guidance.",
@@ -1382,18 +1186,6 @@
     "best_for": ["enterprise", "data-heavy-products", "multi-brand-products"],
     "license": "SAP design guidelines",
     "token_format": "Reference, base, and component tokens",
-    "theming": "multi-brand"
-  },
-  "SAP Fundamental": {
-    "company": "SAP",
-    "description": "SAP’s open implementation family for Fiori, providing shared styles and React, Angular, and web-component libraries for enterprise applications.",
-    "github_repo": "SAP/fundamental",
-    "npm_package": "@fundamental-styles/core",
-    "frameworks": ["React", "Angular", "Web Components", "Sass"],
-    "guidance": ["accessibility", "forms", "data-visualization", "internationalization", "dark-mode", "navigation", "responsive-design"],
-    "best_for": ["enterprise", "developer-tools", "data-heavy-products", "multi-brand-products"],
-    "license": "Apache-2.0",
-    "token_format": "SAP theming variables",
     "theming": "multi-brand"
   },
   "SAP OpenUI": {
@@ -1428,17 +1220,6 @@
     "license": "Proprietary",
     "token_format": "Seeds design tokens",
     "theming": "multi-brand"
-  },
-  "SEEK Style Guide": {
-    "company": "SEEK",
-    "description": "SEEK’s legacy open React component and style library for employment-marketplace products, superseded by newer internal tooling.",
-    "github_repo": "seek-oss/seek-style-guide",
-    "npm_package": "seek-style-guide",
-    "frameworks": ["React", "Sass"],
-    "guidance": ["accessibility", "forms", "navigation", "responsive-design"],
-    "best_for": ["commerce", "consumer-products"],
-    "license": "MIT",
-    "theming": "single-brand"
   },
   "Semi Design": {
     "company": "ByteDance",
@@ -1537,15 +1318,6 @@
     "token_format": "Less variables and CSS utilities",
     "theming": "single-brand"
   },
-  "Starbucks Style Guide": {
-    "company": "Starbucks",
-    "description": "Starbucks’ public creative reference for brand expression, typography, color, illustration, photography, voice, and campaign consistency.",
-    "frameworks": [],
-    "guidance": ["content", "internationalization", "responsive-design"],
-    "best_for": ["commerce", "consumer-products", "content-heavy-products"],
-    "license": "Proprietary brand guidelines",
-    "theming": "single-brand"
-  },
   "Strapi Design System": {
     "company": "Strapi",
     "description": "Strapi’s open React component library for extensible content-management interfaces, with accessible controls, themes, icons, and application patterns.",
@@ -1588,16 +1360,6 @@
     "guidance": ["accessibility", "forms", "navigation", "responsive-design"],
     "best_for": ["commerce", "consumer-products"],
     "license": "MIT",
-    "theming": "single-brand"
-  },
-  "Tizen CircularUI": {
-    "company": "Samsung",
-    "description": "A legacy .NET UI extension for Tizen wearable applications, providing circular controls and patterns designed for Galaxy Watch interfaces.",
-    "github_repo": "Samsung/Tizen.CircularUI",
-    "frameworks": [".NET", "Tizen", "Xamarin.Forms"],
-    "guidance": ["accessibility", "motion", "forms", "navigation", "responsive-design"],
-    "best_for": ["consumer-products"],
-    "license": "Apache-2.0",
     "theming": "single-brand"
   },
   "Twilio Paste": {
@@ -1657,16 +1419,6 @@
     "token_format": "Figma variables and CSS custom properties",
     "theming": "multi-brand"
   },
-  "uSwitch style guide": {
-    "company": "Uswitch",
-    "description": "Uswitch’s legacy open style guide and component library for comparison journeys, documenting brand foundations, content, controls, and responsive product patterns.",
-    "github_repo": "uswitch/ustyle",
-    "frameworks": ["React", "Sass"],
-    "guidance": ["content", "forms", "navigation", "responsive-design"],
-    "best_for": ["commerce", "consumer-products", "content-heavy-products"],
-    "license": "MIT",
-    "theming": "single-brand"
-  },
   "U.S. Web Design Standards": {
     "company": "U.S. General Services Administration",
     "description": "The U.S. Web Design System provides accessible components, patterns, tokens, utilities, templates, and implementation guidance for federal government websites.",
@@ -1701,17 +1453,6 @@
     "best_for": ["enterprise", "developer-tools", "data-heavy-products"],
     "license": "MIT",
     "token_format": "CSS variables and Sass foundations",
-    "theming": "multi-brand"
-  },
-  "Vimeo Design System": {
-    "company": "Vimeo",
-    "description": "Iris is Vimeo’s React design system for video-product interfaces, with accessible components, shared visual foundations, themes, icons, and interaction patterns.",
-    "github_repo": "vimeo/iris",
-    "npm_package": "@vimeo/iris",
-    "frameworks": ["React", "TypeScript"],
-    "guidance": ["accessibility", "motion", "forms", "dark-mode", "navigation", "responsive-design"],
-    "best_for": ["consumer-products", "content-heavy-products", "multi-brand-products"],
-    "license": "MIT",
     "theming": "multi-brand"
   },
   "VMware Clarity Design System": {
@@ -1771,25 +1512,14 @@
     "token_format": "Theme object and semantic scales",
     "theming": "multi-brand"
   },
-  "West Midlands Network Design System": {
-    "company": "Transport for West Midlands",
-    "description": "A public transport design system with brand foundations, accessible components, content guidance, Sass utilities, and responsive patterns for regional services.",
-    "github_repo": "wmcadigital/wmn-design-system",
-    "npm_package": "wmn-design-system",
-    "frameworks": ["HTML", "Sass", "JavaScript"],
+  "WMCA Design System": {
+    "company": "West Midlands Combined Authority",
+    "description": "WMCA’s platform-agnostic system of typography, visual styles, accessible components, content guidance, and reusable patterns for consistent regional public services. Transport-specific guidance is maintained separately by Transport for West Midlands.",
+    "github_repo": "wmcadigital/wmca-design-system",
+    "npm_package": null,
+    "frameworks": ["Nunjucks", "Sass", "JavaScript", "HTML"],
     "guidance": ["accessibility", "content", "forms", "navigation", "responsive-design"],
     "best_for": ["public-services", "content-heavy-products"],
-    "license": "MIT",
-    "theming": "single-brand"
-  },
-  "Wix Style React": {
-    "company": "Wix",
-    "description": "Wix’s legacy React component suite for business-management interfaces, with rich controls, test utilities, accessibility support, and Stylable-based customization.",
-    "github_repo": "wix-private/wix-design-systems-legacy",
-    "npm_package": "wix-style-react",
-    "frameworks": ["React", "Stylable", "TypeScript"],
-    "guidance": ["accessibility", "motion", "forms", "data-visualization", "internationalization", "navigation", "responsive-design"],
-    "best_for": ["enterprise", "commerce", "data-heavy-products"],
     "license": "MIT",
     "theming": "single-brand"
   },

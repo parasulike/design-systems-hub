@@ -1,6 +1,6 @@
--- Design Systems Hub — schema reference (v1)
+-- Design Systems Hub — current one-shot schema
 -- One-shot creation script: psql -d design_systems_hub -f db/schema.sql
--- Source of truth for migrations is db/migrations/ (this file mirrors 001_init.sql).
+-- Source of truth for incremental changes remains db/migrations/.
 
 CREATE TABLE design_systems (
   id              SERIAL PRIMARY KEY,
@@ -16,6 +16,14 @@ CREATE TABLE design_systems (
   license         TEXT,
   token_format    TEXT,
   theming         TEXT CHECK (theming IN ('none','single-brand','multi-brand')),
+  industry        TEXT,
+  launch_year     INT,
+  open_source     BOOLEAN,
+  design_philosophy TEXT,
+  accessibility  TEXT,
+  developer_experience TEXT,
+  governance      TEXT,
+  contribution_process TEXT,
   created_at      TIMESTAMPTZ DEFAULT now(),
   updated_at      TIMESTAMPTZ DEFAULT now()
 );
@@ -53,4 +61,13 @@ CREATE TABLE design_system_metrics (
   npm_weekly_downloads  INT,
   npm_package_size_kb   INT,
   fetched_at            TIMESTAMPTZ
+);
+
+CREATE TABLE paras_notes (
+  design_system_id      INT PRIMARY KEY REFERENCES design_systems(id) ON DELETE CASCADE,
+  strengths             TEXT,
+  weaknesses            TEXT,
+  best_suited_for       TEXT,
+  ideas_worth_borrowing TEXT,
+  lessons_learned       TEXT
 );

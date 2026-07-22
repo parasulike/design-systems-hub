@@ -40,7 +40,6 @@ export interface CuratedSystem {
   frameworks: string[];
   guidance?: GuidanceTopic[];
   best_for?: ProductFit[];
-  recommended_rank?: number;
   license: string;
   token_format: string | null;
   theming: Theming;
@@ -72,4 +71,5 @@ export type LiveDataMap = Record<string, LiveData>;
 export interface DesignSystem extends CuratedSystem {
   live: LiveData;
   health: HealthLabel;
+  recommendation_score: number;
 }

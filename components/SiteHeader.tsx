@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowUpRight, Search } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
+import { SearchInput } from "./SearchInput";
 import styles from "./SiteHeader.module.css";
 
 export function SiteHeader({
@@ -22,9 +23,7 @@ export function SiteHeader({
           <a href="https://github.com/parasulike/design-systems-hub" target="_blank" rel="noopener noreferrer">About <ArrowUpRight size={14} aria-hidden="true" /></a>
         </div>
         <form className={styles.search} action="/" role="search">
-          <Search size={16} aria-hidden="true" />
-          <input
-            type="search"
+          <SearchInput
             name="q"
             aria-label="Search design systems"
             placeholder="Search design systems"
