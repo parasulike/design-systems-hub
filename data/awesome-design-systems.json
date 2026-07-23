@@ -21,7 +21,7 @@
     "has_components": true,
     "has_voice_and_tone": true,
     "has_designers_kit": true,
-    "source_url": null
+    "source_url": "https://github.com/adjust/atlas"
   },
   {
     "name": "Alaska Airlines",
@@ -129,11 +129,11 @@
   },
   {
     "name": "BBC GEL (Global Experience Language)",
-    "site_url": "https://www.bbc.co.uk/gel",
+    "site_url": "https://bbc.github.io/gel/",
     "has_components": true,
     "has_voice_and_tone": true,
     "has_designers_kit": true,
-    "source_url": null
+    "source_url": "https://github.com/bbc/gel"
   },
   {
     "name": "Bento DS",
@@ -181,7 +181,7 @@
     "has_components": true,
     "has_voice_and_tone": true,
     "has_designers_kit": false,
-    "source_url": null
+    "source_url": "https://github.com/centrica-engineering/nucleus-docs"
   },
   {
     "name": "Buzzvil Design System",
@@ -257,11 +257,19 @@
   },
   {
     "name": "Dell Design System",
-    "site_url": "https://dell.design/",
+    "site_url": "https://www.delldesignsystem.com/",
     "has_components": true,
     "has_voice_and_tone": true,
     "has_designers_kit": true,
     "source_url": null
+  },
+  {
+    "name": "Denmark Common Design System",
+    "site_url": "https://designsystem.dk/",
+    "has_components": true,
+    "has_voice_and_tone": true,
+    "has_designers_kit": true,
+    "source_url": "https://github.com/detfaellesdesignsystem/dkfds-components"
   },
   {
     "name": "Duet",
@@ -512,6 +520,14 @@
     "source_url": "https://github.com/italia"
   },
   {
+    "name": "INPS Sirio",
+    "site_url": "https://www.inps.it/it/it/patto-con-l-utenza/utente-al-centro/sirio--il-nuovo-designsystem-inps.html",
+    "has_components": true,
+    "has_voice_and_tone": true,
+    "has_designers_kit": true,
+    "source_url": "https://github.com/INPS-it/sirio-kit-web"
+  },
+  {
     "name": "JB Design System",
     "site_url": "https://javadbat.github.io/design-system",
     "has_components": true,
@@ -574,6 +590,14 @@
     "has_voice_and_tone": true,
     "has_designers_kit": true,
     "source_url": "https://github.com/KRDS-uiux/krds-uiux"
+  },
+  {
+    "name": "Kiwi.com Orbit",
+    "site_url": "https://kiwicom.github.io/orbit/",
+    "has_components": true,
+    "has_voice_and_tone": true,
+    "has_designers_kit": true,
+    "source_url": "https://github.com/kiwicom/orbit"
   },
   {
     "name": "Lexicon",
@@ -712,6 +736,14 @@
     "source_url": null
   },
   {
+    "name": "NSW Design System",
+    "site_url": "https://designsystem.nsw.gov.au/",
+    "has_components": true,
+    "has_voice_and_tone": true,
+    "has_designers_kit": true,
+    "source_url": "https://github.com/digitalnsw/nsw-design-system"
+  },
+  {
     "name": "New York State Design System",
     "site_url": "https://designsystem.ny.gov/components/",
     "has_components": true,
@@ -726,6 +758,14 @@
     "has_voice_and_tone": false,
     "has_designers_kit": true,
     "source_url": "https://designsystem.ontario.ca/docs/documentation/release-notes.html#latest"
+  },
+  {
+    "name": "Orange Unified Design System",
+    "site_url": "https://unified-design-system.orange.com/",
+    "has_components": true,
+    "has_voice_and_tone": false,
+    "has_designers_kit": true,
+    "source_url": "https://github.com/Orange-OpenSource/ouds-web"
   },
   {
     "name": "Oracle Redwood",
@@ -750,6 +790,14 @@
     "has_voice_and_tone": false,
     "has_designers_kit": true,
     "source_url": null
+  },
+  {
+    "name": "PatternFly",
+    "site_url": "https://www.patternfly.org/",
+    "has_components": true,
+    "has_voice_and_tone": true,
+    "has_designers_kit": true,
+    "source_url": "https://github.com/patternfly/patternfly-react"
   },
   {
     "name": "Pharos: JSTOR's Design System",
@@ -798,6 +846,14 @@
     "has_voice_and_tone": false,
     "has_designers_kit": false,
     "source_url": "https://github.com/radix-ui"
+  },
+  {
+    "name": "Razorpay Blade",
+    "site_url": "https://blade.razorpay.com/",
+    "has_components": true,
+    "has_voice_and_tone": false,
+    "has_designers_kit": true,
+    "source_url": "https://github.com/razorpay/blade"
   },
   {
     "name": "Ratio",
@@ -862,6 +918,14 @@
     "has_voice_and_tone": false,
     "has_designers_kit": true,
     "source_url": "https://github.com/scania-digital-design-system/sdds"
+  },
+  {
+    "name": "Scottish Government Design System",
+    "site_url": "https://designsystem.gov.scot/",
+    "has_components": true,
+    "has_voice_and_tone": true,
+    "has_designers_kit": false,
+    "source_url": "https://github.com/scottish-government-design-system/design-system"
   },
   {
     "name": "Seeds",
@@ -942,6 +1006,14 @@
     "has_voice_and_tone": false,
     "has_designers_kit": false,
     "source_url": "https://github.com/strapi/design-system"
+  },
+  {
+    "name": "SumUp Circuit",
+    "site_url": "https://circuit.sumup.com/",
+    "has_components": true,
+    "has_voice_and_tone": false,
+    "has_designers_kit": true,
+    "source_url": "https://github.com/sumup-oss/circuit-ui"
   },
   {
     "name": "Teambition Clarity Design",
@@ -1086,6 +1158,54 @@
     "has_voice_and_tone": true,
     "has_designers_kit": true,
     "source_url": "https://github.com/wikimedia/design-codex"
+  },
+  {
+    "name": "W3C Design System",
+    "site_url": "https://design-system.w3.org/",
+    "has_components": true,
+    "has_voice_and_tone": false,
+    "has_designers_kit": false,
+    "source_url": "https://github.com/w3c/w3c-website"
+  },
+  {
+    "name": "Agriculture Design System",
+    "site_url": "https://design-system.agriculture.gov.au/",
+    "has_components": true,
+    "has_voice_and_tone": true,
+    "has_designers_kit": true,
+    "source_url": "https://github.com/agriculturegovau/agds-next"
+  },
+  {
+    "name": "Datadog DRUIDS",
+    "site_url": "https://druids.datadoghq.com/",
+    "has_components": true,
+    "has_voice_and_tone": false,
+    "has_designers_kit": false,
+    "source_url": null
+  },
+  {
+    "name": "Lemon Squeezy Wedges",
+    "site_url": "https://www.lemonsqueezy.com/wedges/docs/",
+    "has_components": true,
+    "has_voice_and_tone": false,
+    "has_designers_kit": true,
+    "source_url": "https://github.com/lmsqueezy/wedges"
+  },
+  {
+    "name": "Michelin Motion",
+    "site_url": "https://designsystem.michelin.com/",
+    "has_components": true,
+    "has_voice_and_tone": true,
+    "has_designers_kit": true,
+    "source_url": null
+  },
+  {
+    "name": "NICE Design System",
+    "site_url": "https://design-system.nice.org.uk/",
+    "has_components": true,
+    "has_voice_and_tone": true,
+    "has_designers_kit": true,
+    "source_url": "https://github.com/nice-digital/nice-design-system"
   },
   {
     "name": "WMCA Design System",

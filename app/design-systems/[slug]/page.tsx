@@ -105,18 +105,20 @@ export default async function DesignSystemPage({
   return (
     <>
       <SiteHeader />
+      <nav className={styles.backBar} aria-label="Back navigation">
+        <div className={styles.backBarInner}>
+          <ButtonLink
+            href="/#catalog"
+            hierarchy="tertiaryGray"
+            leadingIcon={<ArrowLeft aria-hidden="true" />}
+          >
+            Back to catalog
+          </ButtonLink>
+        </div>
+      </nav>
       <main>
         <header className={styles.hero}>
           <div className={styles.heroCopy}>
-            <div className={styles.backWrap}>
-              <ButtonLink
-                href="/#catalog"
-                hierarchy="secondaryGray"
-                leadingIcon={<ArrowLeft aria-hidden="true" />}
-              >
-                Back to catalog
-              </ButtonLink>
-            </div>
             <h1>{system.name}</h1>
             <div className={styles.heroDetails}>
               <div>

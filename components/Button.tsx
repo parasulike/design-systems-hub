@@ -53,7 +53,7 @@ export function Button({
   className,
   hierarchy = "primary",
   leadingIcon,
-  size = "sm",
+  size = "md",
   trailingIcon,
   type = "button",
   ...props
@@ -73,7 +73,7 @@ export function ButtonLink({
   hierarchy = "primary",
   href,
   leadingIcon,
-  size = "sm",
+  size = "md",
   trailingIcon,
   target,
   rel,

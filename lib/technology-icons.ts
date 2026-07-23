@@ -1,7 +1,7 @@
 import {
   siAndroid, siAngular, siApple, siAriakit, siBootstrap, siCss, siEmberdotjs,
   siFlutter, siHtml5, siJavascript, siJetpackcompose, siLess, siMarko,
-  siNextdotjs, siNunjucks, siPwa, siReact, siRuby, siSap, siSass,
+  siNextdotjs, siNunjucks, siPwa, siRadixui, siReact, siRuby, siSap, siSass,
   siStyledcomponents, siSvelte, siTailwindcss, siTypescript,
   siUber, siVanillaextract, siVuedotjs, siWebcomponentsdotorg,
   type SimpleIcon,
@@ -34,6 +34,7 @@ export const TECHNOLOGY_ICONS: Record<string, TechnologyIconDefinition> = {
   OpenUI5: siSap,
   "Oracle JET": "database",
   "Progressive Web App": siPwa,
+  "Radix UI": siRadixui,
   React: siReact,
   "React Aria": siReact,
   "React Native": siReact,

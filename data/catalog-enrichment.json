@@ -2,8 +2,8 @@
   "Aalto University": {
     "company": "Aalto University",
     "description": "A toolbox for creating accessible, brand-consistent digital services across Aalto University.",
-    "tokens_url": "https://brand.aalto.fi/ds",
-    "frameworks": [],
+    "tokens_url": "https://brand.aalto.fi/en/ds/tokens",
+    "frameworks": ["React", "HTML", "CSS"],
     "guidance": ["accessibility", "content", "motion", "responsive-design"],
     "best_for": ["public-services", "content-heavy-products"],
     "license": "Proprietary brand guidelines",
@@ -26,8 +26,10 @@
   "Adjust Atlas": {
     "company": "Adjust",
     "description": "Adjust’s shared foundations, components, patterns, and resources for its growing product suite.",
-    "tokens_url": "https://atlas.adeven.com/",
-    "frameworks": [],
+    "github_repo": "adjust/atlas",
+    "figma_url": "https://www.figma.com/file/O2xgcUkcriB0pErUGnA795/Atlas-Core?type=design",
+    "tokens_url": "https://atlas.adeven.com/docs/design-tokens/introduction",
+    "frameworks": ["React", "Sass", "JavaScript"],
     "guidance": ["content", "forms", "navigation", "responsive-design"],
     "best_for": ["enterprise", "data-heavy-products", "multi-brand-products"],
     "license": "Proprietary",
@@ -191,7 +193,8 @@
   "BBC GEL (Global Experience Language)": {
     "company": "BBC",
     "description": "Framework-agnostic technical guidance for building inclusive, responsive BBC-aligned web patterns.",
-    "frameworks": [],
+    "github_repo": "bbc/gel",
+    "frameworks": ["HTML", "CSS", "JavaScript"],
     "guidance": ["accessibility", "content", "motion", "forms", "navigation", "responsive-design"],
     "best_for": ["content-heavy-products", "public-services"],
     "license": "Open Government Licence",
@@ -260,6 +263,7 @@
   "British Gas Nucleus": {
     "company": "British Gas",
     "description": "British Gas’s inclusive system of brand foundations, WCAG-aligned components, content guidance, and product patterns.",
+    "github_repo": "centrica-engineering/nucleus-docs",
     "frameworks": ["Web Components"],
     "guidance": ["accessibility", "content", "motion", "forms", "navigation", "responsive-design"],
     "best_for": ["consumer-products", "commerce", "content-heavy-products"],
@@ -341,6 +345,7 @@
     "github_repo": "contentful/forma-36",
     "npm_package": "@contentful/f36-components",
     "frameworks": ["React"],
+    "figma_url": "https://www.figma.com/@contentful",
     "migration_url": "https://github.com/contentful/forma-36/blob/main/MIGRATION.md",
     "guidance": ["accessibility", "content", "motion", "forms", "data-visualization", "dark-mode", "navigation", "responsive-design"],
     "best_for": ["enterprise", "developer-tools", "content-heavy-products"],
@@ -380,6 +385,18 @@
     "best_for": ["enterprise", "commerce", "multi-brand-products"],
     "license": "Proprietary",
     "token_format": "DDS design tokens",
+    "theming": "multi-brand"
+  },
+  "Denmark Common Design System": {
+    "company": "Danish Agency for Digital Government and Danish Business Authority",
+    "description": "Denmark’s shared open system for accessible public self-service products, with components, patterns, dual government themes, implementation guidance, and design resources.",
+    "github_repo": "detfaellesdesignsystem/dkfds-components",
+    "npm_package": "dkfds",
+    "frameworks": ["HTML", "Nunjucks", "Sass", "JavaScript"],
+    "guidance": ["accessibility", "content", "forms", "data-visualization", "internationalization", "navigation", "responsive-design"],
+    "best_for": ["public-services", "content-heavy-products", "multi-brand-products"],
+    "license": "Open source",
+    "token_format": "Sass settings and theme variables",
     "theming": "multi-brand"
   },
   "Duet": {
@@ -611,6 +628,7 @@
     "github_repo": "material-components/material-web",
     "npm_package": "@material/web",
     "frameworks": ["Web Components", "Android", "Flutter", "Jetpack Compose"],
+    "figma_url": "https://www.figma.com/community/file/1035203688168086460/material-3-design-kit",
     "tokens_url": "https://m3.material.io/foundations/design-tokens/overview",
     "guidance": ["accessibility", "content", "motion", "forms", "data-visualization", "internationalization", "dark-mode", "navigation", "responsive-design"],
     "best_for": ["consumer-products", "multi-brand-products", "developer-tools"],
@@ -745,6 +763,17 @@
     "token_format": "Sass settings and variables",
     "theming": "single-brand"
   },
+  "INPS Sirio": {
+    "company": "Italian National Social Security Institute",
+    "description": "INPS’s public system of accessible foundations, templates, components, tokens, and service guidance for Italy’s national social-security experiences.",
+    "github_repo": "INPS-it/sirio-kit-web",
+    "frameworks": ["HTML", "Sass", "CSS", "JavaScript"],
+    "guidance": ["accessibility", "content", "forms", "data-visualization", "navigation", "responsive-design"],
+    "best_for": ["public-services", "content-heavy-products", "data-heavy-products"],
+    "license": "MIT",
+    "token_format": "Sirio Sass design tokens",
+    "theming": "single-brand"
+  },
   "JB Design System": {
     "company": "JB Design System",
     "description": "A modular open-source library of native web components with React wrappers, form tooling, internationalization support, and CSS-variable customization.",
@@ -839,6 +868,19 @@
     "license": "Government open data terms",
     "token_format": "Primitive, semantic, and component JSON tokens",
     "theming": "single-brand"
+  },
+  "Kiwi.com Orbit": {
+    "company": "Kiwi.com",
+    "description": "Kiwi.com’s open travel system with accessible React components, patterns, tokens, content standards, theming, and right-to-left support.",
+    "github_repo": "kiwicom/orbit",
+    "storybook_url": "https://kiwicom.github.io/orbit/",
+    "npm_package": "@kiwicom/orbit-components",
+    "frameworks": ["React", "TypeScript", "Tailwind CSS"],
+    "guidance": ["accessibility", "content", "motion", "forms", "internationalization", "dark-mode", "navigation", "responsive-design"],
+    "best_for": ["commerce", "consumer-products", "multi-brand-products"],
+    "license": "MIT",
+    "token_format": "Orbit design tokens and Tailwind preset",
+    "theming": "multi-brand"
   },
   "Lexicon": {
     "company": "Liferay",
@@ -1026,6 +1068,18 @@
     "token_format": "Nord design tokens and theme packages",
     "theming": "multi-brand"
   },
+  "NSW Design System": {
+    "company": "NSW Government",
+    "description": "The NSW Government’s accessible frontend toolkit of foundations, components, patterns, content standards, and implementation guidance for public digital services.",
+    "github_repo": "digitalnsw/nsw-design-system",
+    "npm_package": "nsw-design-system",
+    "frameworks": ["HTML", "Sass", "CSS", "JavaScript"],
+    "guidance": ["accessibility", "content", "forms", "internationalization", "navigation", "responsive-design"],
+    "best_for": ["public-services", "content-heavy-products"],
+    "license": "ISC",
+    "token_format": "Sass settings and variables",
+    "theming": "single-brand"
+  },
   "New York State Design System": {
     "company": "New York State",
     "description": "A framework-agnostic system of accessible web components, layered CSS tokens, agency themes, and implementation guidance for New York public services.",
@@ -1051,6 +1105,19 @@
     "license": "Open Government Licence – Ontario",
     "token_format": "Sass variables and design-token packages",
     "theming": "single-brand"
+  },
+  "Orange Unified Design System": {
+    "company": "Orange",
+    "description": "Orange’s cross-platform system of brand themes, accessible components, tokens, and implementation guidance for web and native products.",
+    "github_repo": "Orange-OpenSource/ouds-web",
+    "npm_package": "@ouds/web-orange",
+    "frameworks": ["HTML", "Sass", "CSS", "JavaScript", "Android", "iOS", "Flutter"],
+    "tokens_url": "https://unified-design-system.orange.com/",
+    "guidance": ["accessibility", "forms", "internationalization", "dark-mode", "navigation", "responsive-design"],
+    "best_for": ["enterprise", "consumer-products", "multi-brand-products"],
+    "license": "MIT",
+    "token_format": "OUDS design tokens and CSS custom properties",
+    "theming": "multi-brand"
   },
   "Oracle Redwood": {
     "company": "Oracle",
@@ -1080,6 +1147,21 @@
     "best_for": ["enterprise", "developer-tools", "consumer-products"],
     "license": "Proprietary",
     "theming": "single-brand"
+  },
+  "PatternFly": {
+    "company": "Red Hat",
+    "description": "Red Hat’s open enterprise system with accessible React components, layouts, patterns, tokens, data visualization, UX writing, and migration guidance.",
+    "github_repo": "patternfly/patternfly-react",
+    "npm_package": "@patternfly/react-core",
+    "frameworks": ["React", "TypeScript", "CSS"],
+    "figma_url": "https://www.figma.com/@patternfly",
+    "tokens_url": "https://www.patternfly.org/tokens/all-patternfly-tokens",
+    "migration_url": "https://www.patternfly.org/get-started/upgrade",
+    "guidance": ["accessibility", "content", "motion", "forms", "data-visualization", "internationalization", "dark-mode", "navigation", "responsive-design"],
+    "best_for": ["enterprise", "developer-tools", "data-heavy-products"],
+    "license": "MIT",
+    "token_format": "PatternFly design tokens and CSS variables",
+    "theming": "multi-brand"
   },
   "Pharos: JSTOR's Design System": {
     "company": "ITHAKA",
@@ -1154,6 +1236,19 @@
     "token_format": "CSS custom properties",
     "theming": "multi-brand",
     "logo_path": "/system-logos/radixui.svg"
+  },
+  "Razorpay Blade": {
+    "company": "Razorpay",
+    "description": "Razorpay’s open cross-platform system with accessible React and React Native components, white-label theming, tokens, and documented API decisions.",
+    "github_repo": "razorpay/blade",
+    "storybook_url": "https://blade.razorpay.com/",
+    "npm_package": "@razorpay/blade",
+    "frameworks": ["React", "React Native", "TypeScript"],
+    "guidance": ["accessibility", "motion", "forms", "data-visualization", "dark-mode", "navigation", "responsive-design"],
+    "best_for": ["commerce", "enterprise", "multi-brand-products"],
+    "license": "MIT",
+    "token_format": "Blade design tokens",
+    "theming": "multi-brand"
   },
   "Ratio": {
     "company": "Rambler",
@@ -1244,6 +1339,18 @@
     "license": "MIT",
     "token_format": "Tegel design tokens",
     "theming": "multi-brand"
+  },
+  "Scottish Government Design System": {
+    "company": "Scottish Government",
+    "description": "Scotland’s open system of accessible styles, components, patterns, content standards, and static frontend assets for public-sector digital services.",
+    "github_repo": "scottish-government-design-system/design-system",
+    "npm_package": "@scottish-government/design-system",
+    "frameworks": ["HTML", "Sass", "CSS", "JavaScript", "TypeScript"],
+    "guidance": ["accessibility", "content", "forms", "internationalization", "navigation", "responsive-design"],
+    "best_for": ["public-services", "content-heavy-products"],
+    "license": "MIT code; Open Government Licence v3.0 content",
+    "token_format": "Sass settings and variables",
+    "theming": "single-brand"
   },
   "Seeds": {
     "company": "Sprout Social",
@@ -1364,6 +1471,21 @@
     "token_format": "Strapi theme tokens",
     "theming": "multi-brand"
   },
+  "SumUp Circuit": {
+    "company": "SumUp",
+    "description": "SumUp’s active open system for inclusive payment and commerce experiences, with React components, tokens, icons, themes, and developer tooling.",
+    "github_repo": "sumup-oss/circuit-ui",
+    "storybook_url": "https://circuit.sumup.com/",
+    "npm_package": "@sumup-oss/circuit-ui",
+    "frameworks": ["React", "TypeScript", "CSS"],
+    "tokens_url": "https://circuit.sumup.com/",
+    "migration_url": "https://github.com/sumup-oss/circuit-ui/blob/main/MIGRATION.md",
+    "guidance": ["accessibility", "motion", "forms", "data-visualization", "internationalization", "dark-mode", "navigation", "responsive-design"],
+    "best_for": ["commerce", "consumer-products", "multi-brand-products"],
+    "license": "Apache-2.0",
+    "token_format": "Circuit design tokens",
+    "theming": "multi-brand"
+  },
   "Teambition Clarity Design": {
     "company": "Teambition",
     "description": "A legacy product design reference for collaboration software, covering shared visual foundations, interface components, and workflow patterns.",
@@ -1402,6 +1524,7 @@
     "github_repo": "twilio-labs/paste",
     "npm_package": "@twilio-paste/core",
     "frameworks": ["React", "TypeScript"],
+    "figma_url": "https://www.figma.com/@twilio",
     "guidance": ["accessibility", "content", "motion", "forms", "data-visualization", "internationalization", "dark-mode", "navigation", "responsive-design"],
     "best_for": ["enterprise", "developer-tools", "multi-brand-products"],
     "license": "MIT",
@@ -1566,6 +1689,74 @@
     "best_for": ["public-services", "content-heavy-products"],
     "license": "Open source",
     "token_format": "Codex design tokens and CSS custom properties",
+    "theming": "single-brand"
+  },
+  "W3C Design System": {
+    "company": "World Wide Web Consortium",
+    "description": "W3C’s public reference for the accessible styles, layouts, components, scripts, and templates used across its standards website.",
+    "github_repo": "w3c/w3c-website",
+    "frameworks": ["HTML", "Sass", "CSS", "JavaScript", "Twig"],
+    "guidance": ["accessibility", "content", "forms", "internationalization", "navigation", "responsive-design"],
+    "best_for": ["public-services", "content-heavy-products", "developer-tools"],
+    "license": "W3C Software and Document License",
+    "token_format": "Sass variables",
+    "theming": "single-brand"
+  },
+  "Agriculture Design System": {
+    "company": "Australian Government Department of Agriculture, Fisheries and Forestry",
+    "description": "A public-service system for building accessible import and export services, with React components, foundations, patterns, templates, content guidance, Storybook, and prototyping tools.",
+    "github_repo": "agriculturegovau/agds-next",
+    "storybook_url": "https://design-system.agriculture.gov.au/storybook/index.html",
+    "npm_package": "@ag.ds-next/react",
+    "frameworks": ["React", "TypeScript"],
+    "guidance": ["accessibility", "content", "forms", "navigation", "responsive-design"],
+    "best_for": ["public-services", "content-heavy-products"],
+    "license": "MIT",
+    "token_format": "Semantic design tokens",
+    "theming": "single-brand"
+  },
+  "Datadog DRUIDS": {
+    "company": "Datadog",
+    "description": "Datadog’s public reference for dense observability interfaces, documenting product components, data-display patterns, typography, iconography, and interaction foundations.",
+    "frameworks": ["React", "CSS"],
+    "guidance": ["accessibility", "forms", "data-visualization", "navigation", "responsive-design"],
+    "best_for": ["data-heavy-products", "enterprise", "developer-tools"],
+    "license": "Proprietary",
+    "token_format": "CSS environment variables",
+    "theming": "single-brand"
+  },
+  "Lemon Squeezy Wedges": {
+    "company": "Lemon Squeezy",
+    "description": "An open React design system and UI library built with Radix primitives, Tailwind CSS, TypeScript, accessible components, theme tooling, and a companion Figma library.",
+    "github_repo": "lmsqueezy/wedges",
+    "npm_package": "@lemonsqueezy/wedges",
+    "frameworks": ["React", "TypeScript", "Radix UI", "Tailwind CSS"],
+    "guidance": ["accessibility", "forms", "dark-mode", "navigation", "responsive-design"],
+    "best_for": ["commerce", "developer-tools", "consumer-products"],
+    "license": "MIT",
+    "token_format": "Tailwind theme configuration",
+    "theming": "multi-brand"
+  },
+  "Michelin Motion": {
+    "company": "Michelin",
+    "description": "Michelin’s cross-platform design system for consistent applications, with shared visual foundations, UX guidance, reusable components, and implementation paths for Angular and Svelte.",
+    "frameworks": ["Angular", "Svelte"],
+    "guidance": ["accessibility", "content", "forms", "navigation", "responsive-design"],
+    "best_for": ["enterprise", "consumer-products", "multi-brand-products"],
+    "license": "Proprietary documentation",
+    "token_format": "Motion design tokens",
+    "theming": "multi-brand"
+  },
+  "NICE Design System": {
+    "company": "National Institute for Health and Care Excellence",
+    "description": "NICE’s accessible system for public health services, combining evidence-aware component guidance, foundations, HTML and React examples, prototyping assets, and modular development packages.",
+    "github_repo": "nice-digital/nice-design-system",
+    "npm_package": "@nice-digital/design-system",
+    "frameworks": ["React", "TypeScript", "Sass", "HTML"],
+    "guidance": ["accessibility", "content", "forms", "navigation", "responsive-design"],
+    "best_for": ["public-services", "content-heavy-products"],
+    "license": "MIT",
+    "token_format": "Sass variables and functions",
     "theming": "single-brand"
   },
   "WMCA Design System": {

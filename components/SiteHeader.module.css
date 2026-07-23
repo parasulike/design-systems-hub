@@ -1,4 +1,4 @@
-.wrapper { background: color-mix(in srgb, var(--background) 92%, transparent); }
+.wrapper { border-bottom: 1px solid var(--border); background: color-mix(in srgb, var(--background) 92%, transparent); }
 .nav { width: min(calc(100% - 2 * var(--gutter)), var(--container)); min-height: 68px; margin: 0 auto; display: flex; align-items: center; gap: var(--space-6); font-size: .85rem; }
 .logo { display: inline-flex; align-items: center; gap: .65rem; font-weight: 700; letter-spacing: -.025em; }
 .logo > span { width: 25px; height: 25px; padding: 5px; display: block; transform: rotate(45deg); border-radius: 7px; background: var(--foreground); transition: transform var(--motion-base) var(--ease-out); }

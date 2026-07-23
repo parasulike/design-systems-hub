@@ -8,7 +8,7 @@ import { FilterBar, type Filters } from "./FilterBar";
 import { Hero } from "./Hero";
 import { SearchInput } from "./SearchInput";
 import { Button } from "./Button";
-import { matchesFilters, sortSystems, suggestSystems } from "@/lib/catalog-filters";
+import { matchesFilters, searchSystems, sortSystems, suggestSystems } from "@/lib/catalog-filters";
 import styles from "./CatalogView.module.css";
 
 const EMPTY_FILTERS: Filters = {
@@ -22,9 +22,21 @@ const EMPTY_FILTERS: Filters = {
 
 function CatalogSearch({ systems, query, onChange }: { systems: DesignSystem[]; query: string; onChange: (query: string) => void }) {
   const listboxId = useId();
+  const searchRef = useRef<HTMLDivElement>(null);
   const [open, setOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(-1);
   const suggestions = suggestSystems(systems, query);
+
+  useEffect(() => {
+    const closeOnOutsideClick = (event: PointerEvent) => {
+      if (!searchRef.current?.contains(event.target as Node)) {
+        setOpen(false);
+        setActiveIndex(-1);
+      }
+    };
+    document.addEventListener("pointerdown", closeOnOutsideClick);
+    return () => document.removeEventListener("pointerdown", closeOnOutsideClick);
+  }, []);
 
   const select = (system: DesignSystem) => {
     onChange(system.name);
@@ -53,7 +65,7 @@ function CatalogSearch({ systems, query, onChange }: { systems: DesignSystem[]; 
   };
 
   return (
-    <div className={styles.searchWrap} onFocus={() => setOpen(true)} onBlur={(event) => {
+    <div ref={searchRef} className={styles.searchWrap} onFocus={() => setOpen(true)} onBlur={(event) => {
       if (!event.currentTarget.contains(event.relatedTarget)) setOpen(false);
     }}>
       <SearchInput
@@ -71,7 +83,11 @@ function CatalogSearch({ systems, query, onChange }: { systems: DesignSystem[]; 
           setActiveIndex(-1);
         }}
         onKeyDown={onKeyDown}
-        onClear={() => onChange("")}
+        onClear={() => {
+          onChange("");
+          setOpen(false);
+          setActiveIndex(-1);
+        }}
       />
       {open && suggestions.length > 0 && (
         <div id={listboxId} className={styles.suggestions} role="listbox" aria-label={query ? "Search suggestions" : "Suggested systems"}>
@@ -121,7 +137,11 @@ export function CatalogView({
     return () => observer.disconnect();
   }, []);
 
-  const filtered = sortSystems(systems.filter((system) => matchesFilters(system, filters)), filters.sort);
+  const searched = searchSystems(systems, filters.query);
+  const filteredByControls = searched.filter((system) => matchesFilters(system, { ...filters, query: "" }));
+  const filtered = filters.query.trim() && filters.sort === "recommended"
+    ? filteredByControls
+    : sortSystems(filteredByControls, filters.sort);
 
   return (
     <>
