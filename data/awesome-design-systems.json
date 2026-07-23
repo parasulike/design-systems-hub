@@ -256,6 +256,14 @@
     "source_url": "https://github.com/decentraland/ui"
   },
   {
+    "name": "Dell Design System",
+    "site_url": "https://dell.design/",
+    "has_components": true,
+    "has_voice_and_tone": true,
+    "has_designers_kit": true,
+    "source_url": null
+  },
+  {
     "name": "Duet",
     "site_url": "https://www.duetds.com",
     "has_components": true,
@@ -310,6 +318,14 @@
     "has_voice_and_tone": false,
     "has_designers_kit": false,
     "source_url": "https://github.com/enigma-io/boundless"
+  },
+  {
+    "name": "Esri Calcite",
+    "site_url": "https://developers.arcgis.com/calcite-design-system/",
+    "has_components": true,
+    "has_voice_and_tone": true,
+    "has_designers_kit": true,
+    "source_url": "https://github.com/Esri/calcite-design-system"
   },
   {
     "name": "Brand Estonia",
@@ -438,6 +454,14 @@
     "has_voice_and_tone": false,
     "has_designers_kit": false,
     "source_url": null
+  },
+  {
+    "name": "Helsinki Design System",
+    "site_url": "https://hds.hel.fi/",
+    "has_components": true,
+    "has_voice_and_tone": true,
+    "has_designers_kit": true,
+    "source_url": "https://github.com/City-of-Helsinki/helsinki-design-system"
   },
   {
     "name": "HPE Design System",
@@ -1000,6 +1024,14 @@
     "source_url": null
   },
   {
+    "name": "Visa Product Design System",
+    "site_url": "https://design.visa.com/",
+    "has_components": true,
+    "has_voice_and_tone": true,
+    "has_designers_kit": true,
+    "source_url": null
+  },
+  {
     "name": "Vibe",
     "site_url": "https://style.monday.com/",
     "has_components": true,
@@ -1046,6 +1078,14 @@
     "has_voice_and_tone": false,
     "has_designers_kit": false,
     "source_url": "https://github.com/WTTJ/welcome-ui"
+  },
+  {
+    "name": "Wikimedia Codex",
+    "site_url": "https://doc.wikimedia.org/codex/latest/",
+    "has_components": true,
+    "has_voice_and_tone": true,
+    "has_designers_kit": true,
+    "source_url": "https://github.com/wikimedia/design-codex"
   },
   {
     "name": "WMCA Design System",

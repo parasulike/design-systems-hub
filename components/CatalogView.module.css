@@ -56,7 +56,6 @@
 .emptyState > svg { margin-bottom: var(--space-3); color: var(--gray-muted); }
 .emptyState h3 { margin: 0; font-size: 1.1rem; }
 .emptyState p { max-width: 390px; margin: .45rem 0 var(--space-4); color: var(--gray-muted); font-size: .84rem; }
-.emptyState button { min-height: 40px; padding: 0 .9rem; border: 1px solid var(--atlas); border-radius: var(--radius); background: var(--atlas); color: white; font: inherit; font-size: .8rem; font-weight: 650; cursor: pointer; }
 .emptyState button:focus-visible, .suggestions button:focus-visible { outline: 2px solid var(--atlas); outline-offset: 2px; }
 
 @media (prefers-reduced-motion: no-preference) {

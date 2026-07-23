@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import { getCatalog } from "../lib/catalog";
 import { matchesFilters, sortSystems, suggestSystems, type CatalogFilters } from "../lib/catalog-filters";
 import { TECHNOLOGY_ICONS } from "../lib/technology-icons";
+import { EDITORIAL_PROFILES } from "../lib/editorial-profiles";
 
 const systems = getCatalog();
 const technologies = new Set(systems.flatMap((system) => system.frameworks));
@@ -15,6 +16,8 @@ assert.ok(recommended.every((system, index) => index === 0 || recommended[index 
 assert.equal(suggestSystems(systems, "shopify")[0]?.name, "Polaris");
 assert.equal(suggestSystems(systems, "", 3).length, 3);
 assert.deepEqual([...technologies].filter((technology) => !TECHNOLOGY_ICONS[technology]), []);
+assert.equal(Object.keys(EDITORIAL_PROFILES).length, 5);
+assert.deepEqual(Object.keys(EDITORIAL_PROFILES).filter((id) => !systems.some((system) => system.id === id)), []);
 assert.equal(systems.some((system) => system.name === "Audi UI Kit"), false);
 assert.equal(systems.filter((system) => system.github_repo === "microsoft/fluentui").length, 1);
 assert.equal(systems.find((system) => system.github_repo === "microsoft/fluentui")?.name, "Fluent UI");
@@ -79,3 +82,12 @@ assert.equal(systems.some((system) => system.github_repo === "SAP/fundamental"),
 assert.equal(systems.some((system) => system.github_repo === "okta/odyssey"), false);
 assert.equal(systems.some((system) => system.github_repo === "vimeo/iris"), false);
 assert.equal(systems.find((system) => system.company === "Decathlon")?.name, "Vitamin");
+assert.equal(systems.find((system) => system.id === "dell-design-system")?.name, "DDS");
+assert.equal(systems.find((system) => system.id === "dell-design-system")?.company, "Dell Technologies");
+assert.equal(systems.find((system) => system.id === "esri-calcite")?.name, "Calcite");
+assert.equal(systems.find((system) => system.id === "esri-calcite")?.github_repo, "Esri/calcite-design-system");
+assert.equal(systems.find((system) => system.id === "helsinki-design-system")?.company, "City of Helsinki");
+assert.equal(systems.find((system) => system.id === "visa-product-design-system")?.name, "VPDS");
+assert.equal(systems.find((system) => system.id === "visa-product-design-system")?.site_url, "https://design.visa.com/");
+assert.equal(systems.find((system) => system.id === "wikimedia-codex")?.name, "Codex");
+assert.equal(systems.find((system) => system.id === "wikimedia-codex")?.company, "Wikimedia Foundation");

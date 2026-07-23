@@ -34,6 +34,7 @@ const SKIPPED_DUPLICATE_LISTINGS = new Set(["Microsoft Fluent"]);
 const DISPLAY_NAME_OVERRIDES: Record<string, string> = {
   "AWS Cloudscape Design System": "Cloudscape",
   "Co-op Experience Library": "Coop",
+  "Dell Design System": "DDS",
   "Firefox Photon Design System": "Acorn",
   Foundation: "Foundation Framework",
   "HPE Design System": "HPE",
@@ -44,6 +45,8 @@ const DISPLAY_NAME_OVERRIDES: Record<string, string> = {
   "Privy Persona Design System": "Persona",
   "SAP OpenUI": "OpenUI5",
   Vercel: "Geist",
+  "Visa Product Design System": "VPDS",
+  "Wikimedia Codex": "Codex",
   "WMCA Design System": "WMCA",
 };
 const GENERIC_SYSTEM_NAMES = new Set([

@@ -19,7 +19,6 @@
 .option > svg { color: var(--atlas); }
 .checkbox { width: 18px; height: 18px; display: grid; place-items: center; border: 1px solid var(--border-hover); border-radius: 4px; color: white; }
 .option:has(input:checked) .checkbox { border-color: var(--atlas); background: var(--atlas); }
-.clear { padding: .5rem; border: 0; background: transparent; color: var(--atlas); font: inherit; font-size: .76rem; cursor: pointer; }
 .sort { width: 220px; flex: 0 0 220px; margin-left: auto; }
 .sort summary { width: 100%; border-color: var(--border); white-space: nowrap; }
 .sort summary > svg { margin-left: auto; }

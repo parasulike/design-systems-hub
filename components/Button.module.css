@@ -1,0 +1,111 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  font-weight: 500;
+  white-space: nowrap;
+  cursor: pointer;
+  transition:
+    color var(--motion-fast) ease,
+    border-color var(--motion-fast) ease,
+    background var(--motion-fast) ease,
+    box-shadow var(--motion-fast) ease;
+}
+
+.sm {
+  min-height: 32px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.md {
+  min-height: 36px;
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.lg {
+  min-height: 44px;
+  padding: 10px 12px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.xl {
+  min-height: 48px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.button svg {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 20px;
+}
+
+.lg svg,
+.xl svg {
+  width: 24px;
+  height: 24px;
+  flex-basis: 24px;
+}
+
+.primary {
+  background: var(--atlas);
+  color: #fff;
+}
+
+.primary:hover {
+  background: var(--atlas-deep);
+}
+
+.secondary {
+  border-color: var(--atlas);
+  background: var(--background);
+  color: var(--atlas);
+}
+
+.secondary:hover {
+  background: color-mix(in srgb, var(--atlas) 6%, var(--background));
+  color: var(--atlas-deep);
+}
+
+.secondaryGray {
+  border-color: var(--border);
+  background: var(--background);
+  color: var(--gray-muted);
+}
+
+.secondaryGray:hover {
+  border-color: color-mix(in srgb, var(--foreground) 28%, var(--border));
+  color: var(--foreground);
+}
+
+.tertiaryGray {
+  color: var(--gray-muted);
+}
+
+.tertiaryGray:hover {
+  background: color-mix(in srgb, var(--foreground) 5%, transparent);
+  color: var(--foreground);
+}
+
+.button:focus-visible {
+  outline: none;
+  box-shadow:
+    0 0 0 1px color-mix(in srgb, var(--atlas) 50%, transparent),
+    0 0 0 4px color-mix(in srgb, var(--atlas) 20%, transparent);
+}
+
+.button[aria-disabled="true"],
+.button:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+  cursor: not-allowed;
+}

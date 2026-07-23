@@ -1,5 +1,6 @@
 import { Check, ChevronDown } from "lucide-react";
 import { useEffect, useRef } from "react";
+import { Button } from "@/components/Button";
 import type { DesignSystem } from "@/lib/types";
 import {
   BEST_FOR_OPTIONS, GUIDANCE_OPTIONS, RESOURCE_OPTIONS, systemValues,
@@ -71,7 +72,14 @@ export function FilterBar({ systems, filters, onChange }: { systems: DesignSyste
         <FilterMenu label="Technology" group="technology" options={technology} systems={systems} filters={filters} onChange={onChange} />
         <FilterMenu label="Guidance" group="guidance" options={GUIDANCE_OPTIONS} systems={systems} filters={filters} onChange={onChange} />
         <FilterMenu label="Best suited for" group="bestFor" options={BEST_FOR_OPTIONS} systems={systems} filters={filters} onChange={onChange} />
-        {activeCount > 0 && <button className={styles.clear} type="button" onClick={() => onChange({ ...filters, resources: [], technology: [], guidance: [], bestFor: [] })}>Clear all</button>}
+        {activeCount > 0 && (
+          <Button
+            hierarchy="tertiaryGray"
+            onClick={() => onChange({ ...filters, resources: [], technology: [], guidance: [], bestFor: [] })}
+          >
+            Clear all
+          </Button>
+        )}
       </div>
       <details name="catalog-filter" className={`${styles.filter} ${styles.sort}`}>
         <summary>{sortLabel}<ChevronDown size={15} aria-hidden="true" /></summary>

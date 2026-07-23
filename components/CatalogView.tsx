@@ -7,6 +7,7 @@ import { SystemCard } from "./SystemCard";
 import { FilterBar, type Filters } from "./FilterBar";
 import { Hero } from "./Hero";
 import { SearchInput } from "./SearchInput";
+import { Button } from "./Button";
 import { matchesFilters, sortSystems, suggestSystems } from "@/lib/catalog-filters";
 import styles from "./CatalogView.module.css";
 
@@ -150,7 +151,9 @@ export function CatalogView({
               <Search size={24} aria-hidden="true" />
               <h3>No systems found</h3>
               <p>Try another search or clear the filters to explore all systems.</p>
-              <button type="button" onClick={() => setFilters(EMPTY_FILTERS)}>Clear search and filters</button>
+              <Button type="button" onClick={() => setFilters(EMPTY_FILTERS)}>
+                Clear search and filters
+              </Button>
             </div>
           ) : (
             <div className={view === "grid" ? styles.grid : styles.list}>

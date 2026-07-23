@@ -372,6 +372,16 @@
     "license": "Apache-2.0",
     "theming": "single-brand"
   },
+  "Dell Design System": {
+    "company": "Dell Technologies",
+    "description": "Dell’s token-led system of foundations, components, patterns, and content guidance for consistent experiences across its digital product ecosystem.",
+    "frameworks": [],
+    "guidance": ["accessibility", "content", "forms", "dark-mode", "navigation", "responsive-design"],
+    "best_for": ["enterprise", "commerce", "multi-brand-products"],
+    "license": "Proprietary",
+    "token_format": "DDS design tokens",
+    "theming": "multi-brand"
+  },
   "Duet": {
     "company": "LocalTapiola and Turva",
     "description": "An accessible design system with tokens, icons, CSS, web components, React bindings, and public design resources.",
@@ -449,6 +459,19 @@
     "guidance": ["forms", "navigation", "responsive-design"],
     "best_for": ["enterprise", "developer-tools"],
     "license": "MIT",
+    "theming": "multi-brand"
+  },
+  "Esri Calcite": {
+    "company": "Esri",
+    "description": "Esri’s active design system for building consistent mapping and spatial applications with web components, tokens, icons, and interaction guidance.",
+    "github_repo": "Esri/calcite-design-system",
+    "npm_package": "@esri/calcite-components",
+    "frameworks": ["Web Components"],
+    "tokens_url": "https://developers.arcgis.com/calcite-design-system/foundations/",
+    "guidance": ["accessibility", "content", "forms", "data-visualization", "internationalization", "dark-mode", "navigation", "responsive-design"],
+    "best_for": ["enterprise", "developer-tools", "data-heavy-products"],
+    "license": "Apache-2.0",
+    "token_format": "Calcite design tokens and CSS custom properties",
     "theming": "multi-brand"
   },
   "Brand Estonia": {
@@ -641,6 +664,17 @@
     "guidance": ["forms", "data-visualization", "navigation", "responsive-design"],
     "best_for": ["developer-tools", "enterprise", "data-heavy-products"],
     "license": "Proprietary",
+    "theming": "single-brand"
+  },
+  "Helsinki Design System": {
+    "company": "City of Helsinki",
+    "description": "The City of Helsinki’s accessible system of foundations, components, patterns, and brand guidance for coherent public digital services.",
+    "github_repo": "City-of-Helsinki/helsinki-design-system",
+    "frameworks": ["React", "CSS"],
+    "guidance": ["accessibility", "content", "forms", "internationalization", "navigation", "responsive-design"],
+    "best_for": ["public-services", "content-heavy-products"],
+    "license": "Open source",
+    "token_format": "Helsinki design tokens",
     "theming": "single-brand"
   },
   "HPE Design System": {
@@ -1443,6 +1477,16 @@
     "token_format": "CMS theme tokens and Sass variables",
     "theming": "multi-brand"
   },
+  "Visa Product Design System": {
+    "company": "Visa",
+    "description": "Visa’s public system of accessible foundations, components, patterns, content standards, and implementation guidance for payment experiences.",
+    "frameworks": ["React", "Angular", "Flutter", "HTML", "CSS"],
+    "guidance": ["accessibility", "content", "forms", "data-visualization", "internationalization", "navigation", "responsive-design"],
+    "best_for": ["enterprise", "commerce", "multi-brand-products"],
+    "license": "Proprietary",
+    "token_format": "VPDS design tokens",
+    "theming": "multi-brand"
+  },
   "Vibe": {
     "company": "monday.com",
     "description": "monday.com’s open React system with more than 50 components, accessible interaction guidance, themes, data-display patterns, and design resources for platform apps.",
@@ -1511,6 +1555,18 @@
     "license": "MIT",
     "token_format": "Theme object and semantic scales",
     "theming": "multi-brand"
+  },
+  "Wikimedia Codex": {
+    "company": "Wikimedia Foundation",
+    "description": "Wikimedia’s accessible design system for multilingual knowledge products, with Vue components, CSS-only components, tokens, icons, and interaction guidance.",
+    "github_repo": "wikimedia/design-codex",
+    "npm_package": "@wikimedia/codex",
+    "frameworks": ["Vue", "CSS"],
+    "guidance": ["accessibility", "content", "forms", "internationalization", "navigation", "responsive-design"],
+    "best_for": ["public-services", "content-heavy-products"],
+    "license": "Open source",
+    "token_format": "Codex design tokens and CSS custom properties",
+    "theming": "single-brand"
   },
   "WMCA Design System": {
     "company": "West Midlands Combined Authority",

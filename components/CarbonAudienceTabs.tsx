@@ -2,31 +2,9 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { Accessibility, ArrowUpRight, BookOpen, Check, Copy, ListChecks, Palette, RefreshCw } from "lucide-react";
+import { Accessibility, ArrowUpRight, BookOpen, ListChecks, Palette, RefreshCw } from "lucide-react";
+import { CodeSnippet } from "./CodeSnippet";
 import styles from "./CarbonAudienceTabs.module.css";
-
-function CodeSnippet({ code }: { code: string }) {
-  const [copied, setCopied] = useState(false);
-
-  async function copyCode() {
-    try {
-      await navigator.clipboard.writeText(code);
-      setCopied(true);
-      window.setTimeout(() => setCopied(false), 1600);
-    } catch {
-      setCopied(false);
-    }
-  }
-
-  return (
-    <div className={styles.codeBlock}>
-      <code>{code}</code>
-      <button type="button" onClick={copyCode} aria-label={copied ? "Copied" : "Copy code"} title={copied ? "Copied" : "Copy code"}>
-        {copied ? <Check size={16} aria-hidden="true" /> : <Copy size={16} aria-hidden="true" />}
-      </button>
-    </div>
-  );
-}
 
 export function CarbonAudienceTabs({
   stars,

@@ -6,7 +6,7 @@ import { HealthBadge } from "./HealthBadge";
 import { TechnologyIcon } from "./TechnologyIcon";
 import styles from "./SystemCard.module.css";
 
-const coverImages: Record<string, string> = {
+export const coverImages: Record<string, string> = {
   "aalto-university": "/system-cover-image/aalto-design-system.png",
   "adobe-spectrum": "/system-cover-image/spectrum-system.png",
   "adjust-atlas": "/system-cover-image/adjust-atlas-system.png",
@@ -150,12 +150,12 @@ export function SystemCard({ system, view = "grid" }: { system: DesignSystem; vi
     system.github_repo && { name: "GitHub", icon: "/icons/github.svg" },
     system.storybook_url && { name: "Storybook", icon: "/icons/storybook.svg" },
   ].filter((resource): resource is { name: string; icon: string; note?: string } => Boolean(resource));
-  const href = system.listing_only ? system.site_url : `/design-systems/${system.id}`;
+  const href = `/design-systems/${system.id}`;
   const coverImage = coverImages[system.id];
 
   return (
     <article className={styles.card} data-view={view}>
-      <Link href={href} target={system.listing_only ? "_blank" : undefined} rel={system.listing_only ? "noopener noreferrer" : undefined} className={styles.profile} aria-label={`Open ${system.name}`}>
+      <Link href={href} className={styles.profile} aria-label={`Open ${system.name}`}>
         <div className={`${styles.cover} ${coverImage ? styles.imageCover : ""}`} aria-hidden="true">
           {coverImage ? (
             <Image className={styles.coverImage} src={coverImage} alt="" width={690} height={388} unoptimized />
@@ -175,7 +175,7 @@ export function SystemCard({ system, view = "grid" }: { system: DesignSystem; vi
               <p className={styles.company}>{system.company}</p>
               <h2 className={styles.name}>{system.name}</h2>
             </div>
-            {!system.listing_only && <HealthBadge health={system.health} />}
+            {system.health !== "Unknown" && <HealthBadge health={system.health} />}
           </div>
           <p className={styles.description}>{system.description}</p>
           <div className={styles.footer}>
