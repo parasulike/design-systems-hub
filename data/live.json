@@ -8,7 +8,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:08:11.739Z"
+    "fetched_at": "2026-07-25T07:52:15.653Z"
   },
   "adobe-spectrum": {
     "stars": 15712,
@@ -19,7 +19,7 @@
     "latest_release_at": "2026-06-18T17:30:37Z",
     "npm_weekly_downloads": 941663,
     "npm_package_size_kb": 105,
-    "fetched_at": "2026-07-25T07:08:12.240Z"
+    "fetched_at": "2026-07-25T07:52:16.154Z"
   },
   "adjust-atlas": {
     "stars": null,
@@ -30,7 +30,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:08:14.549Z"
+    "fetched_at": "2026-07-25T07:52:18.156Z"
   },
   "alaska-airlines": {
     "stars": 1,
@@ -41,29 +41,29 @@
     "latest_release_at": "2026-07-10T00:24:51Z",
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:08:15.296Z"
+    "fetched_at": "2026-07-25T07:52:18.829Z"
   },
   "alibaba-ant-design": {
     "stars": 98810,
-    "open_issues": 1124,
-    "last_commit_at": "2026-07-25T06:45:01Z",
+    "open_issues": 1123,
+    "last_commit_at": "2026-07-25T07:34:13Z",
     "contributors_count": 2741,
     "latest_release_tag": "6.5.2",
     "latest_release_at": "2026-07-24T04:23:43Z",
     "npm_weekly_downloads": 3720785,
     "npm_package_size_kb": 428,
-    "fetched_at": "2026-07-25T07:08:16.693Z"
+    "fetched_at": "2026-07-25T07:52:19.949Z"
   },
   "amplify-ui": {
     "stars": 1138,
-    "open_issues": 244,
-    "last_commit_at": "2026-07-25T06:48:48Z",
+    "open_issues": 246,
+    "last_commit_at": "2026-07-25T07:49:39Z",
     "contributors_count": 164,
     "latest_release_tag": "@aws-amplify/ui-angular@5.3.5",
     "latest_release_at": "2026-06-08T03:06:29Z",
     "npm_weekly_downloads": 357137,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:08:18.324Z"
+    "fetched_at": "2026-07-25T07:52:21.331Z"
   },
   "apple-developer-design-guidelines": {
     "stars": null,
@@ -74,7 +74,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:08:19.914Z"
+    "fetched_at": "2026-07-25T07:52:22.738Z"
   },
   "aragon-ui": {
     "stars": 343,
@@ -85,7 +85,7 @@
     "latest_release_at": "2021-08-17T14:24:08Z",
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:08:20.414Z"
+    "fetched_at": "2026-07-25T07:52:23.239Z"
   },
   "artsy-palette": {
     "stars": 222,
@@ -95,8 +95,8 @@
     "latest_release_tag": "@artsy/palette@46.9.3",
     "latest_release_at": "2026-06-24T14:09:44Z",
     "npm_weekly_downloads": 6869,
-    "npm_package_size_kb": 68,
-    "fetched_at": "2026-07-25T07:08:21.926Z"
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-25T07:52:24.602Z"
   },
   "astro-uxds": {
     "stars": null,
@@ -107,7 +107,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": 12523,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:08:26.842Z"
+    "fetched_at": "2026-07-25T07:52:26.162Z"
   },
   "at-uikit": {
     "stars": 2319,
@@ -118,7 +118,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": 310,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:08:27.849Z"
+    "fetched_at": "2026-07-25T07:52:27.193Z"
   },
   "atlassian-design-system": {
     "stars": null,
@@ -129,7 +129,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": 595043,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:08:29.438Z"
+    "fetched_at": "2026-07-25T07:52:28.538Z"
   },
   "aurora-government-of-canada": {
     "stars": 94,
@@ -140,7 +140,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:08:30.134Z"
+    "fetched_at": "2026-07-25T07:52:29.470Z"
   },
   "autoguru-overdrive": {
     "stars": 48,
@@ -151,7 +151,7 @@
     "latest_release_at": "2026-07-23T02:40:41Z",
     "npm_weekly_downloads": 1338,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:08:32.359Z"
+    "fetched_at": "2026-07-25T07:52:31.231Z"
   },
   "aws-cloudscape-design-system": {
     "stars": 2619,
@@ -161,8 +161,8 @@
     "latest_release_tag": "3.0.1334",
     "latest_release_at": "2026-07-24T12:06:04Z",
     "npm_weekly_downloads": 123342,
-    "npm_package_size_kb": 215,
-    "fetched_at": "2026-07-25T07:08:33.956Z"
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-25T07:52:32.755Z"
   },
   "backpack-skyscanner": {
     "stars": 542,
@@ -173,7 +173,7 @@
     "latest_release_at": "2026-07-24T03:33:05Z",
     "npm_weekly_downloads": 3594,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:08:41.777Z"
+    "fetched_at": "2026-07-25T07:52:34.432Z"
   },
   "bbc-gel-global-experience-language": {
     "stars": 47,
@@ -184,7 +184,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:08:43.564Z"
+    "fetched_at": "2026-07-25T07:52:35.773Z"
   },
   "bento-ds": {
     "stars": 144,
@@ -195,7 +195,7 @@
     "latest_release_at": "2025-09-04T07:37:54Z",
     "npm_weekly_downloads": 130,
     "npm_package_size_kb": 492,
-    "fetched_at": "2026-07-25T07:08:44.940Z"
+    "fetched_at": "2026-07-25T07:52:36.947Z"
   },
   "blueprint": {
     "stars": 21945,
@@ -206,7 +206,7 @@
     "latest_release_at": "2026-07-09T19:37:10Z",
     "npm_weekly_downloads": 480959,
     "npm_package_size_kb": 89,
-    "fetched_at": "2026-07-25T07:08:47.100Z"
+    "fetched_at": "2026-07-25T07:52:38.444Z"
   },
   "bold-bridge-design-system": {
     "stars": 81,
@@ -216,8 +216,8 @@
     "latest_release_tag": "v1.2.0",
     "latest_release_at": "2026-06-01T20:53:20Z",
     "npm_weekly_downloads": 159,
-    "npm_package_size_kb": 244,
-    "fetched_at": "2026-07-25T07:08:48.858Z"
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-25T07:52:39.929Z"
   },
   "bolt-design-system": {
     "stars": null,
@@ -228,7 +228,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:08:53.687Z"
+    "fetched_at": "2026-07-25T07:52:41.525Z"
   },
   "braid-design-system": {
     "stars": 1571,
@@ -239,7 +239,7 @@
     "latest_release_at": "2026-07-21T04:41:40Z",
     "npm_weekly_downloads": 13191,
     "npm_package_size_kb": 140,
-    "fetched_at": "2026-07-25T07:08:54.415Z"
+    "fetched_at": "2026-07-25T07:52:42.166Z"
   },
   "british-gas-nucleus": {
     "stars": 4,
@@ -250,7 +250,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:08:56.776Z"
+    "fetched_at": "2026-07-25T07:52:43.567Z"
   },
   "buzzvil-design-system": {
     "stars": null,
@@ -261,7 +261,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:08:58.153Z"
+    "fetched_at": "2026-07-25T07:52:44.713Z"
   },
   "cedar": {
     "stars": 50,
@@ -272,18 +272,18 @@
     "latest_release_at": "2026-06-08T23:49:08Z",
     "npm_weekly_downloads": 58,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:08:58.654Z"
+    "fetched_at": "2026-07-25T07:52:45.214Z"
   },
   "chakra-ui": {
     "stars": 40526,
-    "open_issues": 16,
+    "open_issues": 17,
     "last_commit_at": "2026-07-22T18:05:49Z",
     "contributors_count": 809,
     "latest_release_tag": "@chakra-ui/panda-preset@3.36.1",
     "latest_release_at": "2026-07-19T14:32:22Z",
     "npm_weekly_downloads": 1752746,
     "npm_package_size_kb": 293,
-    "fetched_at": "2026-07-25T07:09:00.339Z"
+    "fetched_at": "2026-07-25T07:52:47.040Z"
   },
   "city-of-boston-fleet": {
     "stars": 22,
@@ -294,7 +294,7 @@
     "latest_release_at": "2026-03-05T19:23:17Z",
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:09:02.655Z"
+    "fetched_at": "2026-07-25T07:52:48.553Z"
   },
   "cloudflare": {
     "stars": 1293,
@@ -305,7 +305,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:09:04.103Z"
+    "fetched_at": "2026-07-25T07:52:49.690Z"
   },
   "co-op-experience-library": {
     "stars": null,
@@ -316,7 +316,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": 543,
     "npm_package_size_kb": 7,
-    "fetched_at": "2026-07-25T07:09:05.465Z"
+    "fetched_at": "2026-07-25T07:52:50.778Z"
   },
   "contentful-forma-36": {
     "stars": 361,
@@ -327,7 +327,7 @@
     "latest_release_at": "2026-07-24T09:29:54Z",
     "npm_weekly_downloads": 106971,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:09:07.419Z"
+    "fetched_at": "2026-07-25T07:52:52.230Z"
   },
   "decathlon-design-system-vitamin": {
     "stars": 288,
@@ -337,8 +337,8 @@
     "latest_release_tag": null,
     "latest_release_at": null,
     "npm_weekly_downloads": 7,
-    "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:09:09.100Z"
+    "npm_package_size_kb": 8,
+    "fetched_at": "2026-07-25T07:52:53.792Z"
   },
   "decentraland-ui": {
     "stars": 210,
@@ -349,7 +349,7 @@
     "latest_release_at": "2026-02-03T11:13:09Z",
     "npm_weekly_downloads": 1515,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:09:10.683Z"
+    "fetched_at": "2026-07-25T07:52:55.709Z"
   },
   "dell-design-system": {
     "stars": null,
@@ -360,7 +360,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:09:20.260Z"
+    "fetched_at": "2026-07-25T07:53:05.246Z"
   },
   "denmark-common-design-system": {
     "stars": 52,
@@ -370,8 +370,8 @@
     "latest_release_tag": "11.2.0",
     "latest_release_at": "2026-01-28T16:19:11Z",
     "npm_weekly_downloads": 3168,
-    "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:09:20.760Z"
+    "npm_package_size_kb": 20,
+    "fetched_at": "2026-07-25T07:53:05.747Z"
   },
   "duet": {
     "stars": null,
@@ -382,7 +382,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": 6314,
     "npm_package_size_kb": 23,
-    "fetched_at": "2026-07-25T07:09:22.655Z"
+    "fetched_at": "2026-07-25T07:53:07.365Z"
   },
   "duolingo": {
     "stars": null,
@@ -393,7 +393,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:09:26.056Z"
+    "fetched_at": "2026-07-25T07:53:08.609Z"
   },
   "ebay-evo": {
     "stars": null,
@@ -404,7 +404,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:09:26.556Z"
+    "fetched_at": "2026-07-25T07:53:09.110Z"
   },
   "elastic-ui-framework": {
     "stars": 6337,
@@ -414,8 +414,8 @@
     "latest_release_tag": "@elastic/eui-illustrations@1.0.1",
     "latest_release_at": "2026-07-21T11:27:16Z",
     "npm_weekly_downloads": 419071,
-    "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:09:27.058Z"
+    "npm_package_size_kb": 929,
+    "fetched_at": "2026-07-25T07:53:09.611Z"
   },
   "engie-fluid-design-system": {
     "stars": null,
@@ -426,7 +426,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": 1368,
     "npm_package_size_kb": 56,
-    "fetched_at": "2026-07-25T07:09:28.740Z"
+    "fetched_at": "2026-07-25T07:53:11.542Z"
   },
   "enel": {
     "stars": null,
@@ -437,7 +437,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:09:29.645Z"
+    "fetched_at": "2026-07-25T07:53:12.474Z"
   },
   "enigma-boundless": {
     "stars": 239,
@@ -448,7 +448,7 @@
     "latest_release_at": "2017-06-06T04:49:06Z",
     "npm_weekly_downloads": 24,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:09:30.146Z"
+    "fetched_at": "2026-07-25T07:53:12.975Z"
   },
   "esri-calcite": {
     "stars": 370,
@@ -458,8 +458,8 @@
     "latest_release_tag": "@esri/calcite-components-react@5.1.2",
     "latest_release_at": "2026-07-03T00:19:48Z",
     "npm_weekly_downloads": 257809,
-    "npm_package_size_kb": 4,
-    "fetched_at": "2026-07-25T07:09:31.726Z"
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-25T07:53:14.286Z"
   },
   "brand-estonia": {
     "stars": null,
@@ -470,7 +470,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:09:33.504Z"
+    "fetched_at": "2026-07-25T07:53:15.953Z"
   },
   "evergreen": {
     "stars": 12421,
@@ -480,8 +480,8 @@
     "latest_release_tag": "v7.1.9",
     "latest_release_at": "2023-06-21T19:59:06Z",
     "npm_weekly_downloads": 9392,
-    "npm_package_size_kb": 239,
-    "fetched_at": "2026-07-25T07:09:34.004Z"
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-25T07:53:16.453Z"
   },
   "firefox-photon-design-system": {
     "stars": null,
@@ -492,7 +492,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:09:35.447Z"
+    "fetched_at": "2026-07-25T07:53:17.935Z"
   },
   "flowbite-design-system": {
     "stars": 9305,
@@ -503,7 +503,7 @@
     "latest_release_at": "2026-05-13T17:27:25Z",
     "npm_weekly_downloads": 636813,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:09:35.948Z"
+    "fetched_at": "2026-07-25T07:53:18.436Z"
   },
   "fluent-ui": {
     "stars": 20171,
@@ -514,7 +514,7 @@
     "latest_release_at": "2026-05-26T12:09:24Z",
     "npm_weekly_downloads": 402169,
     "npm_package_size_kb": 317,
-    "fetched_at": "2026-07-25T07:09:37.374Z"
+    "fetched_at": "2026-07-25T07:53:19.613Z"
   },
   "foundation": {
     "stars": 29785,
@@ -525,7 +525,7 @@
     "latest_release_at": "2024-09-27T20:00:30Z",
     "npm_weekly_downloads": 108789,
     "npm_package_size_kb": 35,
-    "fetched_at": "2026-07-25T07:09:40.224Z"
+    "fetched_at": "2026-07-25T07:53:21.214Z"
   },
   "french-government-design-system": {
     "stars": 380,
@@ -536,7 +536,7 @@
     "latest_release_at": "2026-07-20T16:46:29Z",
     "npm_weekly_downloads": 33692,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:09:41.701Z"
+    "fetched_at": "2026-07-25T07:53:22.397Z"
   },
   "futurelearn-pattern-library": {
     "stars": null,
@@ -547,7 +547,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:09:43.132Z"
+    "fetched_at": "2026-07-25T07:53:23.694Z"
   },
   "github-primer": {
     "stars": 3878,
@@ -558,7 +558,7 @@
     "latest_release_at": "2026-07-24T16:15:16Z",
     "npm_weekly_downloads": 52478,
     "npm_package_size_kb": 37,
-    "fetched_at": "2026-07-25T07:09:43.632Z"
+    "fetched_at": "2026-07-25T07:53:24.194Z"
   },
   "gitlab-design-system-pajamas": {
     "stars": null,
@@ -569,7 +569,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": 42152,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:09:45.097Z"
+    "fetched_at": "2026-07-25T07:53:25.728Z"
   },
   "goodbarber-design-system": {
     "stars": null,
@@ -580,10 +580,10 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:09:45.736Z"
+    "fetched_at": "2026-07-25T07:53:26.501Z"
   },
   "google-material-design": {
-    "stars": 11124,
+    "stars": 11126,
     "open_issues": 173,
     "last_commit_at": "2026-07-24T16:45:33Z",
     "contributors_count": 143,
@@ -591,7 +591,7 @@
     "latest_release_at": "2026-07-15T14:38:06Z",
     "npm_weekly_downloads": 125700,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:09:46.237Z"
+    "fetched_at": "2026-07-25T07:53:27.001Z"
   },
   "gov-uk-design-system": {
     "stars": 1429,
@@ -601,8 +601,8 @@
     "latest_release_tag": "v6.4.0",
     "latest_release_at": "2026-07-16T10:22:48Z",
     "npm_weekly_downloads": 237110,
-    "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:09:48.599Z"
+    "npm_package_size_kb": 11,
+    "fetched_at": "2026-07-25T07:53:28.565Z"
   },
   "gympass-yoga": {
     "stars": 244,
@@ -613,7 +613,7 @@
     "latest_release_at": "2026-07-16T17:41:10Z",
     "npm_weekly_downloads": 687,
     "npm_package_size_kb": 182,
-    "fetched_at": "2026-07-25T07:09:50.069Z"
+    "fetched_at": "2026-07-25T07:53:30.405Z"
   },
   "hashicorp-helios": {
     "stars": 511,
@@ -624,7 +624,7 @@
     "latest_release_at": "2026-07-09T22:05:35Z",
     "npm_weekly_downloads": 18840,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:09:52.478Z"
+    "fetched_at": "2026-07-25T07:53:31.894Z"
   },
   "heroku-purple3": {
     "stars": null,
@@ -635,7 +635,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:09:57.029Z"
+    "fetched_at": "2026-07-25T07:53:33.199Z"
   },
   "helsinki-design-system": {
     "stars": 194,
@@ -646,7 +646,7 @@
     "latest_release_at": "2026-07-17T11:00:26Z",
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:09:57.529Z"
+    "fetched_at": "2026-07-25T07:53:33.699Z"
   },
   "hpe-design-system": {
     "stars": 60,
@@ -657,7 +657,7 @@
     "latest_release_at": "2026-03-18T17:20:54Z",
     "npm_weekly_downloads": 43920,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:09:59.214Z"
+    "fetched_at": "2026-07-25T07:53:34.911Z"
   },
   "hubspot-canvas": {
     "stars": 33,
@@ -668,7 +668,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:10:01.071Z"
+    "fetched_at": "2026-07-25T07:53:36.146Z"
   },
   "hudl-design-system": {
     "stars": null,
@@ -679,7 +679,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:10:02.340Z"
+    "fetched_at": "2026-07-25T07:53:37.168Z"
   },
   "carbon": {
     "stars": 9304,
@@ -690,7 +690,7 @@
     "latest_release_at": "2026-07-15T10:21:07Z",
     "npm_weekly_downloads": 154224,
     "npm_package_size_kb": 189,
-    "fetched_at": "2026-07-25T07:10:02.841Z"
+    "fetched_at": "2026-07-25T07:53:37.668Z"
   },
   "intuit-harmony": {
     "stars": null,
@@ -701,7 +701,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:10:04.609Z"
+    "fetched_at": "2026-07-25T07:53:39.319Z"
   },
   "italia-design-system": {
     "stars": 355,
@@ -712,7 +712,7 @@
     "latest_release_at": "2026-07-15T15:16:33Z",
     "npm_weekly_downloads": 10005,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:10:05.110Z"
+    "fetched_at": "2026-07-25T07:53:39.820Z"
   },
   "inps-sirio": {
     "stars": 18,
@@ -723,7 +723,7 @@
     "latest_release_at": "2026-07-03T12:56:09Z",
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:10:06.752Z"
+    "fetched_at": "2026-07-25T07:53:41.115Z"
   },
   "jb-design-system": {
     "stars": 9,
@@ -734,7 +734,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": 755,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:10:08.091Z"
+    "fetched_at": "2026-07-25T07:53:42.140Z"
   },
   "jetbrains-ring-ui": {
     "stars": 3785,
@@ -745,7 +745,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": 64484,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:10:09.892Z"
+    "fetched_at": "2026-07-25T07:53:43.526Z"
   },
   "jobber": {
     "stars": null,
@@ -756,7 +756,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": 19940,
     "npm_package_size_kb": 284,
-    "fetched_at": "2026-07-25T07:10:13.456Z"
+    "fetched_at": "2026-07-25T07:53:45.025Z"
   },
   "just-eat-takeaway-com-pie-design-system": {
     "stars": 40,
@@ -767,7 +767,7 @@
     "latest_release_at": "2026-07-23T10:59:01Z",
     "npm_weekly_downloads": 6127,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:10:21.078Z"
+    "fetched_at": "2026-07-25T07:53:46.803Z"
   },
   "kaizen": {
     "stars": 175,
@@ -778,7 +778,7 @@
     "latest_release_at": "2026-07-23T07:22:35Z",
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:10:22.706Z"
+    "fetched_at": "2026-07-25T07:53:51.802Z"
   },
   "kolibri": {
     "stars": 273,
@@ -789,7 +789,7 @@
     "latest_release_at": "2026-06-04T11:31:15Z",
     "npm_weekly_downloads": 3783,
     "npm_package_size_kb": 16,
-    "fetched_at": "2026-07-25T07:10:24.196Z"
+    "fetched_at": "2026-07-25T07:53:53.025Z"
   },
   "kontur": {
     "stars": 270,
@@ -800,7 +800,7 @@
     "latest_release_at": "2025-04-04T05:22:51Z",
     "npm_weekly_downloads": 6868,
     "npm_package_size_kb": 270,
-    "fetched_at": "2026-07-25T07:10:25.830Z"
+    "fetched_at": "2026-07-25T07:53:54.325Z"
   },
   "korea-design-system": {
     "stars": 244,
@@ -811,7 +811,7 @@
     "latest_release_at": "2026-01-12T04:18:17Z",
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:10:27.727Z"
+    "fetched_at": "2026-07-25T07:53:56.438Z"
   },
   "kiwi-com-orbit": {
     "stars": 1439,
@@ -822,7 +822,7 @@
     "latest_release_at": "2025-10-31T08:42:39Z",
     "npm_weekly_downloads": 45894,
     "npm_package_size_kb": 230,
-    "fetched_at": "2026-07-25T07:10:28.956Z"
+    "fetched_at": "2026-07-25T07:53:57.512Z"
   },
   "lexicon": {
     "stars": 241,
@@ -833,7 +833,7 @@
     "latest_release_at": "2026-01-07T14:31:40Z",
     "npm_weekly_downloads": 3896,
     "npm_package_size_kb": 67,
-    "fetched_at": "2026-07-25T07:10:30.584Z"
+    "fetched_at": "2026-07-25T07:53:59.059Z"
   },
   "louder-than-ten-manual": {
     "stars": null,
@@ -844,7 +844,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:10:32.340Z"
+    "fetched_at": "2026-07-25T07:54:00.378Z"
   },
   "mail-ru-group-paradigm": {
     "stars": null,
@@ -855,7 +855,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:10:32.841Z"
+    "fetched_at": "2026-07-25T07:54:00.879Z"
   },
   "mantine": {
     "stars": 31480,
@@ -866,7 +866,7 @@
     "latest_release_at": "2026-07-21T07:56:09Z",
     "npm_weekly_downloads": 2307798,
     "npm_package_size_kb": 151,
-    "fetched_at": "2026-07-25T07:10:33.342Z"
+    "fetched_at": "2026-07-25T07:54:01.380Z"
   },
   "marvel-styleguide": {
     "stars": null,
@@ -877,7 +877,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:10:34.751Z"
+    "fetched_at": "2026-07-25T07:54:02.692Z"
   },
   "material-minimal": {
     "stars": 24262,
@@ -888,7 +888,7 @@
     "latest_release_at": "2025-12-08T08:16:44Z",
     "npm_weekly_downloads": 11913,
     "npm_package_size_kb": 34,
-    "fetched_at": "2026-07-25T07:10:35.251Z"
+    "fetched_at": "2026-07-25T07:54:03.193Z"
   },
   "materializecss": {
     "stars": 989,
@@ -899,7 +899,7 @@
     "latest_release_at": "2026-04-12T14:37:57Z",
     "npm_weekly_downloads": 4321,
     "npm_package_size_kb": 37,
-    "fetched_at": "2026-07-25T07:10:37.163Z"
+    "fetched_at": "2026-07-25T07:54:04.600Z"
   },
   "mesh-design-system": {
     "stars": null,
@@ -910,7 +910,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:10:39.058Z"
+    "fetched_at": "2026-07-25T07:54:06.057Z"
   },
   "mixpanel-design-system": {
     "stars": null,
@@ -921,7 +921,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:10:39.736Z"
+    "fetched_at": "2026-07-25T07:54:07.221Z"
   },
   "mongodb-design-system": {
     "stars": 272,
@@ -932,7 +932,7 @@
     "latest_release_at": "2026-07-21T20:46:33Z",
     "npm_weekly_downloads": 50455,
     "npm_package_size_kb": 42,
-    "fetched_at": "2026-07-25T07:10:40.237Z"
+    "fetched_at": "2026-07-25T07:54:07.721Z"
   },
   "monzo-tone-of-voice": {
     "stars": null,
@@ -943,7 +943,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:10:42.012Z"
+    "fetched_at": "2026-07-25T07:54:09.457Z"
   },
   "morningstar-design-system": {
     "stars": null,
@@ -954,7 +954,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:10:42.512Z"
+    "fetched_at": "2026-07-25T07:54:09.958Z"
   },
   "mozilla-protocol": {
     "stars": 293,
@@ -965,7 +965,7 @@
     "latest_release_at": "2025-05-02T20:19:11Z",
     "npm_weekly_downloads": 1796,
     "npm_package_size_kb": 10,
-    "fetched_at": "2026-07-25T07:10:43.013Z"
+    "fetched_at": "2026-07-25T07:54:10.459Z"
   },
   "nationbuilder-radius": {
     "stars": null,
@@ -976,7 +976,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:10:44.895Z"
+    "fetched_at": "2026-07-25T07:54:11.829Z"
   },
   "nhs-uk-service-manual": {
     "stars": 678,
@@ -986,8 +986,8 @@
     "latest_release_tag": "v10.5.2",
     "latest_release_at": "2026-06-08T15:49:34Z",
     "npm_weekly_downloads": 26253,
-    "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:10:45.396Z"
+    "npm_package_size_kb": 12,
+    "fetched_at": "2026-07-25T07:54:12.329Z"
   },
   "nordhealth": {
     "stars": null,
@@ -998,7 +998,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": 5378,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:10:47.018Z"
+    "fetched_at": "2026-07-25T07:54:13.675Z"
   },
   "nsw-design-system": {
     "stars": 87,
@@ -1009,7 +1009,7 @@
     "latest_release_at": "2026-07-16T06:32:54Z",
     "npm_weekly_downloads": 2345,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:10:48.056Z"
+    "fetched_at": "2026-07-25T07:54:14.625Z"
   },
   "new-york-state-design-system": {
     "stars": 53,
@@ -1020,7 +1020,7 @@
     "latest_release_at": "2026-07-22T17:23:31Z",
     "npm_weekly_downloads": 619,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:10:49.539Z"
+    "fetched_at": "2026-07-25T07:54:16.093Z"
   },
   "ontario-design-system": {
     "stars": 10,
@@ -1031,7 +1031,7 @@
     "latest_release_at": "2026-06-02T21:03:13Z",
     "npm_weekly_downloads": 1082,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:10:51.458Z"
+    "fetched_at": "2026-07-25T07:54:17.589Z"
   },
   "orange-unified-design-system": {
     "stars": null,
@@ -1042,7 +1042,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": 348,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:10:53.049Z"
+    "fetched_at": "2026-07-25T07:54:19.032Z"
   },
   "oracle-redwood": {
     "stars": null,
@@ -1053,7 +1053,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:10:54.147Z"
+    "fetched_at": "2026-07-25T07:54:19.905Z"
   },
   "privy-persona-design-system": {
     "stars": 67,
@@ -1064,7 +1064,7 @@
     "latest_release_at": "2025-04-29T04:56:01Z",
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:10:54.647Z"
+    "fetched_at": "2026-07-25T07:54:20.406Z"
   },
   "persona-design-system": {
     "stars": null,
@@ -1075,7 +1075,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:10:56.108Z"
+    "fetched_at": "2026-07-25T07:54:21.406Z"
   },
   "patternfly": {
     "stars": 859,
@@ -1086,7 +1086,7 @@
     "latest_release_at": "2026-05-20T19:14:57Z",
     "npm_weekly_downloads": 158429,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:10:56.609Z"
+    "fetched_at": "2026-07-25T07:54:21.906Z"
   },
   "pharos-jstor-s-design-system": {
     "stars": 131,
@@ -1097,7 +1097,7 @@
     "latest_release_at": "2026-07-08T20:51:07Z",
     "npm_weekly_downloads": 155,
     "npm_package_size_kb": 74,
-    "fetched_at": "2026-07-25T07:10:58.187Z"
+    "fetched_at": "2026-07-25T07:54:23.566Z"
   },
   "pinterest-gestalt": {
     "stars": 4365,
@@ -1108,7 +1108,7 @@
     "latest_release_at": "2026-01-07T17:32:36Z",
     "npm_weekly_downloads": 34607,
     "npm_package_size_kb": 181,
-    "fetched_at": "2026-07-25T07:10:59.731Z"
+    "fetched_at": "2026-07-25T07:54:24.993Z"
   },
   "pluralsight-design-system": {
     "stars": 295,
@@ -1119,7 +1119,7 @@
     "latest_release_at": "2017-08-22T16:15:15Z",
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:11:01.538Z"
+    "fetched_at": "2026-07-25T07:54:26.378Z"
   },
   "porsche-design-system": {
     "stars": 641,
@@ -1130,7 +1130,7 @@
     "latest_release_at": "2026-07-21T09:29:34Z",
     "npm_weekly_downloads": 22350,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:11:03.581Z"
+    "fetched_at": "2026-07-25T07:54:28.373Z"
   },
   "priceline-design-system": {
     "stars": 727,
@@ -1141,18 +1141,18 @@
     "latest_release_at": "2025-12-08T15:38:48Z",
     "npm_weekly_downloads": 14175,
     "npm_package_size_kb": 114,
-    "fetched_at": "2026-07-25T07:11:05.889Z"
+    "fetched_at": "2026-07-25T07:54:29.908Z"
   },
   "radix": {
     "stars": 19096,
-    "open_issues": 305,
+    "open_issues": 306,
     "last_commit_at": "2026-07-25T00:27:05Z",
     "contributors_count": 107,
     "latest_release_tag": null,
     "latest_release_at": null,
     "npm_weekly_downloads": 881544,
     "npm_package_size_kb": 62,
-    "fetched_at": "2026-07-25T07:11:07.437Z"
+    "fetched_at": "2026-07-25T07:54:31.225Z"
   },
   "razorpay-blade": {
     "stars": 641,
@@ -1163,7 +1163,7 @@
     "latest_release_at": "2026-07-24T09:18:39Z",
     "npm_weekly_downloads": 3997,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:11:09.076Z"
+    "fetched_at": "2026-07-25T07:54:32.880Z"
   },
   "ratio": {
     "stars": 192,
@@ -1174,7 +1174,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": 112,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:11:10.859Z"
+    "fetched_at": "2026-07-25T07:54:34.337Z"
   },
   "reshaped": {
     "stars": null,
@@ -1185,7 +1185,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": 24805,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:11:12.921Z"
+    "fetched_at": "2026-07-25T07:54:35.842Z"
   },
   "salesforce-lightning-design-system": {
     "stars": 3696,
@@ -1196,7 +1196,7 @@
     "latest_release_at": "2025-07-10T04:15:33Z",
     "npm_weekly_downloads": 51461,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:11:13.490Z"
+    "fetched_at": "2026-07-25T07:54:36.540Z"
   },
   "sage-by-kajabi": {
     "stars": 25,
@@ -1207,7 +1207,7 @@
     "latest_release_at": "2026-06-18T20:36:21Z",
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:11:15.515Z"
+    "fetched_at": "2026-07-25T07:54:38.104Z"
   },
   "samsung-design-system": {
     "stars": null,
@@ -1218,7 +1218,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:11:17.177Z"
+    "fetched_at": "2026-07-25T07:54:39.611Z"
   },
   "sap-fiori": {
     "stars": null,
@@ -1229,7 +1229,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:11:17.678Z"
+    "fetched_at": "2026-07-25T07:54:40.112Z"
   },
   "sap-openui": {
     "stars": 3303,
@@ -1240,7 +1240,7 @@
     "latest_release_at": "2026-07-23T22:03:20Z",
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:11:18.179Z"
+    "fetched_at": "2026-07-25T07:54:40.612Z"
   },
   "scania-digital-design-system": {
     "stars": 36,
@@ -1251,7 +1251,7 @@
     "latest_release_at": "2026-07-23T14:58:42Z",
     "npm_weekly_downloads": 1052,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:11:19.471Z"
+    "fetched_at": "2026-07-25T07:54:42.805Z"
   },
   "scottish-government-design-system": {
     "stars": 45,
@@ -1261,8 +1261,8 @@
     "latest_release_tag": "v4.1.1",
     "latest_release_at": "2026-06-03T12:46:00Z",
     "npm_weekly_downloads": 507,
-    "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:11:21.518Z"
+    "npm_package_size_kb": 17,
+    "fetched_at": "2026-07-25T07:54:44.398Z"
   },
   "seeds": {
     "stars": null,
@@ -1273,18 +1273,18 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:11:23.608Z"
+    "fetched_at": "2026-07-25T07:54:47.483Z"
   },
   "semi-design": {
-    "stars": 10172,
+    "stars": 10174,
     "open_issues": 32,
     "last_commit_at": "2026-07-20T07:44:00Z",
     "contributors_count": 159,
     "latest_release_tag": "v2.88.2",
     "latest_release_at": "2025-11-18T09:36:58Z",
     "npm_weekly_downloads": 38947,
-    "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:11:24.109Z"
+    "npm_package_size_kb": 75,
+    "fetched_at": "2026-07-25T07:54:47.984Z"
   },
   "semrush-intergalactic-design-system": {
     "stars": 181,
@@ -1295,7 +1295,7 @@
     "latest_release_at": "2026-07-24T11:40:53Z",
     "npm_weekly_downloads": 7363,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:11:25.593Z"
+    "fetched_at": "2026-07-25T07:54:49.957Z"
   },
   "shoelace": {
     "stars": 13858,
@@ -1305,8 +1305,8 @@
     "latest_release_tag": "v2.20.1",
     "latest_release_at": "2025-03-11T18:37:48Z",
     "npm_weekly_downloads": 161808,
-    "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:11:27.074Z"
+    "npm_package_size_kb": 105,
+    "fetched_at": "2026-07-25T07:54:59.115Z"
   },
   "shopify-polaris": {
     "stars": 6174,
@@ -1317,7 +1317,7 @@
     "latest_release_at": "2025-03-26T17:16:31Z",
     "npm_weekly_downloads": 235702,
     "npm_package_size_kb": 113,
-    "fetched_at": "2026-07-25T07:11:28.630Z"
+    "fetched_at": "2026-07-25T07:55:00.722Z"
   },
   "shadcn-ui": {
     "stars": 119763,
@@ -1328,18 +1328,18 @@
     "latest_release_at": "2026-07-23T16:02:41Z",
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:11:31.413Z"
+    "fetched_at": "2026-07-25T07:55:03.009Z"
   },
   "siemens-ix": {
     "stars": 360,
     "open_issues": 82,
-    "last_commit_at": "2026-07-25T07:05:45Z",
+    "last_commit_at": "2026-07-25T07:24:41Z",
     "contributors_count": 66,
     "latest_release_tag": "@siemens/ix-vue@5.1.1",
     "latest_release_at": "2026-07-20T14:23:33Z",
     "npm_weekly_downloads": 15755,
     "npm_package_size_kb": 22,
-    "fetched_at": "2026-07-25T07:11:32.770Z"
+    "fetched_at": "2026-07-25T07:55:04.101Z"
   },
   "singapore-government-design-system": {
     "stars": 18,
@@ -1349,8 +1349,8 @@
     "latest_release_tag": "v3.25.0",
     "latest_release_at": "2026-07-21T03:37:33Z",
     "npm_weekly_downloads": 8665,
-    "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:11:34.928Z"
+    "npm_package_size_kb": 125,
+    "fetched_at": "2026-07-25T07:55:05.325Z"
   },
   "stacks-stack-overflow": {
     "stars": 667,
@@ -1361,7 +1361,7 @@
     "latest_release_at": "2026-06-24T12:35:50Z",
     "npm_weekly_downloads": 14138,
     "npm_package_size_kb": 25,
-    "fetched_at": "2026-07-25T07:11:37.094Z"
+    "fetched_at": "2026-07-25T07:55:21.992Z"
   },
   "strapi-design-system": {
     "stars": 538,
@@ -1371,8 +1371,8 @@
     "latest_release_tag": "@strapi/design-system@2.2.3",
     "latest_release_at": "2026-07-13T10:54:04Z",
     "npm_weekly_downloads": 264315,
-    "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:11:39.025Z"
+    "npm_package_size_kb": 260,
+    "fetched_at": "2026-07-25T07:55:23.702Z"
   },
   "sumup-circuit": {
     "stars": 973,
@@ -1383,7 +1383,7 @@
     "latest_release_at": "2026-07-24T13:25:21Z",
     "npm_weekly_downloads": 4013,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:11:40.356Z"
+    "fetched_at": "2026-07-25T07:55:25.367Z"
   },
   "teambition-clarity-design": {
     "stars": null,
@@ -1394,7 +1394,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:11:42.480Z"
+    "fetched_at": "2026-07-25T07:55:26.913Z"
   },
   "telef-nica-m-stica": {
     "stars": 70,
@@ -1405,7 +1405,7 @@
     "latest_release_at": "2026-07-15T23:21:14Z",
     "npm_weekly_downloads": 5184,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:11:42.981Z"
+    "fetched_at": "2026-07-25T07:55:27.413Z"
   },
   "thumbprint": {
     "stars": 12,
@@ -1415,8 +1415,8 @@
     "latest_release_tag": null,
     "latest_release_at": null,
     "npm_weekly_downloads": 2168,
-    "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:11:45.070Z"
+    "npm_package_size_kb": 13,
+    "fetched_at": "2026-07-25T07:55:29.151Z"
   },
   "twilio-paste": {
     "stars": 477,
@@ -1427,7 +1427,7 @@
     "latest_release_at": "2025-08-25T15:14:42Z",
     "npm_weekly_downloads": 21412,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:11:46.510Z"
+    "fetched_at": "2026-07-25T07:55:31.172Z"
   },
   "uber-s-base-web": {
     "stars": 8996,
@@ -1437,8 +1437,8 @@
     "latest_release_tag": "v13.0.0",
     "latest_release_at": "2023-06-13T17:51:55Z",
     "npm_weekly_downloads": 52493,
-    "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:11:48.226Z"
+    "npm_package_size_kb": 27,
+    "fetched_at": "2026-07-25T07:55:32.700Z"
   },
   "ubuntu-vanilla-framework": {
     "stars": 974,
@@ -1449,7 +1449,7 @@
     "latest_release_at": "2026-06-26T11:51:34Z",
     "npm_weekly_downloads": 19179,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:11:49.529Z"
+    "fetched_at": "2026-07-25T07:55:34.817Z"
   },
   "uiverse": {
     "stars": 11651,
@@ -1460,7 +1460,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:11:51.094Z"
+    "fetched_at": "2026-07-25T07:55:36.215Z"
   },
   "untitled-ui": {
     "stars": 1837,
@@ -1471,7 +1471,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:11:52.572Z"
+    "fetched_at": "2026-07-25T07:55:37.481Z"
   },
   "u-s-web-design-standards": {
     "stars": 7133,
@@ -1482,7 +1482,7 @@
     "latest_release_at": "2025-05-23T15:11:33Z",
     "npm_weekly_downloads": 60971,
     "npm_package_size_kb": 24,
-    "fetched_at": "2026-07-25T07:11:53.847Z"
+    "fetched_at": "2026-07-25T07:55:38.577Z"
   },
   "u-s-cms-gov-design-system": {
     "stars": 358,
@@ -1493,7 +1493,7 @@
     "latest_release_at": "2026-06-25T15:47:37Z",
     "npm_weekly_downloads": 8282,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:11:55.487Z"
+    "fetched_at": "2026-07-25T07:55:40.151Z"
   },
   "visa-product-design-system": {
     "stars": null,
@@ -1504,7 +1504,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:11:57.227Z"
+    "fetched_at": "2026-07-25T07:55:41.710Z"
   },
   "vibe": {
     "stars": 661,
@@ -1515,7 +1515,7 @@
     "latest_release_at": "2026-07-19T12:24:00Z",
     "npm_weekly_downloads": 194572,
     "npm_package_size_kb": 217,
-    "fetched_at": "2026-07-25T07:11:57.727Z"
+    "fetched_at": "2026-07-25T07:55:42.211Z"
   },
   "vmware-clarity-design-system": {
     "stars": 184,
@@ -1526,7 +1526,7 @@
     "latest_release_at": "2026-02-02T11:56:53Z",
     "npm_weekly_downloads": 31156,
     "npm_package_size_kb": 3,
-    "fetched_at": "2026-07-25T07:11:59.284Z"
+    "fetched_at": "2026-07-25T07:55:43.631Z"
   },
   "vtex-styleguide": {
     "stars": 173,
@@ -1537,7 +1537,7 @@
     "latest_release_at": "2023-04-25T14:12:22Z",
     "npm_weekly_downloads": 4007,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:12:01.031Z"
+    "fetched_at": "2026-07-25T07:55:44.962Z"
   },
   "vue-design-system": {
     "stars": 2193,
@@ -1548,7 +1548,7 @@
     "latest_release_at": "2018-11-28T09:51:28Z",
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:12:02.624Z"
+    "fetched_at": "2026-07-25T07:55:46.468Z"
   },
   "ray-by-wework": {
     "stars": 55,
@@ -1559,7 +1559,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": 98,
     "npm_package_size_kb": 82,
-    "fetched_at": "2026-07-25T07:12:04.651Z"
+    "fetched_at": "2026-07-25T07:55:48.016Z"
   },
   "welcome-ui": {
     "stars": 674,
@@ -1570,7 +1570,7 @@
     "latest_release_at": "2026-07-21T16:49:20Z",
     "npm_weekly_downloads": 207,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:12:06.650Z"
+    "fetched_at": "2026-07-25T07:55:49.796Z"
   },
   "wikimedia-codex": {
     "stars": 108,
@@ -1581,7 +1581,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": 9716,
     "npm_package_size_kb": 49,
-    "fetched_at": "2026-07-25T07:12:07.915Z"
+    "fetched_at": "2026-07-25T07:55:51.325Z"
   },
   "w3c-design-system": {
     "stars": 262,
@@ -1592,7 +1592,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:12:09.701Z"
+    "fetched_at": "2026-07-25T07:55:52.627Z"
   },
   "agriculture-design-system": {
     "stars": 60,
@@ -1603,7 +1603,7 @@
     "latest_release_at": "2026-02-16T01:12:32Z",
     "npm_weekly_downloads": 554,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:12:10.977Z"
+    "fetched_at": "2026-07-25T07:55:53.681Z"
   },
   "datadog-druids": {
     "stars": null,
@@ -1614,7 +1614,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:12:13.207Z"
+    "fetched_at": "2026-07-25T07:55:59.267Z"
   },
   "lemon-squeezy-wedges": {
     "stars": 1529,
@@ -1625,7 +1625,7 @@
     "latest_release_at": "2024-08-23T17:14:33Z",
     "npm_weekly_downloads": 849,
     "npm_package_size_kb": 97,
-    "fetched_at": "2026-07-25T07:12:13.708Z"
+    "fetched_at": "2026-07-25T07:55:59.768Z"
   },
   "michelin-motion": {
     "stars": null,
@@ -1636,7 +1636,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:12:15.580Z"
+    "fetched_at": "2026-07-25T07:56:01.439Z"
   },
   "nice-design-system": {
     "stars": 17,
@@ -1647,7 +1647,7 @@
     "latest_release_at": "2023-08-21T14:59:08Z",
     "npm_weekly_downloads": 404,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:12:16.081Z"
+    "fetched_at": "2026-07-25T07:56:01.940Z"
   },
   "wmca-design-system": {
     "stars": 0,
@@ -1658,7 +1658,7 @@
     "latest_release_at": "2021-07-08T14:38:54Z",
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:12:18.351Z"
+    "fetched_at": "2026-07-25T07:56:10.573Z"
   },
   "vercel": {
     "stars": null,
@@ -1669,7 +1669,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:12:19.807Z"
+    "fetched_at": "2026-07-25T07:56:11.856Z"
   },
   "workday-canvas": {
     "stars": 354,
@@ -1680,7 +1680,7 @@
     "latest_release_at": "2026-07-23T17:34:50Z",
     "npm_weekly_downloads": 11750,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:12:20.308Z"
+    "fetched_at": "2026-07-25T07:56:12.356Z"
   },
   "yelp-styleguide": {
     "stars": null,
@@ -1691,7 +1691,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:12:21.898Z"
+    "fetched_at": "2026-07-25T07:56:13.812Z"
   },
   "zendesk-garden": {
     "stars": 1109,
@@ -1702,6 +1702,6 @@
     "latest_release_at": "2026-07-24T02:00:18Z",
     "npm_weekly_downloads": 54412,
     "npm_package_size_kb": 18,
-    "fetched_at": "2026-07-25T07:12:22.399Z"
+    "fetched_at": "2026-07-25T07:56:14.312Z"
   }
 }
