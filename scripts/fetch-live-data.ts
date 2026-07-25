@@ -1,8 +1,8 @@
-import { writeFile, readFile } from "node:fs/promises";
+import { writeFile } from "node:fs/promises";
 import path from "node:path";
+import { getCatalog } from "../lib/catalog";
 import type { CuratedSystem, LiveData, LiveDataMap } from "../lib/types";
 
-const SYSTEMS_PATH = path.join(process.cwd(), "data", "systems.json");
 const LIVE_PATH = path.join(process.cwd(), "data", "live.json");
 
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
@@ -117,9 +117,7 @@ async function fetchOne(system: CuratedSystem): Promise<LiveData> {
 }
 
 async function main() {
-  const systems: CuratedSystem[] = JSON.parse(
-    await readFile(SYSTEMS_PATH, "utf-8"),
-  );
+  const systems: CuratedSystem[] = getCatalog();
 
   const live: LiveDataMap = {};
   for (const system of systems) {

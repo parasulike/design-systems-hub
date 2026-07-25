@@ -62,6 +62,8 @@
 .resourceLinks a { min-height: 190px; padding: var(--space-5); display: flex; flex-direction: column; border: 1px solid var(--border); border-radius: var(--radius); background: var(--background); transition: border-color var(--motion-fast) ease, transform var(--motion-fast) var(--ease-out); }
 .resourceLinks a:hover { border-color: var(--atlas); transform: translateY(-3px); }
 .resourceLinks a > div { display: flex; align-items: center; justify-content: space-between; color: var(--atlas); }
+.resourceIcon { width: 42px; height: 42px; display: grid; place-items: center; border-radius: 10px; background: color-mix(in srgb, var(--atlas) 8%, white); color: var(--atlas); }
+.resourceIcon img { width: 22px; height: 22px; object-fit: contain; }
 .resourceLinks h3 { margin: auto 0 var(--space-2); font-size: 1.1rem; letter-spacing: -.025em; }
 .resourceLinks p { color: var(--gray-muted); font-size: .8rem; line-height: 1.55; }
 .patterns { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-3); }

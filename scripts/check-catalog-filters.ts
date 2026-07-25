@@ -8,6 +8,8 @@ const systems = getCatalog();
 const technologies = new Set(systems.flatMap((system) => system.frameworks));
 const filters: CatalogFilters = { query: "", resources: ["figma"], technology: ["React"], guidance: ["accessibility"], bestFor: ["enterprise"], sort: "recommended" };
 
+assert.ok(systems.length > 100);
+assert.ok(systems.filter((system) => system.github_repo).length > 100);
 assert.equal(matchesFilters(systems.find((system) => system.id === "carbon")!, filters), true);
 assert.equal(sortSystems(systems, "name")[0].name, [...systems].sort((a, b) => a.name.localeCompare(b.name))[0].name);
 const recommended = sortSystems(systems, "recommended");
@@ -130,3 +132,4 @@ assert.deepEqual(systems.find((system) => system.id === "aalto-university")?.fra
 assert.equal(systems.find((system) => system.id === "adjust-atlas")?.github_repo, "adjust/atlas");
 assert.equal(systems.find((system) => system.id === "bbc-gel-global-experience-language")?.site_url, "https://bbc.github.io/gel/");
 assert.equal(systems.find((system) => system.id === "british-gas-nucleus")?.github_repo, "centrica-engineering/nucleus-docs");
+assert.ok(["carbon", "patternfly", "google-material-design", "twilio-paste", "contentful-forma-36"].every((id) => systems.find((system) => system.id === id)?.figma_url));

@@ -12,7 +12,7 @@ import { BEST_FOR_OPTIONS, GUIDANCE_OPTIONS } from "@/lib/catalog-filters";
 import { EDITORIAL_PROFILES } from "@/lib/editorial-profiles";
 import styles from "./page.module.css";
 
-type ResourceLink = { label: string; detail: string; href: string; icon: LucideIcon };
+type ResourceLink = { label: string; detail: string; href: string; icon: LucideIcon; brandIcon?: string };
 
 const guidanceLabels = new Map<string, string>(GUIDANCE_OPTIONS);
 const productFitLabels = new Map<string, string>(BEST_FOR_OPTIONS);
@@ -90,10 +90,10 @@ export default async function DesignSystemPage({
 
   const resources: ResourceLink[] = [
     { label: "Documentation", detail: "Official guidance, foundations, and component documentation.", href: system.site_url, icon: BookOpen },
-    system.github_repo && { label: "Source code", detail: "Repository, releases, issues, and contribution history.", href: `https://github.com/${system.github_repo}`, icon: Code2 },
-    system.figma_url && { label: "Figma library", detail: "Design assets and reusable component libraries for Figma.", href: system.figma_url, icon: Boxes },
+    system.github_repo && { label: "Source code", detail: "Repository, releases, issues, and contribution history.", href: `https://github.com/${system.github_repo}`, icon: Code2, brandIcon: "/icons/github.svg" },
+    system.figma_url && { label: "Figma library", detail: "Design assets and reusable component libraries for Figma.", href: system.figma_url, icon: Boxes, brandIcon: "/icons/figma.svg" },
     system.sketch_url && { label: "Sketch library", detail: "Reusable design assets provided for Sketch.", href: system.sketch_url, icon: Diamond },
-    system.storybook_url && { label: "Storybook", detail: "Rendered component examples and implementation states.", href: system.storybook_url, icon: PanelsTopLeft },
+    system.storybook_url && { label: "Storybook", detail: "Rendered component examples and implementation states.", href: system.storybook_url, icon: PanelsTopLeft, brandIcon: "/icons/storybook.svg" },
     system.tokens_url && { label: "Design tokens", detail: "Source values for color, type, spacing, and other foundations.", href: system.tokens_url, icon: Braces },
     system.migration_url && { label: "Migration guide", detail: "Upgrade guidance for moving between system versions.", href: system.migration_url, icon: RefreshCw },
     system.npm_package && { label: "Package", detail: `Install and inspect ${system.npm_package}.`, href: `https://www.npmjs.com/package/${system.npm_package}`, icon: PackageOpen },
@@ -328,7 +328,7 @@ export default async function DesignSystemPage({
             />
           )}
 
-          {!hasEditorialProfile && <section className={styles.section} aria-labelledby="resources-title">
+          <section className={styles.section} aria-labelledby="resources-title">
             <p className={styles.eyebrow}>Primary resources</p>
             <div className={styles.sectionHeading}>
               <h2 id="resources-title">Continue with reliable first-party references</h2>
@@ -338,14 +338,21 @@ export default async function DesignSystemPage({
                 const ResourceIcon = resource.icon;
                 return (
                   <a key={resource.label} href={resource.href} target="_blank" rel="noopener noreferrer">
-                    <div><ResourceIcon size={20} strokeWidth={1.8} aria-hidden="true" /><ArrowUpRight size={16} aria-hidden="true" /></div>
+                    <div>
+                      <span className={styles.resourceIcon}>
+                        {resource.brandIcon
+                          ? <Image src={resource.brandIcon} alt="" width={22} height={22} />
+                          : <ResourceIcon size={22} strokeWidth={1.8} aria-hidden="true" />}
+                      </span>
+                      <ArrowUpRight size={16} aria-hidden="true" />
+                    </div>
                     <h3>{resource.label}</h3>
                     <p>{resource.detail}</p>
                   </a>
                 );
               })}
             </div>
-          </section>}
+          </section>
 
           <section className={`${styles.section} ${styles.decisionSection}`} aria-labelledby="decision-title">
             <p className={styles.eyebrow}>Practical decision</p>
