@@ -8,18 +8,18 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:52:15.653Z"
+    "fetched_at": "2026-07-26T08:10:16.972Z"
   },
   "adobe-spectrum": {
-    "stars": 15712,
-    "open_issues": 575,
+    "stars": 15716,
+    "open_issues": 576,
     "last_commit_at": "2026-07-24T23:53:29Z",
     "contributors_count": 507,
     "latest_release_tag": "react-aria-components@1.19.0",
     "latest_release_at": "2026-06-18T17:30:37Z",
-    "npm_weekly_downloads": 941663,
-    "npm_package_size_kb": 105,
-    "fetched_at": "2026-07-25T07:52:16.154Z"
+    "npm_weekly_downloads": 944861,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-26T08:10:17.473Z"
   },
   "adjust-atlas": {
     "stars": null,
@@ -30,40 +30,40 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:52:18.156Z"
+    "fetched_at": "2026-07-26T08:10:19.420Z"
   },
   "alaska-airlines": {
     "stars": 1,
-    "open_issues": 18,
-    "last_commit_at": "2026-07-24T12:07:25Z",
+    "open_issues": 19,
+    "last_commit_at": "2026-07-25T14:52:14Z",
     "contributors_count": 12,
     "latest_release_tag": "v5.13.1",
     "latest_release_at": "2026-07-10T00:24:51Z",
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:52:18.829Z"
+    "fetched_at": "2026-07-26T08:10:20.062Z"
   },
   "alibaba-ant-design": {
-    "stars": 98810,
-    "open_issues": 1123,
-    "last_commit_at": "2026-07-25T07:34:13Z",
+    "stars": 98822,
+    "open_issues": 1124,
+    "last_commit_at": "2026-07-26T00:27:15Z",
     "contributors_count": 2741,
     "latest_release_tag": "6.5.2",
     "latest_release_at": "2026-07-24T04:23:43Z",
-    "npm_weekly_downloads": 3720785,
+    "npm_weekly_downloads": 3778065,
     "npm_package_size_kb": 428,
-    "fetched_at": "2026-07-25T07:52:19.949Z"
+    "fetched_at": "2026-07-26T08:10:21.339Z"
   },
   "amplify-ui": {
     "stars": 1138,
-    "open_issues": 246,
-    "last_commit_at": "2026-07-25T07:49:39Z",
+    "open_issues": 245,
+    "last_commit_at": "2026-07-26T02:40:51Z",
     "contributors_count": 164,
     "latest_release_tag": "@aws-amplify/ui-angular@5.3.5",
     "latest_release_at": "2026-06-08T03:06:29Z",
-    "npm_weekly_downloads": 357137,
-    "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:52:21.331Z"
+    "npm_weekly_downloads": 361912,
+    "npm_package_size_kb": 146,
+    "fetched_at": "2026-07-26T08:10:22.853Z"
   },
   "apple-developer-design-guidelines": {
     "stars": null,
@@ -74,7 +74,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:52:22.738Z"
+    "fetched_at": "2026-07-26T08:10:25.082Z"
   },
   "aragon-ui": {
     "stars": 343,
@@ -85,7 +85,7 @@
     "latest_release_at": "2021-08-17T14:24:08Z",
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:52:23.239Z"
+    "fetched_at": "2026-07-26T08:10:25.583Z"
   },
   "artsy-palette": {
     "stars": 222,
@@ -94,9 +94,9 @@
     "contributors_count": 83,
     "latest_release_tag": "@artsy/palette@46.9.3",
     "latest_release_at": "2026-06-24T14:09:44Z",
-    "npm_weekly_downloads": 6869,
+    "npm_weekly_downloads": 6938,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:52:24.602Z"
+    "fetched_at": "2026-07-26T08:10:26.763Z"
   },
   "astro-uxds": {
     "stars": null,
@@ -105,20 +105,20 @@
     "contributors_count": null,
     "latest_release_tag": null,
     "latest_release_at": null,
-    "npm_weekly_downloads": 12523,
+    "npm_weekly_downloads": 13083,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:52:26.162Z"
+    "fetched_at": "2026-07-26T08:10:28.483Z"
   },
   "at-uikit": {
-    "stars": 2319,
+    "stars": 2318,
     "open_issues": 89,
     "last_commit_at": "2023-01-12T09:50:00Z",
     "contributors_count": 14,
     "latest_release_tag": null,
     "latest_release_at": null,
-    "npm_weekly_downloads": 310,
-    "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:52:27.193Z"
+    "npm_weekly_downloads": 348,
+    "npm_package_size_kb": 62,
+    "fetched_at": "2026-07-26T08:10:29.557Z"
   },
   "atlassian-design-system": {
     "stars": null,
@@ -127,9 +127,9 @@
     "contributors_count": null,
     "latest_release_tag": null,
     "latest_release_at": null,
-    "npm_weekly_downloads": 595043,
+    "npm_weekly_downloads": 547897,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:52:28.538Z"
+    "fetched_at": "2026-07-26T08:10:31.273Z"
   },
   "aurora-government-of-canada": {
     "stars": 94,
@@ -140,7 +140,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:52:29.470Z"
+    "fetched_at": "2026-07-26T08:10:32.196Z"
   },
   "autoguru-overdrive": {
     "stars": 48,
@@ -149,31 +149,31 @@
     "contributors_count": 12,
     "latest_release_tag": "v4.62.0",
     "latest_release_at": "2026-07-23T02:40:41Z",
-    "npm_weekly_downloads": 1338,
+    "npm_weekly_downloads": 1417,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:52:31.231Z"
+    "fetched_at": "2026-07-26T08:10:33.761Z"
   },
   "aws-cloudscape-design-system": {
-    "stars": 2619,
+    "stars": 2620,
     "open_issues": 207,
     "last_commit_at": "2026-07-24T17:18:39Z",
     "contributors_count": 85,
     "latest_release_tag": "3.0.1334",
     "latest_release_at": "2026-07-24T12:06:04Z",
-    "npm_weekly_downloads": 123342,
+    "npm_weekly_downloads": 126319,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:52:32.755Z"
+    "fetched_at": "2026-07-26T08:10:35.502Z"
   },
   "backpack-skyscanner": {
-    "stars": 542,
+    "stars": 543,
     "open_issues": 63,
-    "last_commit_at": "2026-07-24T18:28:56Z",
+    "last_commit_at": "2026-07-25T18:16:59Z",
     "contributors_count": 255,
     "latest_release_tag": "43.15.1",
     "latest_release_at": "2026-07-24T03:33:05Z",
-    "npm_weekly_downloads": 3594,
+    "npm_weekly_downloads": 3410,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:52:34.432Z"
+    "fetched_at": "2026-07-26T08:10:37.114Z"
   },
   "bbc-gel-global-experience-language": {
     "stars": 47,
@@ -184,7 +184,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:52:35.773Z"
+    "fetched_at": "2026-07-26T08:10:38.566Z"
   },
   "bento-ds": {
     "stars": 144,
@@ -193,20 +193,20 @@
     "contributors_count": 16,
     "latest_release_tag": "v0.23.5",
     "latest_release_at": "2025-09-04T07:37:54Z",
-    "npm_weekly_downloads": 130,
-    "npm_package_size_kb": 492,
-    "fetched_at": "2026-07-25T07:52:36.947Z"
+    "npm_weekly_downloads": 252,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-26T08:10:39.719Z"
   },
   "blueprint": {
-    "stars": 21945,
-    "open_issues": 953,
+    "stars": 21946,
+    "open_issues": 954,
     "last_commit_at": "2026-07-21T15:37:35Z",
     "contributors_count": 464,
     "latest_release_tag": "@blueprintjs/docs-theme@6.2.3",
     "latest_release_at": "2026-07-09T19:37:10Z",
-    "npm_weekly_downloads": 480959,
-    "npm_package_size_kb": 89,
-    "fetched_at": "2026-07-25T07:52:38.444Z"
+    "npm_weekly_downloads": 486808,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-26T08:10:41.208Z"
   },
   "bold-bridge-design-system": {
     "stars": 81,
@@ -215,9 +215,9 @@
     "contributors_count": 56,
     "latest_release_tag": "v1.2.0",
     "latest_release_at": "2026-06-01T20:53:20Z",
-    "npm_weekly_downloads": 159,
+    "npm_weekly_downloads": 141,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:52:39.929Z"
+    "fetched_at": "2026-07-26T08:10:42.874Z"
   },
   "bolt-design-system": {
     "stars": null,
@@ -228,7 +228,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:52:41.525Z"
+    "fetched_at": "2026-07-26T08:10:44.605Z"
   },
   "braid-design-system": {
     "stars": 1571,
@@ -237,9 +237,9 @@
     "contributors_count": 41,
     "latest_release_tag": "braid-design-system@34.5.0",
     "latest_release_at": "2026-07-21T04:41:40Z",
-    "npm_weekly_downloads": 13191,
+    "npm_weekly_downloads": 12308,
     "npm_package_size_kb": 140,
-    "fetched_at": "2026-07-25T07:52:42.166Z"
+    "fetched_at": "2026-07-26T08:10:45.211Z"
   },
   "british-gas-nucleus": {
     "stars": 4,
@@ -250,7 +250,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:52:43.567Z"
+    "fetched_at": "2026-07-26T08:10:47.007Z"
   },
   "buzzvil-design-system": {
     "stars": null,
@@ -261,7 +261,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:52:44.713Z"
+    "fetched_at": "2026-07-26T08:10:48.262Z"
   },
   "cedar": {
     "stars": 50,
@@ -271,19 +271,19 @@
     "latest_release_tag": "v17.0.0",
     "latest_release_at": "2026-06-08T23:49:08Z",
     "npm_weekly_downloads": 58,
-    "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:52:45.214Z"
+    "npm_package_size_kb": 105,
+    "fetched_at": "2026-07-26T08:10:48.763Z"
   },
   "chakra-ui": {
-    "stars": 40526,
-    "open_issues": 17,
-    "last_commit_at": "2026-07-22T18:05:49Z",
-    "contributors_count": 809,
+    "stars": 40530,
+    "open_issues": 14,
+    "last_commit_at": "2026-07-25T18:47:03Z",
+    "contributors_count": 810,
     "latest_release_tag": "@chakra-ui/panda-preset@3.36.1",
     "latest_release_at": "2026-07-19T14:32:22Z",
-    "npm_weekly_downloads": 1752746,
+    "npm_weekly_downloads": 1761100,
     "npm_package_size_kb": 293,
-    "fetched_at": "2026-07-25T07:52:47.040Z"
+    "fetched_at": "2026-07-26T08:10:50.927Z"
   },
   "city-of-boston-fleet": {
     "stars": 22,
@@ -294,7 +294,7 @@
     "latest_release_at": "2026-03-05T19:23:17Z",
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:52:48.553Z"
+    "fetched_at": "2026-07-26T08:10:52.396Z"
   },
   "cloudflare": {
     "stars": 1293,
@@ -305,7 +305,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:52:49.690Z"
+    "fetched_at": "2026-07-26T08:10:53.532Z"
   },
   "co-op-experience-library": {
     "stars": null,
@@ -314,20 +314,20 @@
     "contributors_count": null,
     "latest_release_tag": null,
     "latest_release_at": null,
-    "npm_weekly_downloads": 543,
+    "npm_weekly_downloads": 968,
     "npm_package_size_kb": 7,
-    "fetched_at": "2026-07-25T07:52:50.778Z"
+    "fetched_at": "2026-07-26T08:10:54.631Z"
   },
   "contentful-forma-36": {
     "stars": 361,
-    "open_issues": 35,
+    "open_issues": 38,
     "last_commit_at": "2026-07-25T03:42:28Z",
     "contributors_count": 161,
     "latest_release_tag": "@contentful/f36-components@6.16.2",
     "latest_release_at": "2026-07-24T09:29:54Z",
-    "npm_weekly_downloads": 106971,
+    "npm_weekly_downloads": 110942,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:52:52.230Z"
+    "fetched_at": "2026-07-26T08:10:55.762Z"
   },
   "decathlon-design-system-vitamin": {
     "stars": 288,
@@ -337,8 +337,8 @@
     "latest_release_tag": null,
     "latest_release_at": null,
     "npm_weekly_downloads": 7,
-    "npm_package_size_kb": 8,
-    "fetched_at": "2026-07-25T07:52:53.792Z"
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-26T08:10:59.037Z"
   },
   "decentraland-ui": {
     "stars": 210,
@@ -349,7 +349,7 @@
     "latest_release_at": "2026-02-03T11:13:09Z",
     "npm_weekly_downloads": 1515,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:52:55.709Z"
+    "fetched_at": "2026-07-26T08:11:00.643Z"
   },
   "dell-design-system": {
     "stars": null,
@@ -360,7 +360,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:53:05.246Z"
+    "fetched_at": "2026-07-26T08:11:02.209Z"
   },
   "denmark-common-design-system": {
     "stars": 52,
@@ -369,9 +369,9 @@
     "contributors_count": 18,
     "latest_release_tag": "11.2.0",
     "latest_release_at": "2026-01-28T16:19:11Z",
-    "npm_weekly_downloads": 3168,
-    "npm_package_size_kb": 20,
-    "fetched_at": "2026-07-25T07:53:05.747Z"
+    "npm_weekly_downloads": 2969,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-26T08:11:02.710Z"
   },
   "duet": {
     "stars": null,
@@ -380,9 +380,9 @@
     "contributors_count": null,
     "latest_release_tag": null,
     "latest_release_at": null,
-    "npm_weekly_downloads": 6314,
-    "npm_package_size_kb": 23,
-    "fetched_at": "2026-07-25T07:53:07.365Z"
+    "npm_weekly_downloads": 6375,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-26T08:11:04.385Z"
   },
   "duolingo": {
     "stars": null,
@@ -393,7 +393,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:53:08.609Z"
+    "fetched_at": "2026-07-26T08:11:05.271Z"
   },
   "ebay-evo": {
     "stars": null,
@@ -404,18 +404,18 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:53:09.110Z"
+    "fetched_at": "2026-07-26T08:11:05.772Z"
   },
   "elastic-ui-framework": {
-    "stars": 6337,
+    "stars": 6338,
     "open_issues": 185,
-    "last_commit_at": "2026-07-25T06:16:46Z",
+    "last_commit_at": "2026-07-26T06:17:12Z",
     "contributors_count": 308,
     "latest_release_tag": "@elastic/eui-illustrations@1.0.1",
     "latest_release_at": "2026-07-21T11:27:16Z",
-    "npm_weekly_downloads": 419071,
-    "npm_package_size_kb": 929,
-    "fetched_at": "2026-07-25T07:53:09.611Z"
+    "npm_weekly_downloads": 411296,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-26T08:11:06.273Z"
   },
   "engie-fluid-design-system": {
     "stars": null,
@@ -424,9 +424,9 @@
     "contributors_count": null,
     "latest_release_tag": null,
     "latest_release_at": null,
-    "npm_weekly_downloads": 1368,
-    "npm_package_size_kb": 56,
-    "fetched_at": "2026-07-25T07:53:11.542Z"
+    "npm_weekly_downloads": 949,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-26T08:11:07.688Z"
   },
   "enel": {
     "stars": null,
@@ -437,7 +437,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:53:12.474Z"
+    "fetched_at": "2026-07-26T08:11:08.634Z"
   },
   "enigma-boundless": {
     "stars": 239,
@@ -446,20 +446,20 @@
     "contributors_count": 13,
     "latest_release_tag": "1.1.0",
     "latest_release_at": "2017-06-06T04:49:06Z",
-    "npm_weekly_downloads": 24,
+    "npm_weekly_downloads": 22,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:53:12.975Z"
+    "fetched_at": "2026-07-26T08:11:09.135Z"
   },
   "esri-calcite": {
     "stars": 370,
     "open_issues": 952,
-    "last_commit_at": "2026-07-24T21:55:29Z",
+    "last_commit_at": "2026-07-25T21:43:32Z",
     "contributors_count": 77,
     "latest_release_tag": "@esri/calcite-components-react@5.1.2",
     "latest_release_at": "2026-07-03T00:19:48Z",
-    "npm_weekly_downloads": 257809,
-    "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:53:14.286Z"
+    "npm_weekly_downloads": 262515,
+    "npm_package_size_kb": 4,
+    "fetched_at": "2026-07-26T08:11:10.729Z"
   },
   "brand-estonia": {
     "stars": null,
@@ -470,7 +470,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:53:15.953Z"
+    "fetched_at": "2026-07-26T08:11:12.445Z"
   },
   "evergreen": {
     "stars": 12421,
@@ -479,9 +479,9 @@
     "contributors_count": 163,
     "latest_release_tag": "v7.1.9",
     "latest_release_at": "2023-06-21T19:59:06Z",
-    "npm_weekly_downloads": 9392,
+    "npm_weekly_downloads": 9756,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:53:16.453Z"
+    "fetched_at": "2026-07-26T08:11:12.945Z"
   },
   "firefox-photon-design-system": {
     "stars": null,
@@ -492,51 +492,51 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:53:17.935Z"
+    "fetched_at": "2026-07-26T08:11:14.441Z"
   },
   "flowbite-design-system": {
-    "stars": 9305,
+    "stars": 9307,
     "open_issues": 257,
     "last_commit_at": "2026-06-27T08:36:12Z",
     "contributors_count": 100,
     "latest_release_tag": "v4.0.2",
     "latest_release_at": "2026-05-13T17:27:25Z",
-    "npm_weekly_downloads": 636813,
-    "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:53:18.436Z"
+    "npm_weekly_downloads": 626663,
+    "npm_package_size_kb": 29,
+    "fetched_at": "2026-07-26T08:11:14.942Z"
   },
   "fluent-ui": {
     "stars": 20171,
-    "open_issues": 774,
+    "open_issues": 776,
     "last_commit_at": "2026-07-24T18:49:50Z",
     "contributors_count": 963,
     "latest_release_tag": "@fluentui/react-virtualizer_v9.0.0-alpha.113",
     "latest_release_at": "2026-05-26T12:09:24Z",
-    "npm_weekly_downloads": 402169,
-    "npm_package_size_kb": 317,
-    "fetched_at": "2026-07-25T07:53:19.613Z"
+    "npm_weekly_downloads": 405604,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-26T08:11:16.633Z"
   },
   "foundation": {
-    "stars": 29785,
+    "stars": 29784,
     "open_issues": 80,
     "last_commit_at": "2025-01-21T22:11:53Z",
     "contributors_count": 1335,
     "latest_release_tag": "v6.9.0",
     "latest_release_at": "2024-09-27T20:00:30Z",
-    "npm_weekly_downloads": 108789,
-    "npm_package_size_kb": 35,
-    "fetched_at": "2026-07-25T07:53:21.214Z"
+    "npm_weekly_downloads": 108827,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-26T08:11:18.175Z"
   },
   "french-government-design-system": {
-    "stars": 380,
+    "stars": 381,
     "open_issues": 161,
     "last_commit_at": "2026-07-21T11:29:48Z",
     "contributors_count": 31,
     "latest_release_tag": "v1.15.1",
     "latest_release_at": "2026-07-20T16:46:29Z",
-    "npm_weekly_downloads": 33692,
+    "npm_weekly_downloads": 29877,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:53:22.397Z"
+    "fetched_at": "2026-07-26T08:11:19.524Z"
   },
   "futurelearn-pattern-library": {
     "stars": null,
@@ -547,18 +547,18 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:53:23.694Z"
+    "fetched_at": "2026-07-26T08:11:21.072Z"
   },
   "github-primer": {
-    "stars": 3878,
+    "stars": 3879,
     "open_issues": 74,
     "last_commit_at": "2026-07-25T00:20:41Z",
     "contributors_count": 245,
     "latest_release_tag": "@primer/react@38.34.0",
     "latest_release_at": "2026-07-24T16:15:16Z",
-    "npm_weekly_downloads": 52478,
-    "npm_package_size_kb": 37,
-    "fetched_at": "2026-07-25T07:53:24.194Z"
+    "npm_weekly_downloads": 52000,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-26T08:11:21.572Z"
   },
   "gitlab-design-system-pajamas": {
     "stars": null,
@@ -567,9 +567,9 @@
     "contributors_count": null,
     "latest_release_tag": null,
     "latest_release_at": null,
-    "npm_weekly_downloads": 42152,
+    "npm_weekly_downloads": 40712,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:53:25.728Z"
+    "fetched_at": "2026-07-26T08:11:23.003Z"
   },
   "goodbarber-design-system": {
     "stars": null,
@@ -580,29 +580,29 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:53:26.501Z"
+    "fetched_at": "2026-07-26T08:11:23.701Z"
   },
   "google-material-design": {
-    "stars": 11126,
+    "stars": 11127,
     "open_issues": 173,
     "last_commit_at": "2026-07-24T16:45:33Z",
     "contributors_count": 143,
     "latest_release_tag": "v2.5.0",
     "latest_release_at": "2026-07-15T14:38:06Z",
-    "npm_weekly_downloads": 125700,
+    "npm_weekly_downloads": 127047,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:53:27.001Z"
+    "fetched_at": "2026-07-26T08:11:24.201Z"
   },
   "gov-uk-design-system": {
-    "stars": 1429,
+    "stars": 1430,
     "open_issues": 439,
     "last_commit_at": "2026-07-24T10:52:50Z",
     "contributors_count": 108,
     "latest_release_tag": "v6.4.0",
     "latest_release_at": "2026-07-16T10:22:48Z",
-    "npm_weekly_downloads": 237110,
+    "npm_weekly_downloads": 247351,
     "npm_package_size_kb": 11,
-    "fetched_at": "2026-07-25T07:53:28.565Z"
+    "fetched_at": "2026-07-26T08:11:25.827Z"
   },
   "gympass-yoga": {
     "stars": 244,
@@ -611,20 +611,20 @@
     "contributors_count": 133,
     "latest_release_tag": "@gympass/yoga-icons@1.50.0",
     "latest_release_at": "2026-07-16T17:41:10Z",
-    "npm_weekly_downloads": 687,
-    "npm_package_size_kb": 182,
-    "fetched_at": "2026-07-25T07:53:30.405Z"
+    "npm_weekly_downloads": 659,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-26T08:11:27.636Z"
   },
   "hashicorp-helios": {
     "stars": 511,
-    "open_issues": 28,
-    "last_commit_at": "2026-07-24T19:54:40Z",
+    "open_issues": 29,
+    "last_commit_at": "2026-07-26T00:18:38Z",
     "contributors_count": 50,
     "latest_release_tag": "@hashicorp/design-system-components@6.4.0",
     "latest_release_at": "2026-07-09T22:05:35Z",
-    "npm_weekly_downloads": 18840,
+    "npm_weekly_downloads": 19542,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:53:31.894Z"
+    "fetched_at": "2026-07-26T08:11:29.318Z"
   },
   "heroku-purple3": {
     "stars": null,
@@ -635,7 +635,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:53:33.199Z"
+    "fetched_at": "2026-07-26T08:11:32.674Z"
   },
   "helsinki-design-system": {
     "stars": 194,
@@ -646,7 +646,7 @@
     "latest_release_at": "2026-07-17T11:00:26Z",
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:53:33.699Z"
+    "fetched_at": "2026-07-26T08:11:33.175Z"
   },
   "hpe-design-system": {
     "stars": 60,
@@ -655,9 +655,9 @@
     "contributors_count": 46,
     "latest_release_tag": "hpe-design-tokens@2.2.3",
     "latest_release_at": "2026-03-18T17:20:54Z",
-    "npm_weekly_downloads": 43920,
+    "npm_weekly_downloads": 48924,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:53:34.911Z"
+    "fetched_at": "2026-07-26T08:11:34.571Z"
   },
   "hubspot-canvas": {
     "stars": 33,
@@ -668,7 +668,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:53:36.146Z"
+    "fetched_at": "2026-07-26T08:11:36.077Z"
   },
   "hudl-design-system": {
     "stars": null,
@@ -679,18 +679,18 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:53:37.168Z"
+    "fetched_at": "2026-07-26T08:11:37.195Z"
   },
   "carbon": {
-    "stars": 9304,
-    "open_issues": 1032,
-    "last_commit_at": "2026-07-25T04:29:43Z",
+    "stars": 9305,
+    "open_issues": 1031,
+    "last_commit_at": "2026-07-26T07:54:56Z",
     "contributors_count": 672,
     "latest_release_tag": "v11.112.0",
     "latest_release_at": "2026-07-15T10:21:07Z",
-    "npm_weekly_downloads": 154224,
+    "npm_weekly_downloads": 160508,
     "npm_package_size_kb": 189,
-    "fetched_at": "2026-07-25T07:53:37.668Z"
+    "fetched_at": "2026-07-26T08:11:37.696Z"
   },
   "intuit-harmony": {
     "stars": null,
@@ -701,7 +701,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:53:39.319Z"
+    "fetched_at": "2026-07-26T08:11:39.467Z"
   },
   "italia-design-system": {
     "stars": 355,
@@ -710,9 +710,9 @@
     "contributors_count": 38,
     "latest_release_tag": "v3.0.0-beta.2",
     "latest_release_at": "2026-07-15T15:16:33Z",
-    "npm_weekly_downloads": 10005,
+    "npm_weekly_downloads": 10967,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:53:39.820Z"
+    "fetched_at": "2026-07-26T08:11:39.968Z"
   },
   "inps-sirio": {
     "stars": 18,
@@ -723,29 +723,29 @@
     "latest_release_at": "2026-07-03T12:56:09Z",
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:53:41.115Z"
+    "fetched_at": "2026-07-26T08:11:41.773Z"
   },
   "jb-design-system": {
     "stars": 9,
     "open_issues": 0,
-    "last_commit_at": "2026-07-23T00:28:07Z",
+    "last_commit_at": "2026-07-25T11:25:18Z",
     "contributors_count": 4,
     "latest_release_tag": null,
     "latest_release_at": null,
-    "npm_weekly_downloads": 755,
+    "npm_weekly_downloads": 842,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:53:42.140Z"
+    "fetched_at": "2026-07-26T08:11:42.945Z"
   },
   "jetbrains-ring-ui": {
     "stars": 3785,
     "open_issues": 8,
-    "last_commit_at": "2026-07-23T12:14:40Z",
+    "last_commit_at": "2026-07-26T00:05:31Z",
     "contributors_count": 219,
     "latest_release_tag": null,
     "latest_release_at": null,
-    "npm_weekly_downloads": 64484,
+    "npm_weekly_downloads": 57055,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:53:43.526Z"
+    "fetched_at": "2026-07-26T08:11:44.466Z"
   },
   "jobber": {
     "stars": null,
@@ -754,9 +754,9 @@
     "contributors_count": null,
     "latest_release_tag": null,
     "latest_release_at": null,
-    "npm_weekly_downloads": 19940,
+    "npm_weekly_downloads": 20510,
     "npm_package_size_kb": 284,
-    "fetched_at": "2026-07-25T07:53:45.025Z"
+    "fetched_at": "2026-07-26T08:11:47.410Z"
   },
   "just-eat-takeaway-com-pie-design-system": {
     "stars": 40,
@@ -765,31 +765,31 @@
     "contributors_count": 46,
     "latest_release_tag": "@justeattakeaway/pie-storybook@1.86.3",
     "latest_release_at": "2026-07-23T10:59:01Z",
-    "npm_weekly_downloads": 6127,
+    "npm_weekly_downloads": 6079,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:53:46.803Z"
+    "fetched_at": "2026-07-26T08:11:49.264Z"
   },
   "kaizen": {
     "stars": 175,
-    "open_issues": 14,
-    "last_commit_at": "2026-07-24T04:42:20Z",
+    "open_issues": 34,
+    "last_commit_at": "2026-07-25T16:20:23Z",
     "contributors_count": 135,
     "latest_release_tag": "@kaizen/components@3.3.8",
     "latest_release_at": "2026-07-23T07:22:35Z",
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:53:51.802Z"
+    "fetched_at": "2026-07-26T08:11:50.561Z"
   },
   "kolibri": {
     "stars": 273,
     "open_issues": 223,
-    "last_commit_at": "2026-07-24T12:57:44Z",
+    "last_commit_at": "2026-07-25T12:32:20Z",
     "contributors_count": 40,
     "latest_release_tag": "4.2.1",
     "latest_release_at": "2026-06-04T11:31:15Z",
-    "npm_weekly_downloads": 3783,
+    "npm_weekly_downloads": 5342,
     "npm_package_size_kb": 16,
-    "fetched_at": "2026-07-25T07:53:53.025Z"
+    "fetched_at": "2026-07-26T08:11:51.690Z"
   },
   "kontur": {
     "stars": 270,
@@ -798,12 +798,12 @@
     "contributors_count": 229,
     "latest_release_tag": "@skbkontur/react-ui@5.0.16",
     "latest_release_at": "2025-04-04T05:22:51Z",
-    "npm_weekly_downloads": 6868,
-    "npm_package_size_kb": 270,
-    "fetched_at": "2026-07-25T07:53:54.325Z"
+    "npm_weekly_downloads": 10422,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-26T08:11:53.086Z"
   },
   "korea-design-system": {
-    "stars": 244,
+    "stars": 246,
     "open_issues": 0,
     "last_commit_at": "2026-01-12T04:18:17Z",
     "contributors_count": 3,
@@ -811,7 +811,7 @@
     "latest_release_at": "2026-01-12T04:18:17Z",
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:53:56.438Z"
+    "fetched_at": "2026-07-26T08:11:54.982Z"
   },
   "kiwi-com-orbit": {
     "stars": 1439,
@@ -820,9 +820,9 @@
     "contributors_count": 96,
     "latest_release_tag": "@kiwicom/orbit-components@27.7.0",
     "latest_release_at": "2025-10-31T08:42:39Z",
-    "npm_weekly_downloads": 45894,
+    "npm_weekly_downloads": 60694,
     "npm_package_size_kb": 230,
-    "fetched_at": "2026-07-25T07:53:57.512Z"
+    "fetched_at": "2026-07-26T08:11:56.045Z"
   },
   "lexicon": {
     "stars": 241,
@@ -831,9 +831,9 @@
     "contributors_count": 94,
     "latest_release_tag": "v3.156.6",
     "latest_release_at": "2026-01-07T14:31:40Z",
-    "npm_weekly_downloads": 3896,
-    "npm_package_size_kb": 67,
-    "fetched_at": "2026-07-25T07:53:59.059Z"
+    "npm_weekly_downloads": 3924,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-26T08:11:57.975Z"
   },
   "louder-than-ten-manual": {
     "stars": null,
@@ -844,7 +844,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:54:00.378Z"
+    "fetched_at": "2026-07-26T08:11:59.435Z"
   },
   "mail-ru-group-paradigm": {
     "stars": null,
@@ -855,18 +855,18 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:54:00.879Z"
+    "fetched_at": "2026-07-26T08:11:59.936Z"
   },
   "mantine": {
-    "stars": 31480,
+    "stars": 31487,
     "open_issues": 50,
     "last_commit_at": "2026-07-21T07:57:49Z",
     "contributors_count": 775,
     "latest_release_tag": "9.4.2",
     "latest_release_at": "2026-07-21T07:56:09Z",
-    "npm_weekly_downloads": 2307798,
+    "npm_weekly_downloads": 2329002,
     "npm_package_size_kb": 151,
-    "fetched_at": "2026-07-25T07:54:01.380Z"
+    "fetched_at": "2026-07-26T08:12:00.437Z"
   },
   "marvel-styleguide": {
     "stars": null,
@@ -877,18 +877,18 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:54:02.692Z"
+    "fetched_at": "2026-07-26T08:12:02.252Z"
   },
   "material-minimal": {
-    "stars": 24262,
+    "stars": 24260,
     "open_issues": 26,
     "last_commit_at": "2026-03-24T12:10:47Z",
     "contributors_count": 121,
     "latest_release_tag": "9.3.0",
     "latest_release_at": "2025-12-08T08:16:44Z",
-    "npm_weekly_downloads": 11913,
-    "npm_package_size_kb": 34,
-    "fetched_at": "2026-07-25T07:54:03.193Z"
+    "npm_weekly_downloads": 12445,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-26T08:12:02.753Z"
   },
   "materializecss": {
     "stars": 989,
@@ -897,9 +897,9 @@
     "contributors_count": 376,
     "latest_release_tag": "v2.3.3",
     "latest_release_at": "2026-04-12T14:37:57Z",
-    "npm_weekly_downloads": 4321,
-    "npm_package_size_kb": 37,
-    "fetched_at": "2026-07-25T07:54:04.600Z"
+    "npm_weekly_downloads": 4159,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-26T08:12:04.247Z"
   },
   "mesh-design-system": {
     "stars": null,
@@ -910,7 +910,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:54:06.057Z"
+    "fetched_at": "2026-07-26T08:12:05.888Z"
   },
   "mixpanel-design-system": {
     "stars": null,
@@ -921,7 +921,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:54:07.221Z"
+    "fetched_at": "2026-07-26T08:12:06.775Z"
   },
   "mongodb-design-system": {
     "stars": 272,
@@ -930,9 +930,9 @@
     "contributors_count": 56,
     "latest_release_tag": "@leafygreen-ui/descendants@3.1.1",
     "latest_release_at": "2026-07-21T20:46:33Z",
-    "npm_weekly_downloads": 50455,
-    "npm_package_size_kb": 42,
-    "fetched_at": "2026-07-25T07:54:07.721Z"
+    "npm_weekly_downloads": 50093,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-26T08:12:07.276Z"
   },
   "monzo-tone-of-voice": {
     "stars": null,
@@ -943,7 +943,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:54:09.457Z"
+    "fetched_at": "2026-07-26T08:12:08.769Z"
   },
   "morningstar-design-system": {
     "stars": null,
@@ -954,7 +954,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:54:09.958Z"
+    "fetched_at": "2026-07-26T08:12:09.270Z"
   },
   "mozilla-protocol": {
     "stars": 293,
@@ -963,9 +963,9 @@
     "contributors_count": 33,
     "latest_release_tag": "v21.0.0",
     "latest_release_at": "2025-05-02T20:19:11Z",
-    "npm_weekly_downloads": 1796,
-    "npm_package_size_kb": 10,
-    "fetched_at": "2026-07-25T07:54:10.459Z"
+    "npm_weekly_downloads": 1714,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-26T08:12:09.771Z"
   },
   "nationbuilder-radius": {
     "stars": null,
@@ -976,18 +976,18 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:54:11.829Z"
+    "fetched_at": "2026-07-26T08:12:11.327Z"
   },
   "nhs-uk-service-manual": {
     "stars": 678,
-    "open_issues": 65,
-    "last_commit_at": "2026-07-24T12:32:36Z",
+    "open_issues": 66,
+    "last_commit_at": "2026-07-25T20:56:10Z",
     "contributors_count": 74,
     "latest_release_tag": "v10.5.2",
     "latest_release_at": "2026-06-08T15:49:34Z",
-    "npm_weekly_downloads": 26253,
+    "npm_weekly_downloads": 27089,
     "npm_package_size_kb": 12,
-    "fetched_at": "2026-07-25T07:54:12.329Z"
+    "fetched_at": "2026-07-26T08:12:11.828Z"
   },
   "nordhealth": {
     "stars": null,
@@ -996,20 +996,20 @@
     "contributors_count": null,
     "latest_release_tag": null,
     "latest_release_at": null,
-    "npm_weekly_downloads": 5378,
+    "npm_weekly_downloads": 5157,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:54:13.675Z"
+    "fetched_at": "2026-07-26T08:12:13.630Z"
   },
   "nsw-design-system": {
     "stars": 87,
-    "open_issues": 11,
-    "last_commit_at": "2026-07-24T09:20:43Z",
+    "open_issues": 12,
+    "last_commit_at": "2026-07-25T08:57:18Z",
     "contributors_count": 56,
     "latest_release_tag": "v3.24.16",
     "latest_release_at": "2026-07-16T06:32:54Z",
-    "npm_weekly_downloads": 2345,
-    "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:54:14.625Z"
+    "npm_weekly_downloads": 2424,
+    "npm_package_size_kb": 47,
+    "fetched_at": "2026-07-26T08:12:14.412Z"
   },
   "new-york-state-design-system": {
     "stars": 53,
@@ -1018,20 +1018,20 @@
     "contributors_count": 9,
     "latest_release_tag": "v1.19.4",
     "latest_release_at": "2026-07-22T17:23:31Z",
-    "npm_weekly_downloads": 619,
+    "npm_weekly_downloads": 622,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:54:16.093Z"
+    "fetched_at": "2026-07-26T08:12:16.512Z"
   },
   "ontario-design-system": {
     "stars": 10,
-    "open_issues": 22,
-    "last_commit_at": "2026-07-24T21:54:11Z",
+    "open_issues": 25,
+    "last_commit_at": "2026-07-26T00:37:44Z",
     "contributors_count": 35,
     "latest_release_tag": "v8.1.0",
     "latest_release_at": "2026-06-02T21:03:13Z",
-    "npm_weekly_downloads": 1082,
+    "npm_weekly_downloads": 1069,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:54:17.589Z"
+    "fetched_at": "2026-07-26T08:12:17.906Z"
   },
   "orange-unified-design-system": {
     "stars": null,
@@ -1040,9 +1040,9 @@
     "contributors_count": null,
     "latest_release_tag": null,
     "latest_release_at": null,
-    "npm_weekly_downloads": 348,
+    "npm_weekly_downloads": 309,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:54:19.032Z"
+    "fetched_at": "2026-07-26T08:12:19.664Z"
   },
   "oracle-redwood": {
     "stars": null,
@@ -1053,7 +1053,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:54:19.905Z"
+    "fetched_at": "2026-07-26T08:12:20.707Z"
   },
   "privy-persona-design-system": {
     "stars": 67,
@@ -1064,7 +1064,7 @@
     "latest_release_at": "2025-04-29T04:56:01Z",
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:54:20.406Z"
+    "fetched_at": "2026-07-26T08:12:21.208Z"
   },
   "persona-design-system": {
     "stars": null,
@@ -1075,7 +1075,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:54:21.406Z"
+    "fetched_at": "2026-07-26T08:12:22.618Z"
   },
   "patternfly": {
     "stars": 859,
@@ -1084,31 +1084,31 @@
     "contributors_count": 193,
     "latest_release_tag": "v6.5.0",
     "latest_release_at": "2026-05-20T19:14:57Z",
-    "npm_weekly_downloads": 158429,
-    "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:54:21.906Z"
+    "npm_weekly_downloads": 156896,
+    "npm_package_size_kb": 141,
+    "fetched_at": "2026-07-26T08:12:23.119Z"
   },
   "pharos-jstor-s-design-system": {
     "stars": 131,
-    "open_issues": 69,
-    "last_commit_at": "2026-07-25T00:44:54Z",
+    "open_issues": 70,
+    "last_commit_at": "2026-07-25T12:32:36Z",
     "contributors_count": 40,
     "latest_release_tag": "@ithaka/pharos@14.25.0",
     "latest_release_at": "2026-07-08T20:51:07Z",
-    "npm_weekly_downloads": 155,
-    "npm_package_size_kb": 74,
-    "fetched_at": "2026-07-25T07:54:23.566Z"
+    "npm_weekly_downloads": 156,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-26T08:12:25.302Z"
   },
   "pinterest-gestalt": {
-    "stars": 4365,
+    "stars": 4366,
     "open_issues": 8,
     "last_commit_at": "2026-03-18T09:02:16Z",
     "contributors_count": 151,
     "latest_release_tag": "v177.0.13",
     "latest_release_at": "2026-01-07T17:32:36Z",
-    "npm_weekly_downloads": 34607,
+    "npm_weekly_downloads": 59245,
     "npm_package_size_kb": 181,
-    "fetched_at": "2026-07-25T07:54:24.993Z"
+    "fetched_at": "2026-07-26T08:12:27.011Z"
   },
   "pluralsight-design-system": {
     "stars": 295,
@@ -1119,7 +1119,7 @@
     "latest_release_at": "2017-08-22T16:15:15Z",
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:54:26.378Z"
+    "fetched_at": "2026-07-26T08:12:28.922Z"
   },
   "porsche-design-system": {
     "stars": 641,
@@ -1128,9 +1128,9 @@
     "contributors_count": 43,
     "latest_release_tag": "v4.5.0",
     "latest_release_at": "2026-07-21T09:29:34Z",
-    "npm_weekly_downloads": 22350,
+    "npm_weekly_downloads": 22391,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:54:28.373Z"
+    "fetched_at": "2026-07-26T08:12:30.770Z"
   },
   "priceline-design-system": {
     "stars": 727,
@@ -1139,31 +1139,31 @@
     "contributors_count": 139,
     "latest_release_tag": "pcln-icons_v7.0.1",
     "latest_release_at": "2025-12-08T15:38:48Z",
-    "npm_weekly_downloads": 14175,
-    "npm_package_size_kb": 114,
-    "fetched_at": "2026-07-25T07:54:29.908Z"
+    "npm_weekly_downloads": 12805,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-26T08:12:32.554Z"
   },
   "radix": {
-    "stars": 19096,
+    "stars": 19099,
     "open_issues": 306,
     "last_commit_at": "2026-07-25T00:27:05Z",
     "contributors_count": 107,
     "latest_release_tag": null,
     "latest_release_at": null,
-    "npm_weekly_downloads": 881544,
-    "npm_package_size_kb": 62,
-    "fetched_at": "2026-07-25T07:54:31.225Z"
+    "npm_weekly_downloads": 878305,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-26T08:12:34.223Z"
   },
   "razorpay-blade": {
-    "stars": 641,
+    "stars": 642,
     "open_issues": 244,
     "last_commit_at": "2026-07-24T20:52:12Z",
     "contributors_count": 118,
     "latest_release_tag": "@razorpay/blade@12.112.0",
     "latest_release_at": "2026-07-24T09:18:39Z",
-    "npm_weekly_downloads": 3997,
+    "npm_weekly_downloads": 3289,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:54:32.880Z"
+    "fetched_at": "2026-07-26T08:12:35.876Z"
   },
   "ratio": {
     "stars": 192,
@@ -1172,9 +1172,9 @@
     "contributors_count": 45,
     "latest_release_tag": null,
     "latest_release_at": null,
-    "npm_weekly_downloads": 112,
+    "npm_weekly_downloads": 111,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:54:34.337Z"
+    "fetched_at": "2026-07-26T08:12:37.454Z"
   },
   "reshaped": {
     "stars": null,
@@ -1183,9 +1183,9 @@
     "contributors_count": null,
     "latest_release_tag": null,
     "latest_release_at": null,
-    "npm_weekly_downloads": 24805,
-    "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:54:35.842Z"
+    "npm_weekly_downloads": 25133,
+    "npm_package_size_kb": 41,
+    "fetched_at": "2026-07-26T08:12:38.937Z"
   },
   "salesforce-lightning-design-system": {
     "stars": 3696,
@@ -1194,9 +1194,9 @@
     "contributors_count": 123,
     "latest_release_tag": "v2.27.2",
     "latest_release_at": "2025-07-10T04:15:33Z",
-    "npm_weekly_downloads": 51461,
+    "npm_weekly_downloads": 54024,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:54:36.540Z"
+    "fetched_at": "2026-07-26T08:12:40.048Z"
   },
   "sage-by-kajabi": {
     "stars": 25,
@@ -1207,7 +1207,7 @@
     "latest_release_at": "2026-06-18T20:36:21Z",
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:54:38.104Z"
+    "fetched_at": "2026-07-26T08:12:41.543Z"
   },
   "samsung-design-system": {
     "stars": null,
@@ -1218,7 +1218,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:54:39.611Z"
+    "fetched_at": "2026-07-26T08:12:43.353Z"
   },
   "sap-fiori": {
     "stars": null,
@@ -1229,7 +1229,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:54:40.112Z"
+    "fetched_at": "2026-07-26T08:12:43.854Z"
   },
   "sap-openui": {
     "stars": 3303,
@@ -1240,7 +1240,7 @@
     "latest_release_at": "2026-07-23T22:03:20Z",
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:54:40.612Z"
+    "fetched_at": "2026-07-26T08:12:44.355Z"
   },
   "scania-digital-design-system": {
     "stars": 36,
@@ -1249,9 +1249,9 @@
     "contributors_count": 38,
     "latest_release_tag": "@scania/tegel@1.60.0",
     "latest_release_at": "2026-07-23T14:58:42Z",
-    "npm_weekly_downloads": 1052,
+    "npm_weekly_downloads": 956,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:54:42.805Z"
+    "fetched_at": "2026-07-26T08:12:46.733Z"
   },
   "scottish-government-design-system": {
     "stars": 45,
@@ -1260,9 +1260,9 @@
     "contributors_count": 5,
     "latest_release_tag": "v4.1.1",
     "latest_release_at": "2026-06-03T12:46:00Z",
-    "npm_weekly_downloads": 507,
+    "npm_weekly_downloads": 510,
     "npm_package_size_kb": 17,
-    "fetched_at": "2026-07-25T07:54:44.398Z"
+    "fetched_at": "2026-07-26T08:12:49.857Z"
   },
   "seeds": {
     "stars": null,
@@ -1273,18 +1273,18 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:54:47.483Z"
+    "fetched_at": "2026-07-26T08:12:51.649Z"
   },
   "semi-design": {
-    "stars": 10174,
+    "stars": 10183,
     "open_issues": 32,
     "last_commit_at": "2026-07-20T07:44:00Z",
     "contributors_count": 159,
     "latest_release_tag": "v2.88.2",
     "latest_release_at": "2025-11-18T09:36:58Z",
-    "npm_weekly_downloads": 38947,
-    "npm_package_size_kb": 75,
-    "fetched_at": "2026-07-25T07:54:47.984Z"
+    "npm_weekly_downloads": 38260,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-26T08:12:52.150Z"
   },
   "semrush-intergalactic-design-system": {
     "stars": 181,
@@ -1293,9 +1293,9 @@
     "contributors_count": 44,
     "latest_release_tag": "v17.4.1",
     "latest_release_at": "2026-07-24T11:40:53Z",
-    "npm_weekly_downloads": 7363,
+    "npm_weekly_downloads": 8763,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:54:49.957Z"
+    "fetched_at": "2026-07-26T08:12:53.634Z"
   },
   "shoelace": {
     "stars": 13858,
@@ -1304,9 +1304,9 @@
     "contributors_count": 180,
     "latest_release_tag": "v2.20.1",
     "latest_release_at": "2025-03-11T18:37:48Z",
-    "npm_weekly_downloads": 161808,
+    "npm_weekly_downloads": 164694,
     "npm_package_size_kb": 105,
-    "fetched_at": "2026-07-25T07:54:59.115Z"
+    "fetched_at": "2026-07-26T08:12:59.133Z"
   },
   "shopify-polaris": {
     "stars": 6174,
@@ -1315,20 +1315,20 @@
     "contributors_count": 544,
     "latest_release_tag": "@shopify/polaris@13.9.5",
     "latest_release_at": "2025-03-26T17:16:31Z",
-    "npm_weekly_downloads": 235702,
-    "npm_package_size_kb": 113,
-    "fetched_at": "2026-07-25T07:55:00.722Z"
+    "npm_weekly_downloads": 236803,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-26T08:13:00.835Z"
   },
   "shadcn-ui": {
-    "stars": 119763,
-    "open_issues": 2181,
-    "last_commit_at": "2026-07-23T19:50:36Z",
-    "contributors_count": 591,
-    "latest_release_tag": "shadcn@4.14.1",
-    "latest_release_at": "2026-07-23T16:02:41Z",
+    "stars": 119830,
+    "open_issues": 2184,
+    "last_commit_at": "2026-07-25T20:06:34Z",
+    "contributors_count": 597,
+    "latest_release_tag": "shadcn@4.15.0",
+    "latest_release_at": "2026-07-25T18:05:56Z",
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:55:03.009Z"
+    "fetched_at": "2026-07-26T08:13:03.268Z"
   },
   "siemens-ix": {
     "stars": 360,
@@ -1337,9 +1337,9 @@
     "contributors_count": 66,
     "latest_release_tag": "@siemens/ix-vue@5.1.1",
     "latest_release_at": "2026-07-20T14:23:33Z",
-    "npm_weekly_downloads": 15755,
-    "npm_package_size_kb": 22,
-    "fetched_at": "2026-07-25T07:55:04.101Z"
+    "npm_weekly_downloads": 15432,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-26T08:13:04.443Z"
   },
   "singapore-government-design-system": {
     "stars": 18,
@@ -1348,20 +1348,20 @@
     "contributors_count": 21,
     "latest_release_tag": "v3.25.0",
     "latest_release_at": "2026-07-21T03:37:33Z",
-    "npm_weekly_downloads": 8665,
+    "npm_weekly_downloads": 9016,
     "npm_package_size_kb": 125,
-    "fetched_at": "2026-07-25T07:55:05.325Z"
+    "fetched_at": "2026-07-26T08:13:05.739Z"
   },
   "stacks-stack-overflow": {
     "stars": 667,
-    "open_issues": 72,
-    "last_commit_at": "2026-07-24T14:56:38Z",
+    "open_issues": 75,
+    "last_commit_at": "2026-07-25T20:54:53Z",
     "contributors_count": 59,
     "latest_release_tag": "@stackoverflow/stacks-svelte@0.7.0",
     "latest_release_at": "2026-06-24T12:35:50Z",
-    "npm_weekly_downloads": 14138,
-    "npm_package_size_kb": 25,
-    "fetched_at": "2026-07-25T07:55:21.992Z"
+    "npm_weekly_downloads": 13858,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-26T08:13:07.534Z"
   },
   "strapi-design-system": {
     "stars": 538,
@@ -1370,9 +1370,9 @@
     "contributors_count": 80,
     "latest_release_tag": "@strapi/design-system@2.2.3",
     "latest_release_at": "2026-07-13T10:54:04Z",
-    "npm_weekly_downloads": 264315,
+    "npm_weekly_downloads": 263677,
     "npm_package_size_kb": 260,
-    "fetched_at": "2026-07-25T07:55:23.702Z"
+    "fetched_at": "2026-07-26T08:13:09.047Z"
   },
   "sumup-circuit": {
     "stars": 973,
@@ -1381,9 +1381,9 @@
     "contributors_count": 95,
     "latest_release_tag": "@sumup-oss/icons@6.14.0",
     "latest_release_at": "2026-07-24T13:25:21Z",
-    "npm_weekly_downloads": 4013,
+    "npm_weekly_downloads": 4525,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:55:25.367Z"
+    "fetched_at": "2026-07-26T08:13:10.667Z"
   },
   "teambition-clarity-design": {
     "stars": null,
@@ -1394,7 +1394,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:55:26.913Z"
+    "fetched_at": "2026-07-26T08:13:12.115Z"
   },
   "telef-nica-m-stica": {
     "stars": 70,
@@ -1403,9 +1403,9 @@
     "contributors_count": 43,
     "latest_release_tag": "v17.0.0",
     "latest_release_at": "2026-07-15T23:21:14Z",
-    "npm_weekly_downloads": 5184,
+    "npm_weekly_downloads": 5744,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:55:27.413Z"
+    "fetched_at": "2026-07-26T08:13:12.616Z"
   },
   "thumbprint": {
     "stars": 12,
@@ -1414,9 +1414,9 @@
     "contributors_count": 50,
     "latest_release_tag": null,
     "latest_release_at": null,
-    "npm_weekly_downloads": 2168,
-    "npm_package_size_kb": 13,
-    "fetched_at": "2026-07-25T07:55:29.151Z"
+    "npm_weekly_downloads": 2366,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-26T08:13:14.283Z"
   },
   "twilio-paste": {
     "stars": 477,
@@ -1425,9 +1425,9 @@
     "contributors_count": 69,
     "latest_release_tag": "@twilio-paste/ai-chat-log@2.2.0",
     "latest_release_at": "2025-08-25T15:14:42Z",
-    "npm_weekly_downloads": 21412,
+    "npm_weekly_downloads": 22249,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:55:31.172Z"
+    "fetched_at": "2026-07-26T08:13:15.891Z"
   },
   "uber-s-base-web": {
     "stars": 8996,
@@ -1436,9 +1436,9 @@
     "contributors_count": 259,
     "latest_release_tag": "v13.0.0",
     "latest_release_at": "2023-06-13T17:51:55Z",
-    "npm_weekly_downloads": 52493,
+    "npm_weekly_downloads": 56913,
     "npm_package_size_kb": 27,
-    "fetched_at": "2026-07-25T07:55:32.700Z"
+    "fetched_at": "2026-07-26T08:13:17.464Z"
   },
   "ubuntu-vanilla-framework": {
     "stars": 974,
@@ -1447,12 +1447,12 @@
     "contributors_count": 111,
     "latest_release_tag": "v.4.55.1",
     "latest_release_at": "2026-06-26T11:51:34Z",
-    "npm_weekly_downloads": 19179,
+    "npm_weekly_downloads": 19651,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:55:34.817Z"
+    "fetched_at": "2026-07-26T08:13:19.510Z"
   },
   "uiverse": {
-    "stars": 11651,
+    "stars": 11666,
     "open_issues": 14,
     "last_commit_at": "2024-09-02T14:32:05Z",
     "contributors_count": 900,
@@ -1460,10 +1460,10 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:55:36.215Z"
+    "fetched_at": "2026-07-26T08:13:21.053Z"
   },
   "untitled-ui": {
-    "stars": 1837,
+    "stars": 1840,
     "open_issues": 7,
     "last_commit_at": "2026-07-22T16:13:02Z",
     "contributors_count": 14,
@@ -1471,18 +1471,18 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:55:37.481Z"
+    "fetched_at": "2026-07-26T08:13:22.478Z"
   },
   "u-s-web-design-standards": {
     "stars": 7133,
-    "open_issues": 346,
-    "last_commit_at": "2026-07-24T22:21:41Z",
+    "open_issues": 348,
+    "last_commit_at": "2026-07-25T20:53:28Z",
     "contributors_count": 257,
     "latest_release_tag": "v3.13.0",
     "latest_release_at": "2025-05-23T15:11:33Z",
-    "npm_weekly_downloads": 60971,
-    "npm_package_size_kb": 24,
-    "fetched_at": "2026-07-25T07:55:38.577Z"
+    "npm_weekly_downloads": 66897,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-26T08:13:23.704Z"
   },
   "u-s-cms-gov-design-system": {
     "stars": 358,
@@ -1491,9 +1491,9 @@
     "contributors_count": 56,
     "latest_release_tag": "@cmsgov/design-system@18.0.1",
     "latest_release_at": "2026-06-25T15:47:37Z",
-    "npm_weekly_downloads": 8282,
+    "npm_weekly_downloads": 8124,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:55:40.151Z"
+    "fetched_at": "2026-07-26T08:13:25.285Z"
   },
   "visa-product-design-system": {
     "stars": null,
@@ -1504,7 +1504,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:55:41.710Z"
+    "fetched_at": "2026-07-26T08:13:26.813Z"
   },
   "vibe": {
     "stars": 661,
@@ -1513,9 +1513,9 @@
     "contributors_count": 200,
     "latest_release_tag": "@vibe/core@3.88.6",
     "latest_release_at": "2026-07-19T12:24:00Z",
-    "npm_weekly_downloads": 194572,
+    "npm_weekly_downloads": 193507,
     "npm_package_size_kb": 217,
-    "fetched_at": "2026-07-25T07:55:42.211Z"
+    "fetched_at": "2026-07-26T08:13:27.314Z"
   },
   "vmware-clarity-design-system": {
     "stars": 184,
@@ -1524,9 +1524,9 @@
     "contributors_count": 126,
     "latest_release_tag": "v6.17.0",
     "latest_release_at": "2026-02-02T11:56:53Z",
-    "npm_weekly_downloads": 31156,
-    "npm_package_size_kb": 3,
-    "fetched_at": "2026-07-25T07:55:43.631Z"
+    "npm_weekly_downloads": 31547,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-26T08:13:28.801Z"
   },
   "vtex-styleguide": {
     "stars": 173,
@@ -1535,9 +1535,9 @@
     "contributors_count": 158,
     "latest_release_tag": "v9.146.4",
     "latest_release_at": "2023-04-25T14:12:22Z",
-    "npm_weekly_downloads": 4007,
+    "npm_weekly_downloads": 4580,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:55:44.962Z"
+    "fetched_at": "2026-07-26T08:13:30.219Z"
   },
   "vue-design-system": {
     "stars": 2193,
@@ -1548,7 +1548,7 @@
     "latest_release_at": "2018-11-28T09:51:28Z",
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:55:46.468Z"
+    "fetched_at": "2026-07-26T08:13:31.669Z"
   },
   "ray-by-wework": {
     "stars": 55,
@@ -1557,20 +1557,20 @@
     "contributors_count": 31,
     "latest_release_tag": null,
     "latest_release_at": null,
-    "npm_weekly_downloads": 98,
+    "npm_weekly_downloads": 102,
     "npm_package_size_kb": 82,
-    "fetched_at": "2026-07-25T07:55:48.016Z"
+    "fetched_at": "2026-07-26T08:13:33.219Z"
   },
   "welcome-ui": {
     "stars": 674,
     "open_issues": 25,
-    "last_commit_at": "2026-07-24T21:33:36Z",
+    "last_commit_at": "2026-07-25T15:33:37Z",
     "contributors_count": 48,
     "latest_release_tag": "v10.6.0",
     "latest_release_at": "2026-07-21T16:49:20Z",
-    "npm_weekly_downloads": 207,
-    "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:55:49.796Z"
+    "npm_weekly_downloads": 173,
+    "npm_package_size_kb": 11,
+    "fetched_at": "2026-07-26T08:13:35.600Z"
   },
   "wikimedia-codex": {
     "stars": 108,
@@ -1579,20 +1579,20 @@
     "contributors_count": 74,
     "latest_release_tag": null,
     "latest_release_at": null,
-    "npm_weekly_downloads": 9716,
-    "npm_package_size_kb": 49,
-    "fetched_at": "2026-07-25T07:55:51.325Z"
+    "npm_weekly_downloads": 11249,
+    "npm_package_size_kb": null,
+    "fetched_at": "2026-07-26T08:13:37.843Z"
   },
   "w3c-design-system": {
     "stars": 262,
-    "open_issues": 173,
+    "open_issues": 172,
     "last_commit_at": "2026-07-22T06:07:19Z",
     "contributors_count": 5,
     "latest_release_tag": null,
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:55:52.627Z"
+    "fetched_at": "2026-07-26T08:13:39.178Z"
   },
   "agriculture-design-system": {
     "stars": 60,
@@ -1601,9 +1601,9 @@
     "contributors_count": 21,
     "latest_release_tag": "@ag.ds-next/react@1.32.0",
     "latest_release_at": "2026-02-16T01:12:32Z",
-    "npm_weekly_downloads": 554,
+    "npm_weekly_downloads": 560,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:55:53.681Z"
+    "fetched_at": "2026-07-26T08:13:40.294Z"
   },
   "datadog-druids": {
     "stars": null,
@@ -1614,7 +1614,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:55:59.267Z"
+    "fetched_at": "2026-07-26T08:13:43.820Z"
   },
   "lemon-squeezy-wedges": {
     "stars": 1529,
@@ -1623,9 +1623,9 @@
     "contributors_count": 11,
     "latest_release_tag": "@lemonsqueezy/wedges@1.4.0",
     "latest_release_at": "2024-08-23T17:14:33Z",
-    "npm_weekly_downloads": 849,
+    "npm_weekly_downloads": 738,
     "npm_package_size_kb": 97,
-    "fetched_at": "2026-07-25T07:55:59.768Z"
+    "fetched_at": "2026-07-26T08:13:44.321Z"
   },
   "michelin-motion": {
     "stars": null,
@@ -1636,7 +1636,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:56:01.439Z"
+    "fetched_at": "2026-07-26T08:13:46.052Z"
   },
   "nice-design-system": {
     "stars": 17,
@@ -1645,9 +1645,9 @@
     "contributors_count": 23,
     "latest_release_tag": "@nice-digital/design-system@5.0.15",
     "latest_release_at": "2023-08-21T14:59:08Z",
-    "npm_weekly_downloads": 404,
+    "npm_weekly_downloads": 646,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:56:01.940Z"
+    "fetched_at": "2026-07-26T08:13:46.553Z"
   },
   "wmca-design-system": {
     "stars": 0,
@@ -1658,7 +1658,7 @@
     "latest_release_at": "2021-07-08T14:38:54Z",
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:56:10.573Z"
+    "fetched_at": "2026-07-26T08:13:48.302Z"
   },
   "vercel": {
     "stars": null,
@@ -1669,7 +1669,7 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:56:11.856Z"
+    "fetched_at": "2026-07-26T08:13:49.570Z"
   },
   "workday-canvas": {
     "stars": 354,
@@ -1678,9 +1678,9 @@
     "contributors_count": 131,
     "latest_release_tag": "v15.1.3",
     "latest_release_at": "2026-07-23T17:34:50Z",
-    "npm_weekly_downloads": 11750,
+    "npm_weekly_downloads": 12839,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:56:12.356Z"
+    "fetched_at": "2026-07-26T08:13:50.070Z"
   },
   "yelp-styleguide": {
     "stars": null,
@@ -1691,17 +1691,17 @@
     "latest_release_at": null,
     "npm_weekly_downloads": null,
     "npm_package_size_kb": null,
-    "fetched_at": "2026-07-25T07:56:13.812Z"
+    "fetched_at": "2026-07-26T08:13:53.450Z"
   },
   "zendesk-garden": {
-    "stars": 1109,
+    "stars": 1110,
     "open_issues": 19,
     "last_commit_at": "2026-07-24T23:31:34Z",
     "contributors_count": 51,
     "latest_release_tag": "v9.15.7",
     "latest_release_at": "2026-07-24T02:00:18Z",
-    "npm_weekly_downloads": 54412,
+    "npm_weekly_downloads": 53164,
     "npm_package_size_kb": 18,
-    "fetched_at": "2026-07-25T07:56:14.312Z"
+    "fetched_at": "2026-07-26T08:13:53.951Z"
   }
 }
