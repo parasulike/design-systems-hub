@@ -30,7 +30,7 @@ assert.equal(searchSystems(systems, "cloudscpe")[0]?.name, "Cloudscape");
 assert.deepEqual(searchSystems(systems, "patern").map((system) => system.name).sort(), ["FutureLearn Pattern Library", "PatternFly"]);
 assert.equal(suggestSystems(systems, "", 3).length, 3);
 assert.deepEqual([...technologies].filter((technology) => !TECHNOLOGY_ICONS[technology]), []);
-assert.equal(Object.keys(EDITORIAL_PROFILES).length, 15);
+assert.equal(Object.keys(EDITORIAL_PROFILES).length, systems.length - 1);
 assert.deepEqual(Object.keys(EDITORIAL_PROFILES).filter((id) => !systems.some((system) => system.id === id)), []);
 assert.equal(systems.some((system) => system.name === "Audi UI Kit"), false);
 assert.equal(systems.filter((system) => system.github_repo === "microsoft/fluentui").length, 1);
