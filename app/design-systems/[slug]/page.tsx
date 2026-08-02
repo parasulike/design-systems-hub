@@ -220,7 +220,7 @@ export default async function DesignSystemPage({
             </div>
           </section>}
 
-          {hasEditorialProfile && <section className={styles.section} aria-labelledby="components-title">
+          {hasEditorialProfile && <section id="components" className={styles.section} aria-labelledby="components-title">
             <p className={styles.eyebrow}>Standout component references</p>
             <div className={styles.sectionHeading}>
               <h2 id="components-title">Four components that reveal how Carbon thinks</h2>
@@ -276,7 +276,7 @@ export default async function DesignSystemPage({
             </div>
           </section>}
 
-          {editorialProfile && <section className={styles.section} aria-labelledby="components-title">
+          {editorialProfile && <section id="components" className={styles.section} aria-labelledby="components-title">
             <p className={styles.eyebrow}>Standout component references</p>
             <div className={styles.sectionHeading}><h2 id="components-title">Four components that reveal how {system.name} thinks</h2></div>
             <div className={styles.referenceGrid}>

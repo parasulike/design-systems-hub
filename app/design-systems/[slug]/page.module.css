@@ -29,7 +29,7 @@
 .snapshotFacts dt { color: var(--ds-text-subtle); font-size: .68rem; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; }
 .snapshotFacts dd { max-width: 280px; margin: var(--space-3) 0 0; color: var(--foreground); font-size: 1rem; font-weight: 550; line-height: 1.5; }
 .content { padding-bottom: var(--space-9); }
-.section { position: relative; padding: var(--space-9) 0; }
+.section { position: relative; padding: var(--space-9) 0; scroll-margin-top: 24px; }
 .sectionHeading { margin: var(--space-4) 0 var(--space-7); display: grid; gap: var(--space-5); }
 .anatomy { display: grid; grid-template-columns: 1.2fr .9fr .9fr; overflow: hidden; border: 1px solid var(--border); border-radius: var(--radius); }
 .anatomy article { min-height: 300px; padding: var(--space-5); border-right: 1px solid var(--border); }
