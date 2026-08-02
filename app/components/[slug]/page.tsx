@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowUpRight, ExternalLink } from "lucide-react";
 import { ButtonLink } from "@/components/Button";
+import { ComponentCover } from "@/components/ComponentCover";
 import { SiteHeader } from "@/components/SiteHeader";
 import { getCatalog } from "@/lib/catalog";
 import { getComponentBySlug, getComponentsIndex } from "@/lib/components-index";
@@ -53,25 +54,33 @@ export default async function ComponentDetailPage({
       </nav>
       <main className={styles.main}>
         <header className={styles.hero}>
-          <p className={styles.eyebrow}>Component</p>
-          <h1>{component.name}</h1>
-          {component.aliases.length > 0 && (
-            <p className={styles.aliases}>{component.aliases.join(", ")}</p>
-          )}
-          <p className={styles.lede}>{component.description}</p>
-          <p className={styles.meta}>
-            {component.examples.length}{" "}
-            {component.examples.length === 1 ? "visual reference" : "visual references"} across design
-            systems
-          </p>
+          <div className={styles.heroCopy}>
+            <p className={styles.eyebrow}>Component</p>
+            <h1>{component.name}</h1>
+            {component.aliases.length > 0 && (
+              <p className={styles.aliases}>{component.aliases.join(", ")}</p>
+            )}
+            <p className={styles.lede}>{component.description}</p>
+            <p className={styles.meta}>
+              {component.examples.length}{" "}
+              {component.examples.length === 1 ? "visual reference" : "visual references"} across
+              design systems
+            </p>
+          </div>
+          <ComponentCover
+            name={component.name}
+            coverPath={component.coverPath}
+            priority
+            className={styles.heroCover}
+          />
         </header>
 
         <section aria-labelledby="examples-title">
           <div className={styles.sectionHeading}>
             <h2 id="examples-title">Open the visual component</h2>
             <p>
-              Each example links straight to that design system&apos;s component documentation where the
-              UI is shown.
+              Each example links straight to that design system&apos;s component documentation where
+              the UI is shown.
             </p>
           </div>
 
@@ -118,7 +127,10 @@ export default async function ComponentDetailPage({
                       <ExternalLink size={15} aria-hidden="true" />
                     </a>
                     {system && (
-                      <Link href={`/design-systems/${system.id}#components`} className={styles.secondaryAction}>
+                      <Link
+                        href={`/design-systems/${system.id}#components`}
+                        className={styles.secondaryAction}
+                      >
                         Atlas profile
                         <ArrowUpRight size={15} aria-hidden="true" />
                       </Link>

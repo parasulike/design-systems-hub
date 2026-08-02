@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" fill="none">
+  <rect width="1280" height="800" fill="#F4F6F8"/>
+  <rect x="80" y="80" width="1120" height="640" rx="28" fill="#FFFFFF" stroke="#D8DCE3"/>
+  <text x="140" y="170" fill="#6B6E76" font-family="Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="4">BUTTON</text>
+  <rect x="140" y="230" width="220" height="64" rx="12" fill="#1868DB"/>
+  <text x="198" y="270" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="24" font-weight="700">Primary</text>
+  <rect x="390" y="230" width="220" height="64" rx="12" fill="#FFFFFF" stroke="#B7B9BE" stroke-width="2"/>
+  <text x="440" y="270" fill="#292A2E" font-family="Arial, sans-serif" font-size="24" font-weight="700">Secondary</text>
+  <rect x="640" y="230" width="220" height="64" rx="12" fill="#FFFFFF"/>
+  <text x="705" y="270" fill="#1868DB" font-family="Arial, sans-serif" font-size="24" font-weight="700">Tertiary</text>
+  <rect x="140" y="360" width="180" height="52" rx="10" fill="#AE2E24"/>
+  <text x="195" y="393" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="22" font-weight="700">Danger</text>
+  <rect x="350" y="360" width="180" height="52" rx="10" fill="#F1F2F4"/>
+  <text x="395" y="393" fill="#6B6E76" font-family="Arial, sans-serif" font-size="22" font-weight="700">Disabled</text>
+  <circle cx="620" cy="386" r="18" fill="#1868DB" opacity="0.18"/>
+  <circle cx="620" cy="386" r="10" fill="#1868DB"/>
+</svg>

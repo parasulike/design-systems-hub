@@ -1,3 +1,5 @@
+import { existsSync } from "node:fs";
+import path from "node:path";
 import { getCatalog } from "@/lib/catalog";
 import { EDITORIAL_PROFILES } from "@/lib/editorial-profiles";
 
@@ -17,8 +19,23 @@ export type ComponentEntry = {
   name: string;
   aliases: string[];
   description: string;
+  /** Public path to an uploaded cover, e.g. `/component-covers/button.webp`. */
+  coverPath: string | null;
   examples: ComponentExample[];
 };
+
+const COVER_EXTENSIONS = ["webp", "png", "jpg", "jpeg", "svg"] as const;
+
+/** Resolves an uploaded cover from `public/component-covers/{slug}.{ext}`. */
+export function resolveComponentCover(slug: string): string | null {
+  const dir = path.join(process.cwd(), "public", "component-covers");
+  for (const ext of COVER_EXTENSIONS) {
+    if (existsSync(path.join(dir, `${slug}.${ext}`))) {
+      return `/component-covers/${slug}.${ext}`;
+    }
+  }
+  return null;
+}
 
 /** Canonical component types + aliases (inspired by component.gallery). */
 const COMPONENT_TYPES: {
@@ -412,6 +429,7 @@ export function getComponentsIndex(): ComponentEntry[] {
       name: type.name,
       aliases: type.aliases,
       description: type.description,
+      coverPath: resolveComponentCover(type.slug),
       examples: [],
     });
   }
@@ -437,6 +455,7 @@ export function getComponentsIndex(): ComponentEntry[] {
         name: type.name,
         aliases: type.aliases,
         description: type.description,
+        coverPath: resolveComponentCover(type.slug),
         examples: [example],
       });
     }
@@ -446,6 +465,7 @@ export function getComponentsIndex(): ComponentEntry[] {
     .filter((entry) => entry.examples.length > 0)
     .map((entry) => ({
       ...entry,
+      coverPath: entry.coverPath ?? resolveComponentCover(entry.slug),
       aliases: [...new Set(entry.aliases.map((alias) => alias.trim()).filter(Boolean))].sort((a, b) =>
         a.localeCompare(b),
       ),
@@ -453,7 +473,10 @@ export function getComponentsIndex(): ComponentEntry[] {
     }))
     .sort((a, b) => a.name.localeCompare(b.name));
 
-  return cachedIndex;
+  return cachedIndex.map((entry) => ({
+    ...entry,
+    coverPath: resolveComponentCover(entry.slug),
+  }));
 }
 
 export function getComponentBySlug(slug: string) {

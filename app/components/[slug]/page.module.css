@@ -16,7 +16,14 @@
 
 .hero {
   margin-bottom: var(--space-7);
-  max-width: 46rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(260px, 0.95fr);
+  gap: var(--space-6);
+  align-items: center;
+}
+
+.heroCopy {
+  max-width: 36rem;
 }
 
 .eyebrow {
@@ -53,6 +60,10 @@
   margin-top: var(--space-4);
   color: var(--gray-muted);
   font-size: 0.85rem;
+}
+
+.heroCover {
+  width: 100%;
 }
 
 .sectionHeading {
@@ -194,6 +205,10 @@
 }
 
 @media (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
   .example {
     grid-template-columns: 1fr;
     gap: var(--space-4);
