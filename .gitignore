@@ -42,3 +42,8 @@ next-env.d.ts
 
 # Local internal reference files
 /.internal/
+
+.agents/
+.tokensave/
+graphify-out/
+skills-lock.json
