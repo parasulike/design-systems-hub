@@ -36,6 +36,7 @@ export default function SiteFooter() {
 
         <nav aria-label="Footer navigation" className={styles.links}>
           <Link href="/#catalog">Catalog</Link>
+          <Link href="/components">Components</Link>
           <a
             href="https://github.com/parasulike/design-systems-hub"
             rel="noreferrer"
